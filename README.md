@@ -1,13 +1,6 @@
 
-tidyverse tweets
+literature tweets
 ================
 
-This is a Twitter bot that uses the Stackoverflow API (via the [**stackr** package](https://github.com/dgrtwo/stackr)) to identify new questions that have been tagged with "tidyverse". It then uses the [**rtweet** package](https://github.com/mkearney/rtweet) to tweet out new questions from [@tidyversetweets](https://twitter.com/tidyversetweets).
+This is a Twitter bot that uses the biorxiv API (via the [**biorrxiv** R package](https://github.com/nicholasmfraser/biorrxiv)) and E-Utilities NCBI API (via the [**rentrez** R package](https://github.com/ropensci/rentrez)) to identify new publications from a set list of authors with associated institutional affiliations as describe on this [google sheet](https://docs.google.com/spreadsheets/d/1pj2ctCbk5YAkfM4WnpShu8vfLxj7qFsCZn6pz78JXzM/edit?usp=sharing). It then uses the [**rtweet** R package](https://github.com/mkearney/rtweet) to tweet out new publications from [@CuocoBot1](https://twitter.com/CuocoBot1).
 
-
-PubMed searches to follow
-================
-
-Regev, Aviv[Author]	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1Xe9IY_Zn1SEVN25SMBnq4GUcIFRXG17VADzv-y2QhBN7uA1f6
-Lander, Eric[Author]	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1vMcRd_vquR21CAXV_01MU19F4RCWPAksmR1fj0rVzC8ZPWgGt
-Pai, Athma[Author]	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1vMcRd_vquR21CAXV_01MU19F4RCWPAksmR1fj0rVzC8ZPWgGt
