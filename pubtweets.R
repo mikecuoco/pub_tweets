@@ -19,7 +19,7 @@ last_tweet <- get_timeline("CuocoBot1", n = 100,
   strftime(format = "%Y/%m/%d", tz="") %>%
   unique()
 
-last_tweet = "2020/03/01" # FOR TESTING ONLY:
+last_tweet = "2020/03/05" # FOR TESTING ONLY:
 # last_tweet = "2020/02/12" # FOR TESTING ONLY:
 
 ### Get list of authors from gsheets -----------------------------------------
@@ -91,8 +91,10 @@ for (i in terms){
 }
 
 pub_df = ldply(pub_lst, .id = "term") # collapse list into df
-pub_df = filter(pub_df, !duplicated(pub_df$uid)) %>%
-  select(c("first_author", "last_author", "title", "pubdate", "journal", "doi"))# remove duplicates, sort by date
+pub_df = pub_df %>%
+  filter(!duplicated(uid)) %>% # remove duplicates
+  filter(!str_detect(title, "Correction: ")) %>% # remove corrections
+  select(c("first_author", "last_author", "title", "pubdate", "journal", "doi"))
 pub_df$pubdate = substr(pub_df$pubdate, 1, 10) %>% ymd() # standardize dates
 loc = str_locate(pub_df$doi, "doi: ")
 pub_df$doi = substr(pub_df$doi, loc[,2]+1, nchar(pub_df$doi)) %>% # make doi into URL
@@ -100,12 +102,14 @@ pub_df$doi = substr(pub_df$doi, loc[,2]+1, nchar(pub_df$doi)) %>% # make doi int
 pub_df$journal = gsub(" :.+$","",pub_df$journal) # correct journal names
 
 ### Join bio_df and pub_df tables & Tweet tweets ----------------------------------------------------
-all_df = bind_rows(pub_df, bio_df)
+all_df = bind_rows(pub_df, bio_df) %>% arrange(pubdate)
 
 pwalk(all_df, .f = function(first_author, last_author, title, pubdate, journal, doi) {
   pubdate = glue("{month(pubdate, label = T, abbr = T)} {day(pubdate)}, {year(pubdate)}")
-  last_author = gsub(" .+$","",last_author)
-  print(last_author)
+  last_author = last_author %>% 
+    gsub(" .$","", .) %>% 
+    gsub(" .{1,3}$","",.) %>%
+    gsub(" ","_",.)
   
   if (nchar(title) > 170) {
     trunc_points <- str_locate_all(title, " ") %>%
@@ -116,13 +120,14 @@ pwalk(all_df, .f = function(first_author, last_author, title, pubdate, journal, 
   }
   
   if (journal == "bioRxiv"){
-    tweet_text <- glue('From {first_author}. "{title}" Posted on {pubdate} from {last_author} Lab. {doi}')
+    tweet_text <- glue('"{title}" from {first_author} search. #{last_author} Lab, {pubdate}. {doi}')
     print(tweet_text)
-  } else {
-    tweet_text <- glue('"{title}" by {first_author} et al. in {journal} from #{last_author} Lab. Published on {pubdate}. {doi}')
+  } 
+  else {
+    tweet_text <- glue('"{title}" by {first_author} et al. publihshed in {journal}. #{last_author} Lab, {pubdate}. {doi}')
     print(tweet_text)
   }
   
   # POST
-  # post_tweet(tweet_text, token = read_rds(".rtweet_token.rds"))
+  post_tweet(tweet_text, token = read_rds(".rtweet_token.rds"))
 })
