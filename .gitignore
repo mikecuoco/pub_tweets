@@ -4,4 +4,6 @@
 .Ruserdata
 *.log
 .*
+.app_auth.R
+.rtweet_token.rds
 !.gitignore

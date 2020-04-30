@@ -5,6 +5,7 @@ library(tidyverse)
 library(plyr)
 library(glue)
 library(lubridate)
+library(readxl)
 library(biorrxiv)
 library(rtweet)
 library(rlist)
@@ -16,7 +17,7 @@ library(rentrez)
 # Get last titles of tweets
 last_title <- function() {
   tweets = get_timeline("CuocoBot1", n = 100,
-               token = read_rds("./.rtweet_token.rds")) %>%
+                        token = read_rds("./.rtweet_token.rds")) %>%
     top_n(100, wt = created_at) %>%
     select(c("created_at","text"))
   titles = str_extract(tweets$text, '\".+\"')
@@ -51,14 +52,14 @@ get_biorxiv <- function(from_date, to_date, auths, affils) {
     filter(!duplicated(doi))
   
   if(nrow(bio_df) ==0){return(bio_df)}
-
+  
   bio_df$pubdate = ymd(bio_df$pubdate) # standardize pubdate
   bio_df$first_author = gsub(",","",bio_df$first_author) # remove comma from first author
   bio_df$doi = paste0("https://doi.org/", bio_df$doi) # make doi into url
   bio_df$last_author = gsub("^.+ ","",bio_df$last_author) # keep last name only of last author
   return(bio_df)
 }
-  
+
 # make pubmed terms
 make_terms <- function(term_table){
   terms = c()
@@ -68,14 +69,14 @@ make_terms <- function(term_table){
       terms[i] = glue("{terms[i]} OR ({term_table[i,1]}[Author] AND {term_table[i,3]}[Affiliation])")
     }
   }
-
+  
   terms = glue('{terms} AND ({last_tweet}[Date - Publication] : {strftime(Sys.Date(),format = "%Y/%m/%d", tz="")}[Date - Publication])')
   return(terms)
 }
 
 # Fetch pubmed publcations
 get_pubs <- function(terms) {
-
+  
   pub_lst = lst()
   for (i in terms){
     search = entrez_search(db="pubmed", term = i)
@@ -152,3 +153,33 @@ tweet_pubs <- function(all_df) {
     post_tweet(tweet_text, token = read_rds(".rtweet_token.rds"))
   })
 }
+
+### Run -----------
+
+# Get last tweet
+last_tweet = get_timeline("CuocoBot1", n = 100,
+                          token = read_rds("./.rtweet_token.rds")) %>%
+  top_n(1, wt = created_at) %>%
+  dplyr::pull(created_at) %>%
+  round_date("day") %>%
+  strftime(format = "%Y/%m/%d", tz="") %>%
+  unique() %>%
+  ymd()
+
+last_titles = last_title()
+# Load search terms from excel sheet
+term_table = read_xlsx("/Users/mcuoco/google_drive/Mike's PubMed bot search terms.xlsx")
+terms = make_terms(term_table)
+# search pubmed
+pub_df = get_pubs(terms)
+# generate author and affiliation lists
+loc = str_locate(term_table$term," [[:upper:]]+$")
+auths = paste0(substr(term_table$term, 1, loc[,1]-1), ",", substr(term_table$term, loc[,1], loc[,2]))
+affils = list(term_table[[2]], term_table[[3]])
+# search biorxiv
+bio_df = get_biorxiv(last_tweet, Sys.Date(), auths, affils)
+# combine and tweet
+all_df = bind_rows(bio_df, pub_df) %>%
+  filter(!title %in% last_titles)
+tweet = tweet_pubs(all_df)
+
