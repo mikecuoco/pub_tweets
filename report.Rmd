@@ -1,0 +1,21 @@
+---
+title: "CuocoBot1 build report"
+author: "Michael Cuoco"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(drake)
+```
+
+```{r get pubs}
+# Get last 100 tweets
+all_df = readd(all_df)
+head(all_df)
+```
+
+```{r tweet}
+tweet_pubs(all_df)
+```
