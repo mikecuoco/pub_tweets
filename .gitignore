@@ -5,5 +5,5 @@
 *.log
 .*
 .app_auth.R
-.rtweet_token.rds
+rtweet_token.rds
 !.gitignore
