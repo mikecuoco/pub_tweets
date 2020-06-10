@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 *.log
-.*
+.drake/
 .app_auth.R
+README.html
 rtweet_token.rds
-!.gitignore
