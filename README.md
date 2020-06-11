@@ -24,9 +24,10 @@ This is a Twitter bot that uses the biorxiv API (via the [`{rbiorxiv}`](https://
   - [ ] add kable to view tweets in tabular format
   - [ ] see all tweet_shots, not just one
 - [X] Add testing on local machine
+- [X] fix pubdates!!
+- [X] make a build_summary Rmd and add `drake::build_times()` and `drake::vis_drake_graph()` to this rmd (turn make.R into an rmd?)
 - [ ] add full first/last name searching (can only be used for pubmed, will need to take first initial for bioRxiv)
   - [ ] Yang Li gives way to many results
 - [ ] Use `drake::plan_to_notebook()` to automatically generate report.Rmd, render outside of `drake::make()`
-- [ ] make a build_summary Rmd and add `drake::build_times()` and `drake::vis_drake_graph()` to this rmd (turn make.R into an rmd?)
 - [ ] Add docker functionality in `.travis.yml`
  - [ ] upload dockerfile to dockerhub
