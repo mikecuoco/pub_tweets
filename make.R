@@ -10,4 +10,4 @@ source("R/plan.R")
 
 make(plan)
 vis_drake_graph(plan, file = "dependency_graph.png", targets_only = T, navigationButtons = F)
-build_times()
+build_times() %>% gt()
