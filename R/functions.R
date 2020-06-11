@@ -96,7 +96,7 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     authors = map_chr(authorlist, function(.x) {
       initials = pluck(.x, "Initials",1)
       last_name = pluck(.x, "LastName",1)
-      stringsAsFactors = FALSE
+      stringsAsFactors = F
       return(glue("{initials} {last_name}"))
     })
     first_author = glue('{pluck(authorlist, 1, "ForeName",1)} {pluck(authorlist, 1, "LastName",1)}')
@@ -107,11 +107,12 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     pubmonth = pubmed %>% pluck("PubMedPubDate","Month",1) 
     pubday = pubmed %>% pluck("PubMedPubDate","Day",1)
     pubdate = glue("{pubyear}-{pubmonth}-{pubday}") %>% ymd()
-    title = doc %>% pluck("MedlineCitation","Article","ArticleTitle",1) %>% unlist()
+    title = doc %>% pluck("MedlineCitation","Article","ArticleTitle",1) 
     authors = paste(authors, collapse = "; ")
     journal = doc %>% pluck("MedlineCitation","Article","Journal","Title",1)
     doi = paste0("https://doi.org/",doi)
     message(glue("found paper published on {pubdate}"))
+    stringsAsFactors = F
     return(list(title = title, authors = authors, pubdate = pubdate, journal = journal, 
                 doi = doi, first_author = first_author, last_author = last_author))
   })
