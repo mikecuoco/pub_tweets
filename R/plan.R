@@ -6,9 +6,15 @@ source("R/functions.R")
 
 ### Plan ------------------------------
 plan <- drake_plan(
+  # get environment variables for twitter access token
+  token = create_token(app = "cuoco-author-bot1",
+                       consumer_key = Sys.getenv("API_KEY"),
+                       consumer_secret = Sys.getenv("API_SKEY"),
+                       access_token = Sys.getenv("ACCESS_TOKEN"),
+                       access_secret = Sys.getenv("ACCESS_TOKEN_SEC")),
   # Get last tweet
   last_tweet = get_timeline("CuocoBot1", n = 100,
-                            token = read_rds("rtweet_token.rds")) %>%
+                            token = token) %>%
     top_n(1, wt = created_at) %>%
     dplyr::pull(created_at) %>%
     round_date("day") %>%
