@@ -11,5 +11,6 @@ sudo add-apt-repository -y ppa:chris-lea/libsodium
 sudo apt-get update -q
 sudo apt-get install -y libsodium-dev
 sudo add-apt-repository -y ppa:cran/imagemagick
+sudo apt-get update
 sudo apt-get install -y libmagick++-dev
 RUN Rscript R/packages.R
