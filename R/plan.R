@@ -43,5 +43,5 @@ plan <- drake_plan(
     filter(!title %in% last_title(token)) %>%
     select(-authors) %>%
     distinct(),
-  tweet_report = rmarkdown::render("report.Rmd",quiet = TRUE)
+  tweet_report = if(ci_on_travis()){rmarkdown::render("report.Rmd",quiet = TRUE)}
 )
