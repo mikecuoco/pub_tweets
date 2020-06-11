@@ -1,5 +1,5 @@
 ---
-title: "CuocoBot1 build report"
+title: "CuocoBot1 tweet report"
 author: "Michael Cuoco"
 date: "`r Sys.Date()`"
 output: rmarkdown::github_document
