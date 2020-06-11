@@ -111,15 +111,16 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     authors = paste(authors, collapse = "; ")
     journal = doc %>% pluck("MedlineCitation","Article","Journal","Title",1)
     doi = paste0("https://doi.org/",doi)
-    message(glue("found paper {title} published on {pubdate}"))
+    message(glue("found paper published on {pubdate}"))
     return(list(title = title, authors = authors, pubdate = pubdate, journal = journal, 
                 doi = doi, first_author = first_author, last_author = last_author))
   })
-  # data = map_chr(summary, function(.x) .x[["uid"]]) %>% setNames(data, .)
-  data = filter(data, !str_detect(title,"Erratum")) %>%
-    filter(!str_detect(title,"Correction")) %>% 
-    filter(journal != "REFERENCES") %>% 
-    filter(journal != "References")
+  expr = filter(data, !str_detect(title,"Erratum")) %>%
+      filter(!str_detect(title,"Correction")) %>% 
+      filter(journal != "REFERENCES") %>% 
+      filter(journal != "References") %>%
+    expr()
+  data = tryCatch(expr, error = function(e) print(glue("error {e} on term {term} for data {data}")))
   message("done!")
   return(data)
 }
