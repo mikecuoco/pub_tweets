@@ -162,7 +162,7 @@ tweet_pubs <- function(all_df, token) {
     }
     
     # POST
-    post_tweet(tweet_text, token)
+    post_tweet(tweet_text, token = token)
   })
 }
 
