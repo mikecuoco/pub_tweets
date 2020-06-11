@@ -29,7 +29,7 @@ head(all_df)
 ```
 
 ```{r tweet}
-# tweet_pubs(all_df, token)
+tweet_pubs(all_df, token)
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
