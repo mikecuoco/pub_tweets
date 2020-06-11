@@ -5,5 +5,5 @@
 *.log
 .drake/
 .app_auth.R
-README.html
+*.html
 rtweet_token.rds
