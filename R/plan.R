@@ -32,7 +32,9 @@ plan <- drake_plan(
   affils = list(term_table[[2]], term_table[[3]]),
   # search pubmed
   pub_df = make_terms(term_table, last_tweet) %>% 
-    map_df(function(.x) {get_pubs(.x)}),
+    map(function(.x) {get_pubs(.x)}) %>%
+    keep(!is.na(.)) %>%
+    bind_rows(),
   # search biorxiv
   bio_df = get_biorxiv(last_tweet, Sys.Date(), auths, affils),
   # combine and tweet

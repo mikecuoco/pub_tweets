@@ -90,6 +90,10 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     Sys.sleep(3)
     pubmed_search(term)
   })
+  if(is.na(fetch)){
+    message("no papers found") 
+    return(NA)
+    }
   data = purrr::map_df(fetch, function(doc) {
     authorlist = doc %>% pluck("MedlineCitation","Article","AuthorList") %>% 
       keep(~ length(.x) >= 3)
@@ -101,27 +105,29 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     })
     first_author = glue('{pluck(authorlist, 1, "ForeName",1)} {pluck(authorlist, 1, "LastName",1)}')
     last_author = glue('{pluck(authorlist, length(authorlist), "ForeName",1)} {pluck(authorlist, length(authorlist), "LastName",1)}')
-    doi = doc %>% pluck("PubmedData","ArticleIdList",2,1) %>% try_default(default = "NA")
-    pubmed = doc %>% pluck("PubmedData","History") %>% keep(~ attr(.x,"PubStatus") == "pubmed")
+    doi = doc %>% pluck("PubmedData","ArticleIdList") %>% 
+      keep(~ attr(.x,"IdType") == "doi") %>% 
+      pluck("ArticleId",1) %>% 
+      try_default(default = "NA")
+    pubmed = doc %>% pluck("PubmedData","History") %>% 
+      keep(~ attr(.x,"PubStatus") == "pubmed")
     pubyear = pubmed %>% pluck("PubMedPubDate","Year",1) 
     pubmonth = pubmed %>% pluck("PubMedPubDate","Month",1) 
     pubday = pubmed %>% pluck("PubMedPubDate","Day",1)
     pubdate = glue("{pubyear}-{pubmonth}-{pubday}") %>% ymd()
-    title = doc %>% pluck("MedlineCitation","Article","ArticleTitle",1) 
+    title = doc %>% pluck("MedlineCitation","Article","ArticleTitle") %>% unlist() %>% paste0(collapse = "") 
     authors = paste(authors, collapse = "; ")
     journal = doc %>% pluck("MedlineCitation","Article","Journal","Title",1)
-    doi = paste0("https://doi.org/",doi)
+    doi = if(!is.na(doi)){paste0("https://doi.org/",doi)}
     message(glue("found paper published on {pubdate}"))
     stringsAsFactors = F
     return(list(title = title, authors = authors, pubdate = pubdate, journal = journal, 
                 doi = doi, first_author = first_author, last_author = last_author))
   })
-  expr = filter(data, !str_detect(title,"Erratum")) %>%
+  data = filter(data, !str_detect(title,"Erratum")) %>%
       filter(!str_detect(title,"Correction")) %>% 
       filter(journal != "REFERENCES") %>% 
-      filter(journal != "References") %>%
-    expr()
-  data = tryCatch(expr, error = function(e) print(glue("error {e} on term {term} for data {data}")))
+      filter(journal != "References")
   message("done!")
   return(data)
 }
