@@ -2,7 +2,7 @@
 title: "CuocoBot1 build report"
 author: "Michael Cuoco"
 date: "`r Sys.Date()`"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,20 +11,12 @@ source("R/packages.R")
 ```
 
 ```{r get token}
-token = if(ci_on_travis()){
-  create_token(app = "cuoco-author-bot1",
-               consumer_key = Sys.getenv("API_KEY"),
-               consumer_secret = Sys.getenv("API_SKEY"),
-               access_token = Sys.getenv("ACCESS_TOKEN"),
-               access_secret = Sys.getenv("ACCESS_TOKEN_SEC"))
-  } else{
-    read_rds("rtweet_token.rds")
-    }
+token = readd(token)
 ```
 
 ```{r get pubs}
 # Get last 100 tweets
-all_df = readd(all_df)
+all_df = readd(all_df) %>% arrange(pubdate)
 head(all_df)
 ```
 
