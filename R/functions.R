@@ -6,9 +6,9 @@ gs4_deauth()
 ### Functions -------------------------------------------
 
 # Get last titles of tweets
-last_title <- function() {
+last_title <- function(token) {
   tweets = get_timeline("CuocoBot1", n = 100,
-                        token = read_rds("rtweet_token.rds")) %>%
+                        token=token) %>%
     top_n(100, wt = created_at) %>%
     select(c("created_at","text"))
   titles = str_extract(tweets$text, '\".+\"')
@@ -66,13 +66,13 @@ make_terms <- function(term_table, last_tweet){
     }
   }
   
-  terms = glue('{terms} AND ("{last_tweet}"[Date - Publication] : "3000"[Date - Publication])')
+  terms = glue('({terms}) AND ("{last_tweet}"[Date - Publication] : "3000"[Date - Publication])')
   return(terms)
 }
 
 # Fetch pubmed publications
 get_pubs <- function(term) {
-  pmids = rentrez::entrez_search("pubmed", term)
+  pmids = rentrez::entrez_search("pubmed", term, use_history = T)
   if (pmids$count == 0){return(list(title = NA, authors = NA, pubdate = NA, 
                                      journal = NA, doi = NA))}
   else {

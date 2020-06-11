@@ -18,7 +18,7 @@ plan <- drake_plan(
     top_n(1, wt = created_at) %>%
     dplyr::pull(created_at) %>%
     round_date("day") %>%
-    strftime(format = "%Y/%m/%d", tz="") %>%
+    strftime(format = "%Y-%m-%d", tz="") %>%
     unique() %>%
     ymd(),
   # Load search terms from excel sheet
@@ -35,7 +35,7 @@ plan <- drake_plan(
   # combine and tweet
   all_df = bind_rows(bio_df, pub_df) %>%
     filter(!is.na(title)) %>%
-    filter(!title %in% last_title()) %>%
+    filter(!title %in% last_title(token)) %>%
     select(-authors) %>%
     distinct(),
   report = rmarkdown::render(
