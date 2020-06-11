@@ -17,7 +17,7 @@ token = readd(token)
 ```{r get pubs}
 # Get last 100 tweets
 all_df = readd(all_df) %>% arrange(pubdate)
-head(all_df)
+head(all_df) %>% gt()
 ```
 
 ```{r tweet}

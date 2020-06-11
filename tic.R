@@ -10,4 +10,5 @@ get_stage("install") %>%
 if (ci_on_travis()) {
   get_stage("deploy") %>%
     add_code_step(rmarkdown::render(here::here("make.R")))
+    add_code_step(rmarkdown::render(here::here("tweet_report.Rmd")))
 }
