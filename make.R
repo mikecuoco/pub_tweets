@@ -8,6 +8,7 @@
 source("R/functions.R") 
 source("R/plan.R") 
 
+clean()
 make(plan)
 vis_drake_graph(plan, targets_only = T, navigationButtons = F)
 build_times() %>% gt()

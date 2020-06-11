@@ -3,6 +3,7 @@
 ### Setup ----------------------------------------------------------------------
 source("R/packages.R")
 gs4_deauth()
+
 ### Functions -------------------------------------------
 
 # Get last titles of tweets
@@ -115,10 +116,10 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
                 doi = doi, first_author = first_author, last_author = last_author))
   })
   # data = map_chr(summary, function(.x) .x[["uid"]]) %>% setNames(data, .)
-  data = filter(data, !grepl("Erratum",title))
-  data = filter(data, !grepl("Correction",title))
-  data = filter(data, journal != "REFERENCES")
-  data = filter(data, journal != "References")
+  data = filter(data, !str_detect(title,"Erratum")) %>%
+    filter(!str_detect(title,"Correction")) %>% 
+    filter(journal != "REFERENCES") %>% 
+    filter(journal != "References")
   message("done!")
   return(data)
 }
