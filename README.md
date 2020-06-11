@@ -24,3 +24,6 @@ This is a Twitter bot that uses the biorxiv API (via the [`{rbiorxiv}`](https://
   - [ ] add kable to view tweets in tabular format
   - [ ] see all tweet_shots, not just one
 - [X] Add testing on local machine
+- [ ] add full first/last name searching (can only be used for pubmed, will need to take first initial for bioRxiv)
+  - [ ] Yang Li gives way to many results
+- [ ] Use `drake::plan_to_notebook()` to automatically generate report.Rmd, render outside of `drake::make()`
