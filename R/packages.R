@@ -20,6 +20,8 @@ p_load(visNetwork)
 p_load(rentrez)
 p_load(magick)
 p_load(xml2)
+p_load(webshot)
+webshot::install_phantomjs()
 p_load_gh("nicholasmfraser/rbiorxiv")
 
 
