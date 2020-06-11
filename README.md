@@ -28,3 +28,5 @@ This is a Twitter bot that uses the biorxiv API (via the [`{rbiorxiv}`](https://
   - [ ] Yang Li gives way to many results
 - [ ] Use `drake::plan_to_notebook()` to automatically generate report.Rmd, render outside of `drake::make()`
 - [ ] make a build_summary Rmd and add `drake::build_times()` and `drake::vis_drake_graph()` to this rmd (turn make.R into an rmd?)
+- [ ] Add docker functionality in `.travis.yml`
+ - [ ] upload dockerfile to dockerhub
