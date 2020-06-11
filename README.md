@@ -17,6 +17,10 @@ This is a Twitter bot that uses the biorxiv API (via the [`{rbiorxiv}`](https://
 ## TO-DO
 
 - [X] Remove `tweet_pubs()` from `drake::plan()`
-- [X] encrypt `rtweet_token.rds` with Travis CLI
+- [X] encrypt access token keys with Travis CLI
+- [X] add and enrypt ENTREZ_KEY from `{rentrez}` :package:
 - [X] Implement daily cronjob with [Travis CI](https://travis-ci.org)
-- [ ] Make html report for each build, including dependency graph and papers tweeted
+- [X] Make html report for each build, including papers tweeted
+  - [ ] add kable to view tweets in tabular format
+  - [ ] see all tweet_shots, not just one
+- [X] Add testing on local machine
