@@ -1,7 +1,13 @@
-# ### Make and visualize ------------------------
+#' ---
+#' title: "CuocoBot1 build report"
+#' author: "Mike Cuoco"
+#' date: "`r Sys.Date()`"
+#' output: rmarkdown::github_document
+#' ---
 
 source("R/functions.R") 
 source("R/plan.R") 
 
 make(plan)
 vis_drake_graph(plan, file = "dependency_graph.png", targets_only = T, navigationButtons = F)
+build_times()
