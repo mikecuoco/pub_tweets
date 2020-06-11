@@ -7,7 +7,19 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(drake)
+source("R/packages.R")
+```
+
+```{r get token}
+token = if(ci_on_travis()){
+  create_token(app = "cuoco-author-bot1",
+               consumer_key = Sys.getenv("API_KEY"),
+               consumer_secret = Sys.getenv("API_SKEY"),
+               access_token = Sys.getenv("ACCESS_TOKEN"),
+               access_secret = Sys.getenv("ACCESS_TOKEN_SEC"))
+  } else{
+    read_rds("rtweet_token.rds")
+    }
 ```
 
 ```{r get pubs}
@@ -17,5 +29,12 @@ head(all_df)
 ```
 
 ```{r tweet}
-tweet_pubs(all_df)
+# tweet_pubs(all_df, token)
+ntweets = nrow(all_df)
+print(glue("tweeted {nrow(all_df)} times"))
+```
+
+```{r 10 tweets}
+top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
+tweet_shot(top10$status_url[1])
 ```

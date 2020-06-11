@@ -15,6 +15,7 @@ p_load(glue)
 p_load(googledrive)
 p_load(googlesheets4)
 p_load(rentrez)
+p_load(magick)
 p_load(xml2)
 p_load_gh("nicholasmfraser/rbiorxiv")
 
