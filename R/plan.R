@@ -43,7 +43,7 @@ plan <- drake_plan(
     filter(!title %in% last_title(token)) %>%
     select(-authors) %>%
     distinct(),
-  report = rmarkdown::render(
+  tweet_report = rmarkdown::render(
     knitr_in("report.Rmd"),
     output_file = file_out("report.html"),
     quiet = TRUE)
