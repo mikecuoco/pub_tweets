@@ -3,7 +3,7 @@
 #' author: "Mike Cuoco"
 #' date: "`r Sys.Date()`"
 #' output: rmarkdown::github_document
-#'  always_allow_html: true
+#' always_allow_html: true
 #' ---
 
 source("R/functions.R") 

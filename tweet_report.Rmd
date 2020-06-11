@@ -3,7 +3,7 @@ title: "CuocoBot1 tweet report"
 author: "Michael Cuoco"
 date: "`r Sys.Date()`"
 output: rmarkdown::github_document
-  always_allow_html: true
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
