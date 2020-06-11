@@ -6,7 +6,7 @@ gs4_deauth()
 ### Functions -------------------------------------------
 
 # Get last titles of tweets
-last_title <- function(token) {
+last_title <- function(token = get_token()) {
   tweets = get_timeline("CuocoBot1", n = 100,
                         token=token) %>%
     top_n(100, wt = created_at) %>%
@@ -51,8 +51,8 @@ get_biorxiv <- function(from_date, to_date, auths, affils) {
     str_replace("\\. ","") %>%
     str_replace("\\.","") %>%
     str_replace(",","")
+  data.bio$last_author = as.character(data.bio$last_author)
   data.bio$doi = paste0("https://doi.org/", data.bio$doi) # make doi into url
-  data.bio$last_author = gsub("^.+ ","",data.bio$last_author) # keep last name only of last author
   return(data.bio)
 }
 
@@ -66,46 +66,64 @@ make_terms <- function(term_table, last_tweet){
     }
   }
   
-  terms = glue('({terms}) AND ("{last_tweet}"[Date - Publication] : "3000"[Date - Publication])')
+  terms = glue('({terms}) AND (("{last_tweet}"[Date - Publication] : "3000"[Date - Publication]))')
   return(terms)
 }
 
 # Fetch pubmed publications
-get_pubs <- function(term) {
-  pmids = rentrez::entrez_search("pubmed", term, use_history = T)
-  if (pmids$count == 0){return(list(title = NA, authors = NA, pubdate = NA, 
-                                     journal = NA, doi = NA))}
-  else {
-    fetch = purrr::map_df(pmids$ids, function(.x) {
-      doc = rentrez::entrez_fetch("pubmed",.x,rettype = "xml", parsed = F) %>% xml2::read_xml()
-      authors = doc %>% xml2::xml_find_all("//Author") %>% 
-        map_chr(function(.x) {
-          initials = xml_find_first(.x, "./Initials") %>% xml_text()
-          last_name = xml_find_first(.x, "./LastName") %>% xml_text()
-          stringsAsFactors = FALSE
-          return(glue("{initials}, {last_name}"))
-        })
-      doi = doc %>% xml2::xml_find_all("//PubmedData/ArticleIdList/ArticleId") %>% xml2::as_list()
-      pubyear = xml_find_all(doc, "//DateRevised/Year") %>% xml_text()
-      pubmonth = xml_find_all(doc, "//DateRevised/Month") %>% xml_text()
-      pubday = xml_find_all(doc, "//DateRevised/Day") %>% xml_text()
-      title = doc %>% xml_find_all("//ArticleTitle") %>% xml_text()
-      pubdate = glue("{pubyear}-{pubmonth}-{pubday}") %>% ymd()
-      authors = paste(authors, collapse = "; ")
-      journal = doc %>% xml_find_all("//Title") %>% xml_text()
-      doi = try_default(paste0("https://doi.org/",doi[[3]][[1]]),default = "NA")
-      return(list(title = title, authors = authors, pubdate = pubdate, journal = journal, doi = doi))
+pubmed_search <- function(term, key = Sys.getenv("ENTREZ_KEY")){
+  message(glue("Searching {term}..."))
+  pmids = rentrez::entrez_search("pubmed", term, api_key = key, retmax=500)
+  if (pmids$count == 0){return(NA)}
+  # summary = rentrez::entrez_summary("pubmed",pmids$ids, api = key)
+  fetch = rentrez::entrez_fetch("pubmed",pmids$ids,rettype = "xml", parsed = F, api_key = key) %>% 
+    xml2::read_xml() %>% 
+    xml2::as_list() %>%
+    pluck(1)
+  return(fetch)
+}
+
+get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
+  fetch = tryCatch(pubmed_search(term), error = function(e){
+    message("retrying...")
+    Sys.sleep(3)
+    pubmed_search(term)
+  })
+  data = purrr::map_df(fetch, function(doc) {
+    authorlist = doc %>% pluck("MedlineCitation","Article","AuthorList") %>% 
+      keep(~ length(.x) >= 3)
+    authors = map_chr(authorlist, function(.x) {
+      initials = pluck(.x, "Initials",1)
+      last_name = pluck(.x, "LastName",1)
+      stringsAsFactors = FALSE
+      return(glue("{initials} {last_name}"))
     })
-    fetch = filter(fetch, !grepl("Erratum",title))
-    fetch = filter(fetch, !grepl("Correction",title))
-    fetch = filter(fetch, journal != "REFERENCES")
-    fetch = filter(fetch, journal != "References")
-    return(fetch)
-  }
+    first_author = glue('{pluck(authorlist, 1, "ForeName",1)} {pluck(authorlist, 1, "LastName",1)}')
+    last_author = glue('{pluck(authorlist, length(authorlist), "ForeName",1)} {pluck(authorlist, length(authorlist), "LastName",1)}')
+    doi = doc %>% pluck("PubmedData","ArticleIdList",2,1) %>% try_default(default = "NA")
+    pubyear = doc %>% pluck("PubmedData","History","PubMedPubDate","Year",1) 
+    pubmonth = doc %>% pluck("PubmedData","History","PubMedPubDate","Month",1) 
+    pubday = doc %>% pluck("PubmedData","History","PubMedPubDate","Day",1)
+    title = doc %>% pluck("MedlineCitation","Article","ArticleTitle",1) %>% unlist()
+    pubdate = glue("{pubyear}-{pubmonth}-{pubday}") %>% ymd()
+    authors = paste(authors, collapse = "; ")
+    journal = doc %>% pluck("MedlineCitation","Article","Journal","Title",1)
+    doi = paste0("https://doi.org/",doi)
+    message(glue("found paper published on {pubdate}"))
+    return(list(title = title, authors = authors, pubdate = pubdate, journal = journal, 
+                doi = doi, first_author = first_author, last_author = last_author))
+  })
+  # data = map_chr(summary, function(.x) .x[["uid"]]) %>% setNames(data, .)
+  data = filter(data, !grepl("Erratum",title))
+  data = filter(data, !grepl("Correction",title))
+  data = filter(data, journal != "REFERENCES")
+  data = filter(data, journal != "References")
+  message("done!")
+  return(data)
 }
 
 # tweet publications
-tweet_pubs <- function(all_df) {
+tweet_pubs <- function(all_df, token) {
   if (nrow(all_df) == 0) {return(print("No new preprints or publications"))}
   all_df = arrange(all_df, pubdate)
   
@@ -129,12 +147,12 @@ tweet_pubs <- function(all_df) {
       print(tweet_text)
     } 
     else {
-      tweet_text <- glue('"{title}" by {first_author} et al. published in {journal}. #{last_author} Lab, {pubdate}. {doi}')
+      tweet_text <- glue('"{title}" by {first_author} et al. published in {journal}. #{last_author} Corresponding, {pubdate}. {doi}')
       print(tweet_text)
     }
     
     # POST
-    post_tweet(tweet_text, token = read_rds(".rtweet_token.rds"))
+    post_tweet(tweet_text, token)
   })
 }
 
