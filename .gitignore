@@ -4,6 +4,6 @@
 .Ruserdata
 *.log
 .drake/
-.app_auth.R
 *.html
 rtweet_token.rds
+api_auth.sh
