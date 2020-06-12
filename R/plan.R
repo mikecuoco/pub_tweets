@@ -8,7 +8,7 @@ source("R/functions.R")
 plan <- drake_plan(
   # get environment variables for twitter access token
   token = if(ci_on_travis()){
-    create_token(app = "cuoco-author-bot1",
+    create_token(app = "AuthorBot",
                  consumer_key = Sys.getenv("API_KEY"),
                  consumer_secret = Sys.getenv("API_SKEY"),
                  access_token = Sys.getenv("ACCESS_TOKEN"),
