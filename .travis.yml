@@ -31,7 +31,7 @@ deploy:
   - build_report.md
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
 after_deploy: R -q -e 'tic::after_deploy()'
 after_script: R -q -e 'tic::after_script()'
 language: r
