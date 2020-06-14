@@ -7,7 +7,7 @@
 #' ---
 
 #+ setup
-knitr::opts_knit$set(progress = TRUE, verbose = TRUE, echo = TRUE)
+knitr::opts_knit$set(echo = TRUE)
 source("R/functions.R") 
 source("R/plan.R") 
 
