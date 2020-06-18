@@ -52,7 +52,7 @@ jobs:
         run: | 
           rmarkdown::render("make.R", output_file = here::here("build_report.md")))
           rmarkdown::render("tweet_report.Rmd")
-        shell: Rscipt {0}
+        shell: Rscript {0}
       - name: Commit results
         run: |
           git config --global user.email "mcuoco12@gmail.com"
