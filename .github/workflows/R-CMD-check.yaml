@@ -48,9 +48,6 @@ jobs:
           renv::restore()
           source("R/packages.R")
         shell: Rscript {0}
-      - name: R-CMD-CHECK
-        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
-        shell: Rscript {0}
       - name: Build
         run: | 
           rmarkdown::render("make.R", output_file = here::here("build_report.md")))
