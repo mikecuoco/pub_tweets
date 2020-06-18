@@ -1,0 +1,64 @@
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * *"
+
+name: check-and-build
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup R
+        uses: r-lib/actions/setup-r@master
+        with: 
+          r-version: '4.0.1'
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: '2.9.2' 
+      - run: echo "# Test" | pandoc -t html
+      - name: Setup TinyTex 
+        uses: r-lib/actions/setup-tinytex@v1
+      - run: tlmgr --version
+      - name: Cache R Packages
+        uses: actions/cache@v2
+        with:
+          path: ~/.local/share/renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+      - name: Install system dependencies
+        run: | 
+          sudo apt-get install libcurl4-openssl-dev
+          sudo apt-get install libsodium-dev
+      - name: Install R dependencies
+        run: |
+          install.packages(c("remotes", "rcmdcheck","renv"))
+          remotes::install_deps(dependencies = TRUE)
+          renv::restore()
+          source("R/packages.R")
+        shell: Rscript {0}
+      - name: R-CMD-CHECK
+        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+        shell: Rscript {0}
+      - name: Build
+        run: | 
+          rmarkdown::render("make.R", output_file = here::here("build_report.md")))
+          rmarkdown::render("tweet_report.Rmd")
+        shell: Rscipt {0}
+      - name: Commit results
+        run: |
+          git config --global user.email "mcuoco12@gmail.com"
+          git config --global user.name "mikecuoco"
+          git add -f tweet_report.md build_report.md || echo "No changes to add"
+          git commit -m 'Test' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
