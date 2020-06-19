@@ -8,8 +8,8 @@
 
 #+ setup
 knitr::opts_knit$set(echo = TRUE)
-source("R/functions.R") 
-source("R/plan.R") 
+source("R/functions.R")
+source("R/plan.R")
 
 #+ make from scratch
 clean()

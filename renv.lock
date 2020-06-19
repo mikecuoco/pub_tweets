@@ -109,10 +109,10 @@
     },
     "backports": {
       "Package": "backports",
-      "Version": "1.1.7",
+      "Version": "1.1.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e9c8188eb82b137301493492d767a1ac"
+      "Hash": "3ef0eac19317fd03c0c854aed581d473"
     },
     "base64enc": {
       "Package": "base64enc",
@@ -732,10 +732,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.2",
+      "Version": "2.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "aa82ab08b203d5a32a5b5f404e80c399"
+      "Hash": "202260e1b2c410edc086d5b8f1ed946e"
     },
     "rprojroot": {
       "Package": "rprojroot",
