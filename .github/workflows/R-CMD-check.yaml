@@ -49,6 +49,12 @@ jobs:
           source("R/packages.R")
         shell: Rscript {0}
       - name: Build
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          API_SKEY: ${{ secrets.API_SKEY }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SEC: ${{ secrets.ACCESS_TOKEN_SEC }}
+          ENTREZ_KEY: ${{ secrets.ENTREZ_KEY }}
         run: | 
           rmarkdown::render("make.R", output_file = "build_report.md")
           rmarkdown::render("tweet_report.Rmd")
