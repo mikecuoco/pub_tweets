@@ -41,17 +41,18 @@ get_biorxiv <- function(from_date, to_date, auths, affils) {
       "journal" = "bioRxiv",
       "doi" = .x$doi,
       "first_author" = strsplit(.x$authors, ";")[[1]][1],
-      "last_author" = .x$author_corresponding
+      "last_author" = .x$author_corresponding,
+      "search" = author
     ))
     return(out)
   })
 
-  data.bio <- data.bio %>% filter(!duplicated(doi))
 
   if (nrow(data.bio) == 0) {
     return(data.bio)
   }
 
+  data.bio <- data.bio %>% filter(!duplicated(doi))
   data.bio$pubdate <- ymd(data.bio$pubdate) # standardize pubdate
   data.bio$first_author <- data.bio$first_author %>%
     str_replace("\\. ", "") %>%
@@ -92,6 +93,8 @@ pubmed_search <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
 }
 
 get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
+  search = strsplit(term, split = "\\[Author\\]")[[1]][1] %>% 
+    str_replace("\\(\\(","")
   fetch <- tryCatch(pubmed_search(term), error = function(e) {
     message("retrying...")
     Sys.sleep(3)
@@ -138,7 +141,7 @@ get_pubs <- function(term, key = Sys.getenv("ENTREZ_KEY")) {
     stringsAsFactors <- F
     return(list(
       title = title, authors = authors, pubdate = pubdate, journal = journal,
-      doi = doi, first_author = first_author, last_author = last_author
+      doi = doi, first_author = first_author, last_author = last_author, search = search
     ))
   })
   data <- filter(data, !str_detect(title, "Erratum")) %>%
@@ -156,7 +159,7 @@ tweet_pubs <- function(all_df, token) {
   }
   all_df <- arrange(all_df, pubdate)
 
-  pwalk(all_df, .f = function(first_author, last_author, title, pubdate, journal, doi) {
+  pwalk(all_df, .f = function(first_author, last_author, title, pubdate, journal, doi, search) {
     pubdate <- glue("{month(pubdate, label = T, abbr = T)} {day(pubdate)}, {year(pubdate)}")
     last_author <- last_author %>%
       gsub(" .$", "", .) %>%
@@ -172,11 +175,11 @@ tweet_pubs <- function(all_df, token) {
     }
 
     if (journal == "bioRxiv") {
-      tweet_text <- glue('"{title}" from {first_author} search. #{last_author} Lab, {pubdate}. {doi}')
+      tweet_text <- glue('"{title}" by {first_author} et al. {journal}, from {search} search. {pubdate}. {doi}')
       print(tweet_text)
     }
     else {
-      tweet_text <- glue('"{title}" by {first_author} et al. published in {journal}. #{last_author} Corresponding, {pubdate}. {doi}')
+      tweet_text <- glue('"{title}" by {first_author} et al. {journal}, from {search} search. {pubdate}. {doi}')
       print(tweet_text)
     }
 
