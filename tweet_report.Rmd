@@ -22,7 +22,7 @@ head(all_df) %>% gt()
 ```
 
 ```{r tweet}
-if(ci_on_travis()){tweet_pubs(all_df, token)}
+tweet_pubs(all_df, token)
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
