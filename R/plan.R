@@ -7,15 +7,11 @@ source("R/functions.R")
 ### Plan ------------------------------
 plan <- drake_plan(
   # get environment variables for twitter access token
-  token = if(ci_on_travis()){
-    create_token(app = "Authorbot",
-                 consumer_key = Sys.getenv("API_KEY"),
-                 consumer_secret = Sys.getenv("API_SKEY"),
-                 access_token = Sys.getenv("ACCESS_TOKEN"),
-                 access_secret = Sys.getenv("ACCESS_TOKEN_SEC"))
-    } else{
-      read_rds("rtweet_token.rds")
-      },
+  token = create_token(app = "Authorbot",
+                       consumer_key = Sys.getenv("API_KEY"),
+                       consumer_secret = Sys.getenv("API_SKEY"),
+                       access_token = Sys.getenv("ACCESS_TOKEN"),
+                       access_secret = Sys.getenv("ACCESS_TOKEN_SEC")),
   # Get last tweet
   last_tweet = get_timeline("CuocoBot1", n = 100, token = token) %>%
     top_n(1, wt = created_at) %>%
