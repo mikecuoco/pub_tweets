@@ -50,7 +50,7 @@ jobs:
         shell: Rscript {0}
       - name: Build
         run: | 
-          rmarkdown::render("make.R", output_file = here::here("build_report.md")))
+          rmarkdown::render("make.R", output_file = "build_report.md")
           rmarkdown::render("tweet_report.Rmd")
         shell: Rscript {0}
       - name: Commit results
