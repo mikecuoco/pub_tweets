@@ -12,7 +12,6 @@ source("R/functions.R")
 source("R/plan.R")
 
 #+ make from scratch
-clean()
 make(plan)
 
 #+ visualize build
