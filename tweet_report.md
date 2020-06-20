@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-06-19
+2020-06-20
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ikegeazkqw .gt_table {
+#blqcvevhtg .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_heading {
+#blqcvevhtg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_title {
+#blqcvevhtg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#ikegeazkqw .gt_subtitle {
+#blqcvevhtg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#ikegeazkqw .gt_bottom_border {
+#blqcvevhtg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_col_headings {
+#blqcvevhtg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_col_heading {
+#blqcvevhtg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ikegeazkqw .gt_column_spanner_outer {
+#blqcvevhtg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#ikegeazkqw .gt_column_spanner_outer:first-child {
+#blqcvevhtg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ikegeazkqw .gt_column_spanner_outer:last-child {
+#blqcvevhtg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ikegeazkqw .gt_column_spanner {
+#blqcvevhtg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#ikegeazkqw .gt_group_heading {
+#blqcvevhtg .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ikegeazkqw .gt_empty_group_heading {
+#blqcvevhtg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ikegeazkqw .gt_striped {
+#blqcvevhtg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ikegeazkqw .gt_from_md > :first-child {
+#blqcvevhtg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ikegeazkqw .gt_from_md > :last-child {
+#blqcvevhtg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ikegeazkqw .gt_row {
+#blqcvevhtg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ikegeazkqw .gt_stub {
+#blqcvevhtg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#ikegeazkqw .gt_summary_row {
+#blqcvevhtg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ikegeazkqw .gt_first_summary_row {
+#blqcvevhtg .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_grand_summary_row {
+#blqcvevhtg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ikegeazkqw .gt_first_grand_summary_row {
+#blqcvevhtg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_table_body {
+#blqcvevhtg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_footnotes {
+#blqcvevhtg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_footnote {
+#blqcvevhtg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ikegeazkqw .gt_sourcenotes {
+#blqcvevhtg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ikegeazkqw .gt_sourcenote {
+#blqcvevhtg .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ikegeazkqw .gt_left {
+#blqcvevhtg .gt_left {
   text-align: left;
 }
 
-#ikegeazkqw .gt_center {
+#blqcvevhtg .gt_center {
   text-align: center;
 }
 
-#ikegeazkqw .gt_right {
+#blqcvevhtg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ikegeazkqw .gt_font_normal {
+#blqcvevhtg .gt_font_normal {
   font-weight: normal;
 }
 
-#ikegeazkqw .gt_font_bold {
+#blqcvevhtg .gt_font_bold {
   font-weight: bold;
 }
 
-#ikegeazkqw .gt_font_italic {
+#blqcvevhtg .gt_font_italic {
   font-style: italic;
 }
 
-#ikegeazkqw .gt_super {
+#blqcvevhtg .gt_super {
   font-size: 65%;
 }
 
-#ikegeazkqw .gt_footnote_marks {
+#blqcvevhtg .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ikegeazkqw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="blqcvevhtg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,146 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-A robust benchmark for detection of germline large deletions and
-insertions.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-06-17
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature biotechnology
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s41587-020-0538-8>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Justin M Zook
-
-</td>
-
-<td class="gt_row gt_center">
-
-Marc Salit
-
-</td>
-
-<td class="gt_row gt_left">
-
-Church G
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-A Call For a Three-tiered Pandemic Public Health Strategy in Context of
-SARS-CoV-2.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-06-17
-
-</td>
-
-<td class="gt_row gt_left">
-
-Rejuvenation research
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1089/rej.2020.2363>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Brian P Hanley
-
-</td>
-
-<td class="gt_row gt_center">
-
-George Church
-
-</td>
-
-<td class="gt_row gt_left">
-
-Church G
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Prime time for primate functional genomics.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-06-17
-
-</td>
-
-<td class="gt_row gt_left">
-
-Current opinion in genetics & development
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.gde.2020.04.007>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Genevieve Housman
-
-</td>
-
-<td class="gt_row gt_center">
-
-Yoav Gilad
-
-</td>
-
-<td class="gt_row gt_left">
-
-Gilad Y
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -558,24 +418,14 @@ Gilad Y
 tweet_pubs(all_df, token)
 ```
 
-    ## "A robust benchmark for detection of germline large deletions and insertions." by Justin M Zook et al. Nature biotechnology, from Church G search. Jun 17, 2020. https://doi.org/10.1038/s41587-020-0538-8
-
-    ## your tweet has been posted!
-
-    ## "A Call For a Three-tiered Pandemic Public Health Strategy in Context of SARS-CoV-2." by Brian P Hanley et al. Rejuvenation research, from Church G search. Jun 17, 2020. https://doi.org/10.1089/rej.2020.2363
-
-    ## your tweet has been posted!
-
-    ## "Prime time for primate functional genomics." by Genevieve Housman et al. Current opinion in genetics & development, from Gilad Y search. Jun 17, 2020. https://doi.org/10.1016/j.gde.2020.04.007
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 3 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
