@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-06-20
+2020-06-21
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -44,6 +44,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-06-20
 
     ## found paper published on 2020-06-11
 
@@ -397,6 +399,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-06-20
+
     ## found paper published on 2020-06-14
 
     ## found paper published on 2020-06-06
@@ -528,6 +532,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-06-20
+
     ## found paper published on 2020-05-30
 
     ## found paper published on 2020-04-09
@@ -591,6 +597,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-06-20
 
     ## found paper published on 2020-06-13
 
@@ -800,6 +808,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-06-20
+
     ## found paper published on 2020-06-09
 
     ## found paper published on 2020-06-06
@@ -976,6 +986,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-06-20
 
     ## found paper published on 2020-04-12
 
@@ -1323,6 +1335,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-06-20
+
     ## found paper published on 2020-05-29
 
     ## found paper published on 2020-05-04
@@ -1409,7 +1423,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ozvhsldvqz .gt_table {
+#adchduepse .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1432,7 +1446,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_heading {
+#adchduepse .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1444,7 +1458,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_title {
+#adchduepse .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1454,7 +1468,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#ozvhsldvqz .gt_subtitle {
+#adchduepse .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1464,13 +1478,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#ozvhsldvqz .gt_bottom_border {
+#adchduepse .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_col_headings {
+#adchduepse .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1485,7 +1499,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_col_heading {
+#adchduepse .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1505,7 +1519,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#ozvhsldvqz .gt_column_spanner_outer {
+#adchduepse .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1517,15 +1531,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#ozvhsldvqz .gt_column_spanner_outer:first-child {
+#adchduepse .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ozvhsldvqz .gt_column_spanner_outer:last-child {
+#adchduepse .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ozvhsldvqz .gt_column_spanner {
+#adchduepse .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1537,7 +1551,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#ozvhsldvqz .gt_group_heading {
+#adchduepse .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1559,7 +1573,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#ozvhsldvqz .gt_empty_group_heading {
+#adchduepse .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1574,19 +1588,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#ozvhsldvqz .gt_striped {
+#adchduepse .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ozvhsldvqz .gt_from_md > :first-child {
+#adchduepse .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ozvhsldvqz .gt_from_md > :last-child {
+#adchduepse .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ozvhsldvqz .gt_row {
+#adchduepse .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1605,7 +1619,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#ozvhsldvqz .gt_stub {
+#adchduepse .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1617,7 +1631,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#ozvhsldvqz .gt_summary_row {
+#adchduepse .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1627,7 +1641,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#ozvhsldvqz .gt_first_summary_row {
+#adchduepse .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1637,7 +1651,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_grand_summary_row {
+#adchduepse .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1647,7 +1661,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#ozvhsldvqz .gt_first_grand_summary_row {
+#adchduepse .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1657,7 +1671,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_table_body {
+#adchduepse .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1666,7 +1680,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_footnotes {
+#adchduepse .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1680,13 +1694,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_footnote {
+#adchduepse .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ozvhsldvqz .gt_sourcenotes {
+#adchduepse .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1700,47 +1714,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ozvhsldvqz .gt_sourcenote {
+#adchduepse .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ozvhsldvqz .gt_left {
+#adchduepse .gt_left {
   text-align: left;
 }
 
-#ozvhsldvqz .gt_center {
+#adchduepse .gt_center {
   text-align: center;
 }
 
-#ozvhsldvqz .gt_right {
+#adchduepse .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ozvhsldvqz .gt_font_normal {
+#adchduepse .gt_font_normal {
   font-weight: normal;
 }
 
-#ozvhsldvqz .gt_font_bold {
+#adchduepse .gt_font_bold {
   font-weight: bold;
 }
 
-#ozvhsldvqz .gt_font_italic {
+#adchduepse .gt_font_italic {
   font-style: italic;
 }
 
-#ozvhsldvqz .gt_super {
+#adchduepse .gt_super {
   font-size: 65%;
 }
 
-#ozvhsldvqz .gt_footnote_marks {
+#adchduepse .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ozvhsldvqz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="adchduepse" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -1788,7 +1802,7 @@ affils
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1816,13 +1830,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.226s
+0.208s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.082s
+0.075s
 
 </td>
 
@@ -1844,13 +1858,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.002s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.002s
 
 </td>
 
@@ -1872,19 +1886,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-5.424s
+15.231s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.4s
+0.747s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.101s
+0.052s
 
 </td>
 
@@ -1900,19 +1914,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.369s
+0.348s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.134s
+0.124s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.019s
+0.008s
 
 </td>
 
@@ -1928,7 +1942,7 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1956,19 +1970,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-85s (\~1.42 minutes)
+69s (\~1.15 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-28.959s
+24.393s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.292s
+0.176s
 
 </td>
 
@@ -1984,19 +1998,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.896s
+1.184s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.166s
+0.136s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.016s
 
 </td>
 
@@ -2012,13 +2026,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.015s
+0.011s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.014s
+0.011s
 
 </td>
 
