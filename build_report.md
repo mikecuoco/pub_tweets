@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-06-22
+2020-06-23
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -1433,7 +1433,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yyntywazek .gt_table {
+#swjnjtgrld .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1456,7 +1456,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#yyntywazek .gt_heading {
+#swjnjtgrld .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1468,7 +1468,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yyntywazek .gt_title {
+#swjnjtgrld .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1478,7 +1478,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#yyntywazek .gt_subtitle {
+#swjnjtgrld .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1488,13 +1488,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#yyntywazek .gt_bottom_border {
+#swjnjtgrld .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yyntywazek .gt_col_headings {
+#swjnjtgrld .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1509,7 +1509,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yyntywazek .gt_col_heading {
+#swjnjtgrld .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1529,7 +1529,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#yyntywazek .gt_column_spanner_outer {
+#swjnjtgrld .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1541,15 +1541,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#yyntywazek .gt_column_spanner_outer:first-child {
+#swjnjtgrld .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yyntywazek .gt_column_spanner_outer:last-child {
+#swjnjtgrld .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yyntywazek .gt_column_spanner {
+#swjnjtgrld .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1561,7 +1561,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#yyntywazek .gt_group_heading {
+#swjnjtgrld .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1583,7 +1583,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#yyntywazek .gt_empty_group_heading {
+#swjnjtgrld .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1598,19 +1598,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#yyntywazek .gt_striped {
+#swjnjtgrld .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yyntywazek .gt_from_md > :first-child {
+#swjnjtgrld .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yyntywazek .gt_from_md > :last-child {
+#swjnjtgrld .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yyntywazek .gt_row {
+#swjnjtgrld .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1629,7 +1629,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#yyntywazek .gt_stub {
+#swjnjtgrld .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1641,7 +1641,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#yyntywazek .gt_summary_row {
+#swjnjtgrld .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1651,7 +1651,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#yyntywazek .gt_first_summary_row {
+#swjnjtgrld .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1661,7 +1661,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yyntywazek .gt_grand_summary_row {
+#swjnjtgrld .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1671,7 +1671,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#yyntywazek .gt_first_grand_summary_row {
+#swjnjtgrld .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1681,7 +1681,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yyntywazek .gt_table_body {
+#swjnjtgrld .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1690,7 +1690,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#yyntywazek .gt_footnotes {
+#swjnjtgrld .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1704,13 +1704,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yyntywazek .gt_footnote {
+#swjnjtgrld .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#yyntywazek .gt_sourcenotes {
+#swjnjtgrld .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1724,47 +1724,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yyntywazek .gt_sourcenote {
+#swjnjtgrld .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#yyntywazek .gt_left {
+#swjnjtgrld .gt_left {
   text-align: left;
 }
 
-#yyntywazek .gt_center {
+#swjnjtgrld .gt_center {
   text-align: center;
 }
 
-#yyntywazek .gt_right {
+#swjnjtgrld .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yyntywazek .gt_font_normal {
+#swjnjtgrld .gt_font_normal {
   font-weight: normal;
 }
 
-#yyntywazek .gt_font_bold {
+#swjnjtgrld .gt_font_bold {
   font-weight: bold;
 }
 
-#yyntywazek .gt_font_italic {
+#swjnjtgrld .gt_font_italic {
   font-style: italic;
 }
 
-#yyntywazek .gt_super {
+#swjnjtgrld .gt_super {
   font-size: 65%;
 }
 
-#yyntywazek .gt_footnote_marks {
+#swjnjtgrld .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="yyntywazek" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="swjnjtgrld" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -1818,13 +1818,13 @@ affils
 
 <td class="gt_row gt_center">
 
-0.005s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0s
+0.002s
 
 </td>
 
@@ -1840,13 +1840,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.209s
+0.233s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.086s
+0.097s
 
 </td>
 
@@ -1868,13 +1868,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -1896,19 +1896,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-3.416s
+7.377s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.193s
+0.533s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.048s
+0.072s
 
 </td>
 
@@ -1924,19 +1924,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.372s
+0.343s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.136s
+0.123s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.016s
+0.004s
 
 </td>
 
@@ -1952,13 +1952,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1980,19 +1980,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-82s (\~1.37 minutes)
+80s (\~1.33 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-38.903s
+38.8s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.16s
+0.174s
 
 </td>
 
@@ -2008,19 +2008,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.994s
+1.363s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.148s
+0.171s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.012s
+0.004s
 
 </td>
 
