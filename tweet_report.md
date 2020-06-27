@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-06-26
+2020-06-27
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#dbqgpadrka .gt_table {
+#orpflkocdb .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_heading {
+#orpflkocdb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_title {
+#orpflkocdb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#dbqgpadrka .gt_subtitle {
+#orpflkocdb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#dbqgpadrka .gt_bottom_border {
+#orpflkocdb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_col_headings {
+#orpflkocdb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_col_heading {
+#orpflkocdb .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#dbqgpadrka .gt_column_spanner_outer {
+#orpflkocdb .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#dbqgpadrka .gt_column_spanner_outer:first-child {
+#orpflkocdb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dbqgpadrka .gt_column_spanner_outer:last-child {
+#orpflkocdb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dbqgpadrka .gt_column_spanner {
+#orpflkocdb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#dbqgpadrka .gt_group_heading {
+#orpflkocdb .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#dbqgpadrka .gt_empty_group_heading {
+#orpflkocdb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#dbqgpadrka .gt_striped {
+#orpflkocdb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dbqgpadrka .gt_from_md > :first-child {
+#orpflkocdb .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dbqgpadrka .gt_from_md > :last-child {
+#orpflkocdb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dbqgpadrka .gt_row {
+#orpflkocdb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#dbqgpadrka .gt_stub {
+#orpflkocdb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#dbqgpadrka .gt_summary_row {
+#orpflkocdb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#dbqgpadrka .gt_first_summary_row {
+#orpflkocdb .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_grand_summary_row {
+#orpflkocdb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#dbqgpadrka .gt_first_grand_summary_row {
+#orpflkocdb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_table_body {
+#orpflkocdb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_footnotes {
+#orpflkocdb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_footnote {
+#orpflkocdb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#dbqgpadrka .gt_sourcenotes {
+#orpflkocdb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dbqgpadrka .gt_sourcenote {
+#orpflkocdb .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#dbqgpadrka .gt_left {
+#orpflkocdb .gt_left {
   text-align: left;
 }
 
-#dbqgpadrka .gt_center {
+#orpflkocdb .gt_center {
   text-align: center;
 }
 
-#dbqgpadrka .gt_right {
+#orpflkocdb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dbqgpadrka .gt_font_normal {
+#orpflkocdb .gt_font_normal {
   font-weight: normal;
 }
 
-#dbqgpadrka .gt_font_bold {
+#orpflkocdb .gt_font_bold {
   font-weight: bold;
 }
 
-#dbqgpadrka .gt_font_italic {
+#orpflkocdb .gt_font_italic {
   font-style: italic;
 }
 
-#dbqgpadrka .gt_super {
+#orpflkocdb .gt_super {
   font-size: 65%;
 }
 
-#dbqgpadrka .gt_footnote_marks {
+#orpflkocdb .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="dbqgpadrka" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="orpflkocdb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,100 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Cerebellar nuclei evolved by repeatedly duplicating a conserved cell
-type set
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-06-25
-
-</td>
-
-<td class="gt_row gt_left">
-
-bioRxiv
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1101/2020.06.25.170118>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Kebschull JM
-
-</td>
-
-<td class="gt_row gt_center">
-
-Liqun Luo
-
-</td>
-
-<td class="gt_row gt_left">
-
-Chang, H
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Functional analysis of CX3CR1 in human induced pluripotent stem (iPS)
-cell-derived microglia-like cells.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-06-25
-
-</td>
-
-<td class="gt_row gt_left">
-
-The European journal of neuroscience
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1111/ejn.14879>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Nobuhito Murai
-
-</td>
-
-<td class="gt_row gt_center">
-
-Rudolf Jaenisch
-
-</td>
-
-<td class="gt_row gt_left">
-
-Jaenisch R
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -512,20 +418,14 @@ Jaenisch R
 tweet_pubs(all_df, token)
 ```
 
-    ## "Cerebellar nuclei evolved by repeatedly duplicating a conserved cell type set" by Kebschull JM et al. bioRxiv, from Chang, H search. Jun 25, 2020. https://doi.org/10.1101/2020.06.25.170118
-
-    ## your tweet has been posted!
-
-    ## "Functional analysis of CX3CR1 in human induced pluripotent stem (iPS) cell-derived microglia-like cells." by Nobuhito Murai et al. The European journal of neuroscience, from Jaenisch R search. Jun 25, 2020. https://doi.org/10.1111/ejn.14879
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 2 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
