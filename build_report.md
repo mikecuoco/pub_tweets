@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-06-29
+2020-06-30
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -1485,7 +1485,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yaqztcfhps .gt_table {
+#hdxppotqaj .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1508,7 +1508,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_heading {
+#hdxppotqaj .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1520,7 +1520,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_title {
+#hdxppotqaj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1530,7 +1530,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#yaqztcfhps .gt_subtitle {
+#hdxppotqaj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1540,13 +1540,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#yaqztcfhps .gt_bottom_border {
+#hdxppotqaj .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_col_headings {
+#hdxppotqaj .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1561,7 +1561,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_col_heading {
+#hdxppotqaj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1581,7 +1581,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#yaqztcfhps .gt_column_spanner_outer {
+#hdxppotqaj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1593,15 +1593,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#yaqztcfhps .gt_column_spanner_outer:first-child {
+#hdxppotqaj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yaqztcfhps .gt_column_spanner_outer:last-child {
+#hdxppotqaj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yaqztcfhps .gt_column_spanner {
+#hdxppotqaj .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1613,7 +1613,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#yaqztcfhps .gt_group_heading {
+#hdxppotqaj .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1635,7 +1635,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#yaqztcfhps .gt_empty_group_heading {
+#hdxppotqaj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1650,19 +1650,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#yaqztcfhps .gt_striped {
+#hdxppotqaj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yaqztcfhps .gt_from_md > :first-child {
+#hdxppotqaj .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yaqztcfhps .gt_from_md > :last-child {
+#hdxppotqaj .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yaqztcfhps .gt_row {
+#hdxppotqaj .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1681,7 +1681,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#yaqztcfhps .gt_stub {
+#hdxppotqaj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1693,7 +1693,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#yaqztcfhps .gt_summary_row {
+#hdxppotqaj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1703,7 +1703,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#yaqztcfhps .gt_first_summary_row {
+#hdxppotqaj .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1713,7 +1713,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_grand_summary_row {
+#hdxppotqaj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1723,7 +1723,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#yaqztcfhps .gt_first_grand_summary_row {
+#hdxppotqaj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1733,7 +1733,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_table_body {
+#hdxppotqaj .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1742,7 +1742,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_footnotes {
+#hdxppotqaj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1756,13 +1756,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_footnote {
+#hdxppotqaj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#yaqztcfhps .gt_sourcenotes {
+#hdxppotqaj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1776,47 +1776,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yaqztcfhps .gt_sourcenote {
+#hdxppotqaj .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#yaqztcfhps .gt_left {
+#hdxppotqaj .gt_left {
   text-align: left;
 }
 
-#yaqztcfhps .gt_center {
+#hdxppotqaj .gt_center {
   text-align: center;
 }
 
-#yaqztcfhps .gt_right {
+#hdxppotqaj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yaqztcfhps .gt_font_normal {
+#hdxppotqaj .gt_font_normal {
   font-weight: normal;
 }
 
-#yaqztcfhps .gt_font_bold {
+#hdxppotqaj .gt_font_bold {
   font-weight: bold;
 }
 
-#yaqztcfhps .gt_font_italic {
+#hdxppotqaj .gt_font_italic {
   font-style: italic;
 }
 
-#yaqztcfhps .gt_super {
+#hdxppotqaj .gt_super {
   font-size: 65%;
 }
 
-#yaqztcfhps .gt_footnote_marks {
+#hdxppotqaj .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="yaqztcfhps" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hdxppotqaj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -1864,7 +1864,7 @@ affils
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1892,13 +1892,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.253s
+0.217s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.125s
+0.093s
 
 </td>
 
@@ -1926,7 +1926,7 @@ auths
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1948,19 +1948,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-4.556s
+11.111s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.55s
+0.733s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.08s
+0.033s
 
 </td>
 
@@ -1976,13 +1976,13 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.378s
+0.415s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.153s
+0.133s
 
 </td>
 
@@ -2004,13 +2004,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -2032,19 +2032,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-86s (\~1.43 minutes)
+81s (\~1.35 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-35.73s
+24.297s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.19s
+0.181s
 
 </td>
 
@@ -2060,19 +2060,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.438s
+1.262s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.184s
+0.15s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.008s
+0.002s
 
 </td>
 
@@ -2088,13 +2088,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.017s
+0.014s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.017s
+0.013s
 
 </td>
 
