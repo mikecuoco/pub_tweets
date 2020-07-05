@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-07-04
+2020-07-05
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ucuxuvksge .gt_table {
+#nicmylaulk .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_heading {
+#nicmylaulk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_title {
+#nicmylaulk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#ucuxuvksge .gt_subtitle {
+#nicmylaulk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#ucuxuvksge .gt_bottom_border {
+#nicmylaulk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_col_headings {
+#nicmylaulk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_col_heading {
+#nicmylaulk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ucuxuvksge .gt_column_spanner_outer {
+#nicmylaulk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#ucuxuvksge .gt_column_spanner_outer:first-child {
+#nicmylaulk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ucuxuvksge .gt_column_spanner_outer:last-child {
+#nicmylaulk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ucuxuvksge .gt_column_spanner {
+#nicmylaulk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#ucuxuvksge .gt_group_heading {
+#nicmylaulk .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ucuxuvksge .gt_empty_group_heading {
+#nicmylaulk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ucuxuvksge .gt_striped {
+#nicmylaulk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ucuxuvksge .gt_from_md > :first-child {
+#nicmylaulk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ucuxuvksge .gt_from_md > :last-child {
+#nicmylaulk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ucuxuvksge .gt_row {
+#nicmylaulk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ucuxuvksge .gt_stub {
+#nicmylaulk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#ucuxuvksge .gt_summary_row {
+#nicmylaulk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ucuxuvksge .gt_first_summary_row {
+#nicmylaulk .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_grand_summary_row {
+#nicmylaulk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ucuxuvksge .gt_first_grand_summary_row {
+#nicmylaulk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_table_body {
+#nicmylaulk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_footnotes {
+#nicmylaulk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_footnote {
+#nicmylaulk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ucuxuvksge .gt_sourcenotes {
+#nicmylaulk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ucuxuvksge .gt_sourcenote {
+#nicmylaulk .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ucuxuvksge .gt_left {
+#nicmylaulk .gt_left {
   text-align: left;
 }
 
-#ucuxuvksge .gt_center {
+#nicmylaulk .gt_center {
   text-align: center;
 }
 
-#ucuxuvksge .gt_right {
+#nicmylaulk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ucuxuvksge .gt_font_normal {
+#nicmylaulk .gt_font_normal {
   font-weight: normal;
 }
 
-#ucuxuvksge .gt_font_bold {
+#nicmylaulk .gt_font_bold {
   font-weight: bold;
 }
 
-#ucuxuvksge .gt_font_italic {
+#nicmylaulk .gt_font_italic {
   font-style: italic;
 }
 
-#ucuxuvksge .gt_super {
+#nicmylaulk .gt_super {
   font-size: 65%;
 }
 
-#ucuxuvksge .gt_footnote_marks {
+#nicmylaulk .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ucuxuvksge" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="nicmylaulk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,240 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Human hormone seasonality
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-03
-
-</td>
-
-<td class="gt_row gt_left">
-
-bioRxiv
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1101/2020.02.13.947366>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Tendler A
-
-</td>
-
-<td class="gt_row gt_center">
-
-Uri Alon
-
-</td>
-
-<td class="gt_row gt_left">
-
-Alon, U
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Discovering the anti-cancer potential of non-oncology drugs by
-systematic viability profiling.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-03
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature cancer
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s43018-019-0018-6>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Steven M Corsello
-
-</td>
-
-<td class="gt_row gt_center">
-
-Todd R Golub
-
-</td>
-
-<td class="gt_row gt_left">
-
-Golub T
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Discovering the anti-cancer potential of non-oncology drugs by
-systematic viability profiling.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-03
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature cancer
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s43018-019-0018-6>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Steven M Corsello
-
-</td>
-
-<td class="gt_row gt_center">
-
-Todd R Golub
-
-</td>
-
-<td class="gt_row gt_left">
-
-Meyerson M
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Niche-Selective Inhibition of Pathogenic Th17 Cells by Targeting
-Metabolic Redundancy.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-03
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.cell.2020.06.014>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Lin Wu
-
-</td>
-
-<td class="gt_row gt_center">
-
-Dan R Littman
-
-</td>
-
-<td class="gt_row gt_left">
-
-Satija R
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Physiological blood-brain transport is impaired with age by a shift in
-transcytosis.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-03
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s41586-020-2453-z>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Andrew C Yang
-
-</td>
-
-<td class="gt_row gt_center">
-
-Tony Wyss-Coray
-
-</td>
-
-<td class="gt_row gt_left">
-
-Snyder M
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -652,32 +418,14 @@ Snyder M
 tweet_pubs(all_df, token)
 ```
 
-    ## "Human hormone seasonality" by Tendler A et al. bioRxiv, from Alon, U search. Jul 3, 2020. https://doi.org/10.1101/2020.02.13.947366
-
-    ## your tweet has been posted!
-
-    ## "Discovering the anti-cancer potential of non-oncology drugs by systematic viability profiling." by Steven M Corsello et al. Nature cancer, from Golub T search. Jul 3, 2020. https://doi.org/10.1038/s43018-019-0018-6
-
-    ## your tweet has been posted!
-
-    ## "Discovering the anti-cancer potential of non-oncology drugs by systematic viability profiling." by Steven M Corsello et al. Nature cancer, from Meyerson M search. Jul 3, 2020. https://doi.org/10.1038/s43018-019-0018-6
-
-    ## your tweet has been posted!
-
-    ## "Niche-Selective Inhibition of Pathogenic Th17 Cells by Targeting Metabolic Redundancy." by Lin Wu et al. Cell, from Satija R search. Jul 3, 2020. https://doi.org/10.1016/j.cell.2020.06.014
-
-    ## your tweet has been posted!
-
-    ## "Physiological blood-brain transport is impaired with age by a shift in transcytosis." by Andrew C Yang et al. Nature, from Snyder M search. Jul 3, 2020. https://doi.org/10.1038/s41586-020-2453-z
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 5 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
