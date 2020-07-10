@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-07-09
+2020-07-10
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#gnjjqvfzxv .gt_table {
+#nrewwdxxfo .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_heading {
+#nrewwdxxfo .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_title {
+#nrewwdxxfo .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#gnjjqvfzxv .gt_subtitle {
+#nrewwdxxfo .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#gnjjqvfzxv .gt_bottom_border {
+#nrewwdxxfo .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_col_headings {
+#nrewwdxxfo .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_col_heading {
+#nrewwdxxfo .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#gnjjqvfzxv .gt_column_spanner_outer {
+#nrewwdxxfo .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#gnjjqvfzxv .gt_column_spanner_outer:first-child {
+#nrewwdxxfo .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#gnjjqvfzxv .gt_column_spanner_outer:last-child {
+#nrewwdxxfo .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#gnjjqvfzxv .gt_column_spanner {
+#nrewwdxxfo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#gnjjqvfzxv .gt_group_heading {
+#nrewwdxxfo .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#gnjjqvfzxv .gt_empty_group_heading {
+#nrewwdxxfo .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#gnjjqvfzxv .gt_striped {
+#nrewwdxxfo .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#gnjjqvfzxv .gt_from_md > :first-child {
+#nrewwdxxfo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#gnjjqvfzxv .gt_from_md > :last-child {
+#nrewwdxxfo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#gnjjqvfzxv .gt_row {
+#nrewwdxxfo .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#gnjjqvfzxv .gt_stub {
+#nrewwdxxfo .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#gnjjqvfzxv .gt_summary_row {
+#nrewwdxxfo .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#gnjjqvfzxv .gt_first_summary_row {
+#nrewwdxxfo .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_grand_summary_row {
+#nrewwdxxfo .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#gnjjqvfzxv .gt_first_grand_summary_row {
+#nrewwdxxfo .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_table_body {
+#nrewwdxxfo .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_footnotes {
+#nrewwdxxfo .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_footnote {
+#nrewwdxxfo .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#gnjjqvfzxv .gt_sourcenotes {
+#nrewwdxxfo .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#gnjjqvfzxv .gt_sourcenote {
+#nrewwdxxfo .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#gnjjqvfzxv .gt_left {
+#nrewwdxxfo .gt_left {
   text-align: left;
 }
 
-#gnjjqvfzxv .gt_center {
+#nrewwdxxfo .gt_center {
   text-align: center;
 }
 
-#gnjjqvfzxv .gt_right {
+#nrewwdxxfo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#gnjjqvfzxv .gt_font_normal {
+#nrewwdxxfo .gt_font_normal {
   font-weight: normal;
 }
 
-#gnjjqvfzxv .gt_font_bold {
+#nrewwdxxfo .gt_font_bold {
   font-weight: bold;
 }
 
-#gnjjqvfzxv .gt_font_italic {
+#nrewwdxxfo .gt_font_italic {
   font-style: italic;
 }
 
-#gnjjqvfzxv .gt_super {
+#nrewwdxxfo .gt_super {
   font-size: 65%;
 }
 
-#gnjjqvfzxv .gt_footnote_marks {
+#nrewwdxxfo .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="gnjjqvfzxv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="nrewwdxxfo" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,101 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Genome-wide R-loop Landscapes during Cell Differentiation and
+Reprogramming.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-09
+
+</td>
+
+<td class="gt_row gt_left">
+
+Cell reports
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.celrep.2020.107870>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Pengze Yan
+
+</td>
+
+<td class="gt_row gt_center">
+
+Guang-Hui Liu
+
+</td>
+
+<td class="gt_row gt_left">
+
+Belmonte
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A Genome-wide CRISPR Screen Reveals a Role for the Non-Canonical
+Nucleosome-Remodeling BAF Complex in Foxp3 Expression and Regulatory T
+Cell Function.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-09
+
+</td>
+
+<td class="gt_row gt_left">
+
+Immunity
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.immuni.2020.06.011>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Chin-San Loo
+
+</td>
+
+<td class="gt_row gt_center">
+
+Ye Zheng
+
+</td>
+
+<td class="gt_row gt_left">
+
+Hargreaves D
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +513,20 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Genome-wide R-loop Landscapes during Cell Differentiation and Reprogramming." by Pengze Yan et al. Cell reports, from Belmonte search. Jul 9, 2020. https://doi.org/10.1016/j.celrep.2020.107870
+
+    ## your tweet has been posted!
+
+    ## "A Genome-wide CRISPR Screen Reveals a Role for the Non-Canonical Nucleosome-Remodeling BAF Complex in Foxp3 Expression and Regulatory T Cell Function." by Chin-San Loo et al. Immunity, from Hargreaves D search. Jul 9, 2020. https://doi.org/10.1016/j.immuni.2020.06.011
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 2 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
