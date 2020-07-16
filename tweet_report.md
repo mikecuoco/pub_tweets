@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-07-15
+2020-07-16
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#vnxjlfpeaq .gt_table {
+#kprvqbytyx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_heading {
+#kprvqbytyx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_title {
+#kprvqbytyx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#vnxjlfpeaq .gt_subtitle {
+#kprvqbytyx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#vnxjlfpeaq .gt_bottom_border {
+#kprvqbytyx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_col_headings {
+#kprvqbytyx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_col_heading {
+#kprvqbytyx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vnxjlfpeaq .gt_column_spanner_outer {
+#kprvqbytyx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#vnxjlfpeaq .gt_column_spanner_outer:first-child {
+#kprvqbytyx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vnxjlfpeaq .gt_column_spanner_outer:last-child {
+#kprvqbytyx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vnxjlfpeaq .gt_column_spanner {
+#kprvqbytyx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#vnxjlfpeaq .gt_group_heading {
+#kprvqbytyx .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vnxjlfpeaq .gt_empty_group_heading {
+#kprvqbytyx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vnxjlfpeaq .gt_striped {
+#kprvqbytyx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vnxjlfpeaq .gt_from_md > :first-child {
+#kprvqbytyx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vnxjlfpeaq .gt_from_md > :last-child {
+#kprvqbytyx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vnxjlfpeaq .gt_row {
+#kprvqbytyx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vnxjlfpeaq .gt_stub {
+#kprvqbytyx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#vnxjlfpeaq .gt_summary_row {
+#kprvqbytyx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vnxjlfpeaq .gt_first_summary_row {
+#kprvqbytyx .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_grand_summary_row {
+#kprvqbytyx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vnxjlfpeaq .gt_first_grand_summary_row {
+#kprvqbytyx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_table_body {
+#kprvqbytyx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_footnotes {
+#kprvqbytyx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_footnote {
+#kprvqbytyx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vnxjlfpeaq .gt_sourcenotes {
+#kprvqbytyx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vnxjlfpeaq .gt_sourcenote {
+#kprvqbytyx .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vnxjlfpeaq .gt_left {
+#kprvqbytyx .gt_left {
   text-align: left;
 }
 
-#vnxjlfpeaq .gt_center {
+#kprvqbytyx .gt_center {
   text-align: center;
 }
 
-#vnxjlfpeaq .gt_right {
+#kprvqbytyx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vnxjlfpeaq .gt_font_normal {
+#kprvqbytyx .gt_font_normal {
   font-weight: normal;
 }
 
-#vnxjlfpeaq .gt_font_bold {
+#kprvqbytyx .gt_font_bold {
   font-weight: bold;
 }
 
-#vnxjlfpeaq .gt_font_italic {
+#kprvqbytyx .gt_font_italic {
   font-style: italic;
 }
 
-#vnxjlfpeaq .gt_super {
+#kprvqbytyx .gt_super {
   font-size: 65%;
 }
 
-#vnxjlfpeaq .gt_footnote_marks {
+#kprvqbytyx .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="vnxjlfpeaq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="kprvqbytyx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,194 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Consequences of access to water from managed aquifer recharge systems
-for blood pressure and proteinuria in south-west coastal Bangladesh: a
-stepped-wedge cluster-randomized trial.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-13
-
-</td>
-
-<td class="gt_row gt_left">
-
-International journal of epidemiology
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1093/ije/dyaa098>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Abu Mohd Naser
-
-</td>
-
-<td class="gt_row gt_center">
-
-Stephen P Luby
-
-</td>
-
-<td class="gt_row gt_left">
-
-Chang H
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Hopper: a mathematically optimal algorithm for sketching biological
-data.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-14
-
-</td>
-
-<td class="gt_row gt_left">
-
-Bioinformatics (Oxford, England)
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1093/bioinformatics/btaa408>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Benjamin DeMeo
-
-</td>
-
-<td class="gt_row gt_center">
-
-Bonnie Berger
-
-</td>
-
-<td class="gt_row gt_left">
-
-Berger B
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-L1CAM defines the regenerative origin of metastasis-initiating cells in
-colorectal cancer.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-14
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature cancer
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s43018-019-0006-x>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Karuna Ganesh
-
-</td>
-
-<td class="gt_row gt_center">
-
-Joan Massagué
-
-</td>
-
-<td class="gt_row gt_left">
-
-Pe’er D
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Functional Genomics of Healthy and Pathological Fetal Membranes.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-07-14
-
-</td>
-
-<td class="gt_row gt_left">
-
-Frontiers in physiology
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.3389/fphys.2020.00687>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Sarah J Cunningham
-
-</td>
-
-<td class="gt_row gt_center">
-
-Timothy E Reddy
-
-</td>
-
-<td class="gt_row gt_left">
-
-Reddy T
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -606,25 +418,14 @@ Reddy T
 tweet_pubs(all_df, token)
 ```
 
-    ## "Consequences of access to water from managed aquifer recharge systems for blood pressure and proteinuria in south-west coastal Bangladesh: a stepped-wedge..." by Abu Mohd Naser et al. International journal of epidemiology, from Chang H search. Jul 13, 2020. https://doi.org/10.1093/ije/dyaa098
-    ## "Hopper: a mathematically optimal algorithm for sketching biological data." by Benjamin DeMeo et al. Bioinformatics (Oxford, England), from Berger B search. Jul 14, 2020. https://doi.org/10.1093/bioinformatics/btaa408
-
-    ## your tweet has been posted!
-
-    ## "L1CAM defines the regenerative origin of metastasis-initiating cells in colorectal cancer." by Karuna Ganesh et al. Nature cancer, from Pe'er D search. Jul 14, 2020. https://doi.org/10.1038/s43018-019-0006-x
-
-    ## your tweet has been posted!
-
-    ## "Functional Genomics of Healthy and Pathological Fetal Membranes." by Sarah J Cunningham et al. Frontiers in physiology, from Reddy T search. Jul 14, 2020. https://doi.org/10.3389/fphys.2020.00687
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 4 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
