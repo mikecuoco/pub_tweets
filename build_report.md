@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-07-20
+2020-07-21
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -40,7 +40,7 @@ make(plan)
 
     ## ▶ target pub_df
 
-    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -56,7 +56,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -87,7 +87,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -110,7 +110,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -123,7 +123,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -144,7 +144,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -159,7 +159,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -172,13 +172,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-03-08
 
     ## done!
 
-    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -191,11 +191,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -206,7 +206,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -217,11 +217,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -274,7 +274,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -308,17 +308,17 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-06-09
 
     ## done!
 
-    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -394,7 +394,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -407,11 +407,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -432,7 +432,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -443,7 +443,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -454,13 +454,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-07-15
 
     ## done!
 
-    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -477,19 +477,19 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2019-12-04
 
     ## done!
 
-    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-03-08
 
     ## done!
 
-    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -504,11 +504,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -521,7 +521,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -540,7 +540,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -555,7 +555,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -574,7 +574,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -587,11 +587,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -602,7 +602,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -640,7 +640,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -653,7 +653,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -670,7 +670,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -695,7 +695,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -710,7 +710,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -727,7 +727,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -744,7 +744,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -761,13 +761,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-03-13
 
     ## done!
 
-    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -788,11 +788,11 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -807,7 +807,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -820,7 +820,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -870,17 +870,17 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-05-20
 
     ## done!
 
-    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -907,7 +907,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -918,7 +918,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -931,7 +931,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -944,15 +944,15 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -979,7 +979,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -992,7 +992,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1005,7 +1005,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1022,7 +1022,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1070,13 +1070,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-01-16
 
     ## done!
 
-    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1107,7 +1107,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1124,7 +1124,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1135,7 +1135,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1165,13 +1165,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-01-25
 
     ## done!
 
-    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1206,7 +1206,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1229,7 +1229,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1279,7 +1279,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1327,7 +1327,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1340,7 +1340,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1367,7 +1367,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1380,7 +1380,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1423,7 +1423,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1436,7 +1436,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1447,7 +1447,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1458,7 +1458,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1475,7 +1475,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1500,13 +1500,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-04-16
 
     ## done!
 
-    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1521,7 +1521,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2020-07-18"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2020-07-20"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -1570,7 +1570,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#uaaridrdwt .gt_table {
+#vvgjodkkgz .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1593,7 +1593,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_heading {
+#vvgjodkkgz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1605,7 +1605,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_title {
+#vvgjodkkgz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1615,7 +1615,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#uaaridrdwt .gt_subtitle {
+#vvgjodkkgz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1625,13 +1625,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#uaaridrdwt .gt_bottom_border {
+#vvgjodkkgz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_col_headings {
+#vvgjodkkgz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1646,7 +1646,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_col_heading {
+#vvgjodkkgz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1666,7 +1666,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#uaaridrdwt .gt_column_spanner_outer {
+#vvgjodkkgz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1678,15 +1678,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#uaaridrdwt .gt_column_spanner_outer:first-child {
+#vvgjodkkgz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#uaaridrdwt .gt_column_spanner_outer:last-child {
+#vvgjodkkgz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#uaaridrdwt .gt_column_spanner {
+#vvgjodkkgz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1698,7 +1698,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#uaaridrdwt .gt_group_heading {
+#vvgjodkkgz .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1720,7 +1720,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#uaaridrdwt .gt_empty_group_heading {
+#vvgjodkkgz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1735,19 +1735,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#uaaridrdwt .gt_striped {
+#vvgjodkkgz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#uaaridrdwt .gt_from_md > :first-child {
+#vvgjodkkgz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#uaaridrdwt .gt_from_md > :last-child {
+#vvgjodkkgz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#uaaridrdwt .gt_row {
+#vvgjodkkgz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1766,7 +1766,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#uaaridrdwt .gt_stub {
+#vvgjodkkgz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1778,7 +1778,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#uaaridrdwt .gt_summary_row {
+#vvgjodkkgz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1788,7 +1788,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#uaaridrdwt .gt_first_summary_row {
+#vvgjodkkgz .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1798,7 +1798,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_grand_summary_row {
+#vvgjodkkgz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1808,7 +1808,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#uaaridrdwt .gt_first_grand_summary_row {
+#vvgjodkkgz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1818,7 +1818,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_table_body {
+#vvgjodkkgz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1827,7 +1827,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_footnotes {
+#vvgjodkkgz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1841,13 +1841,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_footnote {
+#vvgjodkkgz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#uaaridrdwt .gt_sourcenotes {
+#vvgjodkkgz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1861,47 +1861,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uaaridrdwt .gt_sourcenote {
+#vvgjodkkgz .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#uaaridrdwt .gt_left {
+#vvgjodkkgz .gt_left {
   text-align: left;
 }
 
-#uaaridrdwt .gt_center {
+#vvgjodkkgz .gt_center {
   text-align: center;
 }
 
-#uaaridrdwt .gt_right {
+#vvgjodkkgz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#uaaridrdwt .gt_font_normal {
+#vvgjodkkgz .gt_font_normal {
   font-weight: normal;
 }
 
-#uaaridrdwt .gt_font_bold {
+#vvgjodkkgz .gt_font_bold {
   font-weight: bold;
 }
 
-#uaaridrdwt .gt_font_italic {
+#vvgjodkkgz .gt_font_italic {
   font-style: italic;
 }
 
-#uaaridrdwt .gt_super {
+#vvgjodkkgz .gt_super {
   font-size: 65%;
 }
 
-#uaaridrdwt .gt_footnote_marks {
+#vvgjodkkgz .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="uaaridrdwt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vvgjodkkgz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -1949,13 +1949,13 @@ affils
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -1977,19 +1977,19 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.218s
+0.203s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.092s
+0.089s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.002s
+0s
 
 </td>
 
@@ -2033,19 +2033,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-8.273s
+4.696s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.726s
+0.346s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.07s
+0.169s
 
 </td>
 
@@ -2061,19 +2061,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.355s
+0.303s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.123s
+0.118s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.008s
+0.001s
 
 </td>
 
@@ -2089,7 +2089,7 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -2117,19 +2117,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-84s (\~1.4 minutes)
+66s (\~1.1 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-29.209s
+25.514s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.224s
+0.176s
 
 </td>
 
@@ -2145,19 +2145,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.326s
+0.952s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.174s
+0.14s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.032s
+0.016s
 
 </td>
 
@@ -2173,13 +2173,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.015s
+0.013s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.014s
+0.013s
 
 </td>
 
