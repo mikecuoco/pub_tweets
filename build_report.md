@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-07-21
+2020-07-22
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -60,6 +60,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-21
 
     ## found paper published on 2020-06-26
 
@@ -1570,7 +1572,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#vvgjodkkgz .gt_table {
+#mzhwwivefx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1593,7 +1595,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_heading {
+#mzhwwivefx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1605,7 +1607,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_title {
+#mzhwwivefx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1615,7 +1617,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#vvgjodkkgz .gt_subtitle {
+#mzhwwivefx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1625,13 +1627,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#vvgjodkkgz .gt_bottom_border {
+#mzhwwivefx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_col_headings {
+#mzhwwivefx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1646,7 +1648,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_col_heading {
+#mzhwwivefx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1666,7 +1668,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#vvgjodkkgz .gt_column_spanner_outer {
+#mzhwwivefx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1678,15 +1680,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#vvgjodkkgz .gt_column_spanner_outer:first-child {
+#mzhwwivefx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vvgjodkkgz .gt_column_spanner_outer:last-child {
+#mzhwwivefx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vvgjodkkgz .gt_column_spanner {
+#mzhwwivefx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1698,7 +1700,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#vvgjodkkgz .gt_group_heading {
+#mzhwwivefx .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1720,7 +1722,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#vvgjodkkgz .gt_empty_group_heading {
+#mzhwwivefx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1735,19 +1737,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#vvgjodkkgz .gt_striped {
+#mzhwwivefx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vvgjodkkgz .gt_from_md > :first-child {
+#mzhwwivefx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vvgjodkkgz .gt_from_md > :last-child {
+#mzhwwivefx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vvgjodkkgz .gt_row {
+#mzhwwivefx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1766,7 +1768,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#vvgjodkkgz .gt_stub {
+#mzhwwivefx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1778,7 +1780,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#vvgjodkkgz .gt_summary_row {
+#mzhwwivefx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1788,7 +1790,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#vvgjodkkgz .gt_first_summary_row {
+#mzhwwivefx .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1798,7 +1800,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_grand_summary_row {
+#mzhwwivefx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1808,7 +1810,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#vvgjodkkgz .gt_first_grand_summary_row {
+#mzhwwivefx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1818,7 +1820,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_table_body {
+#mzhwwivefx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1827,7 +1829,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_footnotes {
+#mzhwwivefx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1841,13 +1843,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_footnote {
+#mzhwwivefx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vvgjodkkgz .gt_sourcenotes {
+#mzhwwivefx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1861,47 +1863,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vvgjodkkgz .gt_sourcenote {
+#mzhwwivefx .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vvgjodkkgz .gt_left {
+#mzhwwivefx .gt_left {
   text-align: left;
 }
 
-#vvgjodkkgz .gt_center {
+#mzhwwivefx .gt_center {
   text-align: center;
 }
 
-#vvgjodkkgz .gt_right {
+#mzhwwivefx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vvgjodkkgz .gt_font_normal {
+#mzhwwivefx .gt_font_normal {
   font-weight: normal;
 }
 
-#vvgjodkkgz .gt_font_bold {
+#mzhwwivefx .gt_font_bold {
   font-weight: bold;
 }
 
-#vvgjodkkgz .gt_font_italic {
+#mzhwwivefx .gt_font_italic {
   font-style: italic;
 }
 
-#vvgjodkkgz .gt_super {
+#mzhwwivefx .gt_super {
   font-size: 65%;
 }
 
-#vvgjodkkgz .gt_footnote_marks {
+#mzhwwivefx .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="vvgjodkkgz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="mzhwwivefx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -1977,13 +1979,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.203s
+0.286s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.089s
+0.104s
 
 </td>
 
@@ -2005,13 +2007,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2033,19 +2035,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-4.696s
+8.604s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.346s
+0.634s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.169s
+0.036s
 
 </td>
 
@@ -2061,19 +2063,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.303s
+0.421s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.118s
+0.142s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.001s
+0.008s
 
 </td>
 
@@ -2089,13 +2091,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2117,13 +2119,13 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-66s (\~1.1 minutes)
+71s (\~1.18 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-25.514s
+28.004s
 
 </td>
 
@@ -2145,19 +2147,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.952s
+1.165s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.14s
+0.156s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.016s
+0s
 
 </td>
 
@@ -2173,13 +2175,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.013s
+0.016s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.013s
+0.016s
 
 </td>
 
