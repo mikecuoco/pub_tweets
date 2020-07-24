@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-07-23
+2020-07-24
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#cxpbmyefuq .gt_table {
+#zrrlojzlul .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_heading {
+#zrrlojzlul .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_title {
+#zrrlojzlul .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#cxpbmyefuq .gt_subtitle {
+#zrrlojzlul .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#cxpbmyefuq .gt_bottom_border {
+#zrrlojzlul .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_col_headings {
+#zrrlojzlul .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_col_heading {
+#zrrlojzlul .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#cxpbmyefuq .gt_column_spanner_outer {
+#zrrlojzlul .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#cxpbmyefuq .gt_column_spanner_outer:first-child {
+#zrrlojzlul .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cxpbmyefuq .gt_column_spanner_outer:last-child {
+#zrrlojzlul .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cxpbmyefuq .gt_column_spanner {
+#zrrlojzlul .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#cxpbmyefuq .gt_group_heading {
+#zrrlojzlul .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#cxpbmyefuq .gt_empty_group_heading {
+#zrrlojzlul .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#cxpbmyefuq .gt_striped {
+#zrrlojzlul .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cxpbmyefuq .gt_from_md > :first-child {
+#zrrlojzlul .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cxpbmyefuq .gt_from_md > :last-child {
+#zrrlojzlul .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cxpbmyefuq .gt_row {
+#zrrlojzlul .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#cxpbmyefuq .gt_stub {
+#zrrlojzlul .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#cxpbmyefuq .gt_summary_row {
+#zrrlojzlul .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#cxpbmyefuq .gt_first_summary_row {
+#zrrlojzlul .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_grand_summary_row {
+#zrrlojzlul .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#cxpbmyefuq .gt_first_grand_summary_row {
+#zrrlojzlul .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_table_body {
+#zrrlojzlul .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_footnotes {
+#zrrlojzlul .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_footnote {
+#zrrlojzlul .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#cxpbmyefuq .gt_sourcenotes {
+#zrrlojzlul .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cxpbmyefuq .gt_sourcenote {
+#zrrlojzlul .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#cxpbmyefuq .gt_left {
+#zrrlojzlul .gt_left {
   text-align: left;
 }
 
-#cxpbmyefuq .gt_center {
+#zrrlojzlul .gt_center {
   text-align: center;
 }
 
-#cxpbmyefuq .gt_right {
+#zrrlojzlul .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cxpbmyefuq .gt_font_normal {
+#zrrlojzlul .gt_font_normal {
   font-weight: normal;
 }
 
-#cxpbmyefuq .gt_font_bold {
+#zrrlojzlul .gt_font_bold {
   font-weight: bold;
 }
 
-#cxpbmyefuq .gt_font_italic {
+#zrrlojzlul .gt_font_italic {
   font-style: italic;
 }
 
-#cxpbmyefuq .gt_super {
+#zrrlojzlul .gt_super {
   font-size: 65%;
 }
 
-#cxpbmyefuq .gt_footnote_marks {
+#zrrlojzlul .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="cxpbmyefuq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="zrrlojzlul" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,146 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Single-cell omics in ageing: a young and growing field.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-23
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature metabolism
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s42255-020-0196-7>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Xiaojuan He
+
+</td>
+
+<td class="gt_row gt_center">
+
+Guang-Hui Liu
+
+</td>
+
+<td class="gt_row gt_left">
+
+Belmonte
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+MeCP2 links heterochromatin condensates and neurodevelopmental disease.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-23
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41586-020-2574-4>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Charles H Li
+
+</td>
+
+<td class="gt_row gt_center">
+
+Richard A Young
+
+</td>
+
+<td class="gt_row gt_left">
+
+Jaenisch R
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Prevention of Severe Intestinal Barrier Dysfunction Through a
+Single-Species Probiotics Is Associated With the Activation of
+Microbiome-Mediated Glutamate-Glutamine Biosynthesis.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-23
+
+</td>
+
+<td class="gt_row gt_left">
+
+Shock (Augusta, Ga.)
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1097/SHK.0000000000001593>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Yuxin Leng
+
+</td>
+
+<td class="gt_row gt_center">
+
+Gaiqi Yao
+
+</td>
+
+<td class="gt_row gt_left">
+
+Snyder M
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +558,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Single-cell omics in ageing: a young and growing field." by Xiaojuan He et al. Nature metabolism, from Belmonte search. Jul 23, 2020. https://doi.org/10.1038/s42255-020-0196-7
+
+    ## your tweet has been posted!
+
+    ## "MeCP2 links heterochromatin condensates and neurodevelopmental disease." by Charles H Li et al. Nature, from Jaenisch R search. Jul 23, 2020. https://doi.org/10.1038/s41586-020-2574-4
+
+    ## your tweet has been posted!
+
+    ## "Prevention of Severe Intestinal Barrier Dysfunction Through a Single-Species Probiotics Is Associated With the Activation of Microbiome-Mediated Glutamate-Glutamine..." by Yuxin Leng et al. Shock (Augusta, Ga.), from Snyder M search. Jul 23, 2020. https://doi.org/10.1097/SHK.0000000000001593
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
