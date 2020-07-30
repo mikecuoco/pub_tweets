@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-07-29
+2020-07-30
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -21,8 +21,6 @@ source("R/plan.R")
 ``` r
 make(plan)
 ```
-
-    ## ℹ Consider drake::r_make() to improve robustness.
 
     ## ▶ target term_table
 
@@ -232,6 +230,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-07-29
+
     ## found paper published on 2020-07-17
 
     ## found paper published on 2020-07-15
@@ -284,6 +284,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-29
 
     ## found paper published on 2020-07-25
 
@@ -621,6 +623,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-07-29
+
     ## found paper published on 2020-07-12
 
     ## found paper published on 2020-06-05
@@ -713,6 +717,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-29
 
     ## found paper published on 2020-07-28
 
@@ -1056,8 +1062,9 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-07-25
+    ## found paper published on 2020-07-29
 
+    ## found paper published on 2020-07-25
     ## found paper published on 2020-07-25
 
     ## found paper published on 2020-07-15
@@ -1113,6 +1120,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-29
 
     ## found paper published on 2020-07-25
 
@@ -1615,7 +1624,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#dtdficqess .gt_table {
+#hjskdxjvig .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1638,7 +1647,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#dtdficqess .gt_heading {
+#hjskdxjvig .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1650,7 +1659,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dtdficqess .gt_title {
+#hjskdxjvig .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1660,7 +1669,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#dtdficqess .gt_subtitle {
+#hjskdxjvig .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1670,13 +1679,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#dtdficqess .gt_bottom_border {
+#hjskdxjvig .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dtdficqess .gt_col_headings {
+#hjskdxjvig .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1691,7 +1700,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dtdficqess .gt_col_heading {
+#hjskdxjvig .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1711,7 +1720,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#dtdficqess .gt_column_spanner_outer {
+#hjskdxjvig .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1723,15 +1732,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#dtdficqess .gt_column_spanner_outer:first-child {
+#hjskdxjvig .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dtdficqess .gt_column_spanner_outer:last-child {
+#hjskdxjvig .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dtdficqess .gt_column_spanner {
+#hjskdxjvig .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1743,7 +1752,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#dtdficqess .gt_group_heading {
+#hjskdxjvig .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1765,7 +1774,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#dtdficqess .gt_empty_group_heading {
+#hjskdxjvig .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1780,19 +1789,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#dtdficqess .gt_striped {
+#hjskdxjvig .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dtdficqess .gt_from_md > :first-child {
+#hjskdxjvig .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dtdficqess .gt_from_md > :last-child {
+#hjskdxjvig .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dtdficqess .gt_row {
+#hjskdxjvig .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1811,7 +1820,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#dtdficqess .gt_stub {
+#hjskdxjvig .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1823,7 +1832,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#dtdficqess .gt_summary_row {
+#hjskdxjvig .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1833,7 +1842,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#dtdficqess .gt_first_summary_row {
+#hjskdxjvig .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1843,7 +1852,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#dtdficqess .gt_grand_summary_row {
+#hjskdxjvig .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1853,7 +1862,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#dtdficqess .gt_first_grand_summary_row {
+#hjskdxjvig .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1863,7 +1872,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#dtdficqess .gt_table_body {
+#hjskdxjvig .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1872,7 +1881,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#dtdficqess .gt_footnotes {
+#hjskdxjvig .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1886,13 +1895,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dtdficqess .gt_footnote {
+#hjskdxjvig .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#dtdficqess .gt_sourcenotes {
+#hjskdxjvig .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1906,47 +1915,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#dtdficqess .gt_sourcenote {
+#hjskdxjvig .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#dtdficqess .gt_left {
+#hjskdxjvig .gt_left {
   text-align: left;
 }
 
-#dtdficqess .gt_center {
+#hjskdxjvig .gt_center {
   text-align: center;
 }
 
-#dtdficqess .gt_right {
+#hjskdxjvig .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dtdficqess .gt_font_normal {
+#hjskdxjvig .gt_font_normal {
   font-weight: normal;
 }
 
-#dtdficqess .gt_font_bold {
+#hjskdxjvig .gt_font_bold {
   font-weight: bold;
 }
 
-#dtdficqess .gt_font_italic {
+#hjskdxjvig .gt_font_italic {
   font-style: italic;
 }
 
-#dtdficqess .gt_super {
+#hjskdxjvig .gt_super {
   font-size: 65%;
 }
 
-#dtdficqess .gt_footnote_marks {
+#hjskdxjvig .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="dtdficqess" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hjskdxjvig" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2006,7 +2015,7 @@ affils
 
 <td class="gt_row gt_center">
 
-0.001s
+0s
 
 </td>
 
@@ -2022,13 +2031,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.229s
+0.214s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.098s
+0.089s
 
 </td>
 
@@ -2056,7 +2065,7 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.005s
 
 </td>
 
@@ -2078,19 +2087,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-9.149s
+23.943s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.79s
+4.302s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.012s
+0.981s
 
 </td>
 
@@ -2106,19 +2115,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.388s
+0.378s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.144s
+0.146s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.005s
 
 </td>
 
@@ -2140,7 +2149,7 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -2162,19 +2171,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-96s (\~1.6 minutes)
+93s (\~1.55 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-41.371s
+39.094s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.233s
+0.198s
 
 </td>
 
@@ -2190,19 +2199,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.053s
+1.079s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.214s
+0.198s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.013s
+0.024s
 
 </td>
 
@@ -2218,13 +2227,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.013s
+0.015s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.014s
+0.015s
 
 </td>
 

@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-07-29
+2020-07-30
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#hqznrjgwtd .gt_table {
+#sjvpjizmty .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_heading {
+#sjvpjizmty .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_title {
+#sjvpjizmty .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#hqznrjgwtd .gt_subtitle {
+#sjvpjizmty .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#hqznrjgwtd .gt_bottom_border {
+#sjvpjizmty .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_col_headings {
+#sjvpjizmty .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_col_heading {
+#sjvpjizmty .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#hqznrjgwtd .gt_column_spanner_outer {
+#sjvpjizmty .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#hqznrjgwtd .gt_column_spanner_outer:first-child {
+#sjvpjizmty .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#hqznrjgwtd .gt_column_spanner_outer:last-child {
+#sjvpjizmty .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#hqznrjgwtd .gt_column_spanner {
+#sjvpjizmty .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#hqznrjgwtd .gt_group_heading {
+#sjvpjizmty .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#hqznrjgwtd .gt_empty_group_heading {
+#sjvpjizmty .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#hqznrjgwtd .gt_striped {
+#sjvpjizmty .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#hqznrjgwtd .gt_from_md > :first-child {
+#sjvpjizmty .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#hqznrjgwtd .gt_from_md > :last-child {
+#sjvpjizmty .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#hqznrjgwtd .gt_row {
+#sjvpjizmty .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#hqznrjgwtd .gt_stub {
+#sjvpjizmty .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#hqznrjgwtd .gt_summary_row {
+#sjvpjizmty .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#hqznrjgwtd .gt_first_summary_row {
+#sjvpjizmty .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_grand_summary_row {
+#sjvpjizmty .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#hqznrjgwtd .gt_first_grand_summary_row {
+#sjvpjizmty .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_table_body {
+#sjvpjizmty .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_footnotes {
+#sjvpjizmty .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_footnote {
+#sjvpjizmty .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#hqznrjgwtd .gt_sourcenotes {
+#sjvpjizmty .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#hqznrjgwtd .gt_sourcenote {
+#sjvpjizmty .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#hqznrjgwtd .gt_left {
+#sjvpjizmty .gt_left {
   text-align: left;
 }
 
-#hqznrjgwtd .gt_center {
+#sjvpjizmty .gt_center {
   text-align: center;
 }
 
-#hqznrjgwtd .gt_right {
+#sjvpjizmty .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#hqznrjgwtd .gt_font_normal {
+#sjvpjizmty .gt_font_normal {
   font-weight: normal;
 }
 
-#hqznrjgwtd .gt_font_bold {
+#sjvpjizmty .gt_font_bold {
   font-weight: bold;
 }
 
-#hqznrjgwtd .gt_font_italic {
+#sjvpjizmty .gt_font_italic {
   font-style: italic;
 }
 
-#hqznrjgwtd .gt_super {
+#sjvpjizmty .gt_super {
   font-size: 65%;
 }
 
-#hqznrjgwtd .gt_footnote_marks {
+#sjvpjizmty .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="hqznrjgwtd" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="sjvpjizmty" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -454,6 +454,240 @@ Jacks T
 
 </tr>
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Functional annotation of human long noncoding RNAs via molecular
+phenotyping.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-29
+
+</td>
+
+<td class="gt_row gt_left">
+
+Genome research
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/gr.254219.119>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Jordan A Ramilowski
+
+</td>
+
+<td class="gt_row gt_center">
+
+Piero Carninci
+
+</td>
+
+<td class="gt_row gt_left">
+
+Chang H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+3D mapping and accelerated super-resolution imaging of the human genome
+using in situ sequencing.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-29
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature methods
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41592-020-0890-0>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Huy Q Nguyen
+
+</td>
+
+<td class="gt_row gt_center">
+
+C-Ting Wu
+
+</td>
+
+<td class="gt_row gt_left">
+
+Church G
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Cumulus provides cloud-based data analysis for large-scale single-cell
+and single-nucleus RNA-seq.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-29
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature methods
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41592-020-0905-x>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Bo Li
+
+</td>
+
+<td class="gt_row gt_center">
+
+Aviv Regev
+
+</td>
+
+<td class="gt_row gt_left">
+
+Hacohen N
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Inducible de novo expression of neoantigens in tumor cells and mice.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-29
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature biotechnology
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41587-020-0613-1>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Martina Damo
+
+</td>
+
+<td class="gt_row gt_center">
+
+Nikhil S Joshi
+
+</td>
+
+<td class="gt_row gt_left">
+
+Jacks T
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Cumulus provides cloud-based data analysis for large-scale single-cell
+and single-nucleus RNA-seq.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-07-29
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature methods
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41592-020-0905-x>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Bo Li
+
+</td>
+
+<td class="gt_row gt_center">
+
+Aviv Regev
+
+</td>
+
+<td class="gt_row gt_left">
+
+Regev A
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -467,13 +701,36 @@ tweet_pubs(all_df, token)
 ```
 
     ## "The Genomic Landscape of SMARCA4 Alterations and Associations with Outcomes in Patients with Lung Cancer." by Adam J Schoenfeld et al. Clinical cancer research : an official journal of the American Association for Cancer Research, from Jacks T search. Jul 28, 2020. https://doi.org/10.1158/1078-0432.CCR-20-1825
+    ## "Functional annotation of human long noncoding RNAs via molecular phenotyping." by Jordan A Ramilowski et al. Genome research, from Chang H search. Jul 29, 2020. https://doi.org/10.1101/gr.254219.119
+
+    ## your tweet has been posted!
+
+    ## "3D mapping and accelerated super-resolution imaging of the human genome using in situ sequencing." by Huy Q Nguyen et al. Nature methods, from Church G search. Jul 29, 2020. https://doi.org/10.1038/s41592-020-0890-0
+
+    ## your tweet has been posted!
+
+    ## "Cumulus provides cloud-based data analysis for large-scale single-cell and single-nucleus RNA-seq." by Bo Li et al. Nature methods, from Hacohen N search. Jul 29, 2020. https://doi.org/10.1038/s41592-020-0905-x
+
+    ## your tweet has been posted!
+
+    ## "Inducible de novo expression of neoantigens in tumor cells and mice." by Martina Damo et al. Nature biotechnology, from Jacks T search. Jul 29, 2020. https://doi.org/10.1038/s41587-020-0613-1
+
+    ## your tweet has been posted!
+
+    ## "Cumulus provides cloud-based data analysis for large-scale single-cell and single-nucleus RNA-seq." by Bo Li et al. Nature methods, from Regev A search. Jul 29, 2020. https://doi.org/10.1038/s41592-020-0905-x
+
+    ## your tweet has been posted!
+
+    ## "Dihydroxyacetone phosphate signals glucose availability to mTORC1." by Jose M Orozco et al. Nature metabolism, from Sabatini D search. Jul 29, 2020. https://doi.org/10.1038/s42255-020-0250-5
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 1 times
+    ## tweeted 7 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
