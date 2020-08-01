@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-07-31
+2020-08-01
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -186,6 +186,11 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-31
+
+    ## found paper published on 2020-07-31
+    ## found paper published on 2020-07-31
 
     ## found paper published on 2020-07-17
 
@@ -430,6 +435,11 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-07-31
+
+    ## found paper published on 2020-07-31
+    ## found paper published on 2020-07-31
+
     ## found paper published on 2020-07-23
 
     ## found paper published on 2020-07-17
@@ -509,6 +519,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-31
 
     ## found paper published on 2020-05-16
 
@@ -777,6 +789,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-31
 
     ## found paper published on 2020-06-10
 
@@ -1196,6 +1210,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-07-31
+
     ## found paper published on 2020-07-30
 
     ## found paper published on 2020-07-08
@@ -1292,6 +1308,12 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-07-31
+
+    ## found paper published on 2020-07-31
+    ## found paper published on 2020-07-31
+    ## found paper published on 2020-07-31
 
     ## found paper published on 2020-07-24
 
@@ -1544,8 +1566,9 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-07-17
+    ## found paper published on 2020-07-31
 
+    ## found paper published on 2020-07-17
     ## found paper published on 2020-07-17
 
     ## found paper published on 2020-07-11
@@ -1636,7 +1659,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ewinqzdqwu .gt_table {
+#magcthrnsd .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1659,7 +1682,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_heading {
+#magcthrnsd .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1671,7 +1694,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_title {
+#magcthrnsd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1681,7 +1704,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#ewinqzdqwu .gt_subtitle {
+#magcthrnsd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1691,13 +1714,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#ewinqzdqwu .gt_bottom_border {
+#magcthrnsd .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_col_headings {
+#magcthrnsd .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1712,7 +1735,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_col_heading {
+#magcthrnsd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1732,7 +1755,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#ewinqzdqwu .gt_column_spanner_outer {
+#magcthrnsd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1744,15 +1767,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#ewinqzdqwu .gt_column_spanner_outer:first-child {
+#magcthrnsd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ewinqzdqwu .gt_column_spanner_outer:last-child {
+#magcthrnsd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ewinqzdqwu .gt_column_spanner {
+#magcthrnsd .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1764,7 +1787,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#ewinqzdqwu .gt_group_heading {
+#magcthrnsd .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1786,7 +1809,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#ewinqzdqwu .gt_empty_group_heading {
+#magcthrnsd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1801,19 +1824,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#ewinqzdqwu .gt_striped {
+#magcthrnsd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ewinqzdqwu .gt_from_md > :first-child {
+#magcthrnsd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ewinqzdqwu .gt_from_md > :last-child {
+#magcthrnsd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ewinqzdqwu .gt_row {
+#magcthrnsd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1832,7 +1855,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#ewinqzdqwu .gt_stub {
+#magcthrnsd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1844,7 +1867,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#ewinqzdqwu .gt_summary_row {
+#magcthrnsd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1854,7 +1877,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#ewinqzdqwu .gt_first_summary_row {
+#magcthrnsd .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1864,7 +1887,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_grand_summary_row {
+#magcthrnsd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1874,7 +1897,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#ewinqzdqwu .gt_first_grand_summary_row {
+#magcthrnsd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1884,7 +1907,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_table_body {
+#magcthrnsd .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1893,7 +1916,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_footnotes {
+#magcthrnsd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1907,13 +1930,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_footnote {
+#magcthrnsd .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ewinqzdqwu .gt_sourcenotes {
+#magcthrnsd .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1927,47 +1950,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ewinqzdqwu .gt_sourcenote {
+#magcthrnsd .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ewinqzdqwu .gt_left {
+#magcthrnsd .gt_left {
   text-align: left;
 }
 
-#ewinqzdqwu .gt_center {
+#magcthrnsd .gt_center {
   text-align: center;
 }
 
-#ewinqzdqwu .gt_right {
+#magcthrnsd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ewinqzdqwu .gt_font_normal {
+#magcthrnsd .gt_font_normal {
   font-weight: normal;
 }
 
-#ewinqzdqwu .gt_font_bold {
+#magcthrnsd .gt_font_bold {
   font-weight: bold;
 }
 
-#ewinqzdqwu .gt_font_italic {
+#magcthrnsd .gt_font_italic {
   font-style: italic;
 }
 
-#ewinqzdqwu .gt_super {
+#magcthrnsd .gt_super {
   font-size: 65%;
 }
 
-#ewinqzdqwu .gt_footnote_marks {
+#magcthrnsd .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ewinqzdqwu" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="magcthrnsd" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2015,13 +2038,13 @@ affils
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2043,13 +2066,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.208s
+0.215s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.075s
+0.084s
 
 </td>
 
@@ -2077,7 +2100,7 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2099,19 +2122,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-7.755s
+13.017s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.413s
+0.83s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.048s
+0.032s
 
 </td>
 
@@ -2127,19 +2150,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.372s
+0.36s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.133s
+0.128s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.024s
+0.007s
 
 </td>
 
@@ -2155,13 +2178,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.005s
 
 </td>
 
@@ -2183,19 +2206,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-75s (\~1.25 minutes)
+88s (\~1.47 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-26.115s
+32.922s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.128s
+0.258s
 
 </td>
 
@@ -2211,19 +2234,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.83s
+0.778s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.133s
+0.163s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.001s
+0.012s
 
 </td>
 
@@ -2239,13 +2262,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.013s
+0.016s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.013s
+0.015s
 
 </td>
 
