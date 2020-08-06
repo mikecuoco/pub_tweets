@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-08-05
+2020-08-06
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#tzcompvhkj .gt_table {
+#msbtzpkuih .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_heading {
+#msbtzpkuih .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_title {
+#msbtzpkuih .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#tzcompvhkj .gt_subtitle {
+#msbtzpkuih .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#tzcompvhkj .gt_bottom_border {
+#msbtzpkuih .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_col_headings {
+#msbtzpkuih .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_col_heading {
+#msbtzpkuih .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#tzcompvhkj .gt_column_spanner_outer {
+#msbtzpkuih .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#tzcompvhkj .gt_column_spanner_outer:first-child {
+#msbtzpkuih .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tzcompvhkj .gt_column_spanner_outer:last-child {
+#msbtzpkuih .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tzcompvhkj .gt_column_spanner {
+#msbtzpkuih .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#tzcompvhkj .gt_group_heading {
+#msbtzpkuih .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#tzcompvhkj .gt_empty_group_heading {
+#msbtzpkuih .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#tzcompvhkj .gt_striped {
+#msbtzpkuih .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tzcompvhkj .gt_from_md > :first-child {
+#msbtzpkuih .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tzcompvhkj .gt_from_md > :last-child {
+#msbtzpkuih .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tzcompvhkj .gt_row {
+#msbtzpkuih .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#tzcompvhkj .gt_stub {
+#msbtzpkuih .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#tzcompvhkj .gt_summary_row {
+#msbtzpkuih .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#tzcompvhkj .gt_first_summary_row {
+#msbtzpkuih .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_grand_summary_row {
+#msbtzpkuih .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#tzcompvhkj .gt_first_grand_summary_row {
+#msbtzpkuih .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_table_body {
+#msbtzpkuih .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_footnotes {
+#msbtzpkuih .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_footnote {
+#msbtzpkuih .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#tzcompvhkj .gt_sourcenotes {
+#msbtzpkuih .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tzcompvhkj .gt_sourcenote {
+#msbtzpkuih .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#tzcompvhkj .gt_left {
+#msbtzpkuih .gt_left {
   text-align: left;
 }
 
-#tzcompvhkj .gt_center {
+#msbtzpkuih .gt_center {
   text-align: center;
 }
 
-#tzcompvhkj .gt_right {
+#msbtzpkuih .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tzcompvhkj .gt_font_normal {
+#msbtzpkuih .gt_font_normal {
   font-weight: normal;
 }
 
-#tzcompvhkj .gt_font_bold {
+#msbtzpkuih .gt_font_bold {
   font-weight: bold;
 }
 
-#tzcompvhkj .gt_font_italic {
+#msbtzpkuih .gt_font_italic {
   font-style: italic;
 }
 
-#tzcompvhkj .gt_super {
+#msbtzpkuih .gt_super {
   font-size: 65%;
 }
 
-#tzcompvhkj .gt_footnote_marks {
+#msbtzpkuih .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="tzcompvhkj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="msbtzpkuih" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,147 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+ERK/MAPK signaling is essential for intestinal development through Wnt
+pathway modulation.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-05
+
+</td>
+
+<td class="gt_row gt_left">
+
+Development (Cambridge, England)
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1242/dev.185678>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Gaigai Wei
+
+</td>
+
+<td class="gt_row gt_center">
+
+Dali Li
+
+</td>
+
+<td class="gt_row gt_left">
+
+Clevers H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+The nucleosome acidic patch and H2A ubiquitination underlie mSWI/SNF
+recruitment in synovial sarcoma.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-05
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature structural & molecular biology
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41594-020-0466-9>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Matthew J McBride
+
+</td>
+
+<td class="gt_row gt_center">
+
+Cigall Kadoch
+
+</td>
+
+<td class="gt_row gt_left">
+
+Kadoch C
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A proof of concept for biomarker-guided targeted therapy against ovarian
+cancer based on patient-derived tumor xenografts.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-05
+
+</td>
+
+<td class="gt_row gt_left">
+
+Cancer research
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1158/0008-5472.CAN-19-3850>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Adam C Palmer
+
+</td>
+
+<td class="gt_row gt_center">
+
+Peter K Sorger
+
+</td>
+
+<td class="gt_row gt_left">
+
+Sellers W
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +559,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "ERK/MAPK signaling is essential for intestinal development through Wnt pathway modulation." by Gaigai Wei et al. Development (Cambridge, England), from Clevers H search. Aug 5, 2020. https://doi.org/10.1242/dev.185678
+
+    ## your tweet has been posted!
+
+    ## "The nucleosome acidic patch and H2A ubiquitination underlie mSWI/SNF recruitment in synovial sarcoma." by Matthew J McBride et al. Nature structural & molecular biology, from Kadoch C search. Aug 5, 2020. https://doi.org/10.1038/s41594-020-0466-9
+
+    ## your tweet has been posted!
+
+    ## "A proof of concept for biomarker-guided targeted therapy against ovarian cancer based on patient-derived tumor xenografts." by Adam C Palmer et al. Cancer research, from Sellers W search. Aug 5, 2020. https://doi.org/10.1158/0008-5472.CAN-19-3850
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
