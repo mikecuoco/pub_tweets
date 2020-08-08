@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-08-07
+2020-08-08
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yhrqfabumm .gt_table {
+#uaadiyzkmz .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_heading {
+#uaadiyzkmz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_title {
+#uaadiyzkmz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#yhrqfabumm .gt_subtitle {
+#uaadiyzkmz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#yhrqfabumm .gt_bottom_border {
+#uaadiyzkmz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_col_headings {
+#uaadiyzkmz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_col_heading {
+#uaadiyzkmz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#yhrqfabumm .gt_column_spanner_outer {
+#uaadiyzkmz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#yhrqfabumm .gt_column_spanner_outer:first-child {
+#uaadiyzkmz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yhrqfabumm .gt_column_spanner_outer:last-child {
+#uaadiyzkmz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yhrqfabumm .gt_column_spanner {
+#uaadiyzkmz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#yhrqfabumm .gt_group_heading {
+#uaadiyzkmz .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#yhrqfabumm .gt_empty_group_heading {
+#uaadiyzkmz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#yhrqfabumm .gt_striped {
+#uaadiyzkmz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yhrqfabumm .gt_from_md > :first-child {
+#uaadiyzkmz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yhrqfabumm .gt_from_md > :last-child {
+#uaadiyzkmz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yhrqfabumm .gt_row {
+#uaadiyzkmz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#yhrqfabumm .gt_stub {
+#uaadiyzkmz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#yhrqfabumm .gt_summary_row {
+#uaadiyzkmz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#yhrqfabumm .gt_first_summary_row {
+#uaadiyzkmz .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_grand_summary_row {
+#uaadiyzkmz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#yhrqfabumm .gt_first_grand_summary_row {
+#uaadiyzkmz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_table_body {
+#uaadiyzkmz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_footnotes {
+#uaadiyzkmz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_footnote {
+#uaadiyzkmz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#yhrqfabumm .gt_sourcenotes {
+#uaadiyzkmz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yhrqfabumm .gt_sourcenote {
+#uaadiyzkmz .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#yhrqfabumm .gt_left {
+#uaadiyzkmz .gt_left {
   text-align: left;
 }
 
-#yhrqfabumm .gt_center {
+#uaadiyzkmz .gt_center {
   text-align: center;
 }
 
-#yhrqfabumm .gt_right {
+#uaadiyzkmz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yhrqfabumm .gt_font_normal {
+#uaadiyzkmz .gt_font_normal {
   font-weight: normal;
 }
 
-#yhrqfabumm .gt_font_bold {
+#uaadiyzkmz .gt_font_bold {
   font-weight: bold;
 }
 
-#yhrqfabumm .gt_font_italic {
+#uaadiyzkmz .gt_font_italic {
   font-style: italic;
 }
 
-#yhrqfabumm .gt_super {
+#uaadiyzkmz .gt_super {
   font-size: 65%;
 }
 
-#yhrqfabumm .gt_footnote_marks {
+#uaadiyzkmz .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="yhrqfabumm" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="uaadiyzkmz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,193 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Detecting regulatory elements in high-throughput reporter assays
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-07
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.08.07.241901>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Kim Y-S.
+
+</td>
+
+<td class="gt_row gt_center">
+
+Timothy E. Reddy
+
+</td>
+
+<td class="gt_row gt_left">
+
+Reddy, T
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A Switch in p53 Dynamics Marks Cells That Escape from DSB-Induced Cell
+Cycle Arrest.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-07
+
+</td>
+
+<td class="gt_row gt_left">
+
+Cell reports
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.celrep.2020.107995>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Michael Tsabar
+
+</td>
+
+<td class="gt_row gt_center">
+
+Galit Lahav
+
+</td>
+
+<td class="gt_row gt_left">
+
+Regev A
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A Distinct Transcriptional Program in Human CAR T Cells Bearing the
+4-1BB Signaling Domain Revealed by scRNA-Seq.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-07
+
+</td>
+
+<td class="gt_row gt_left">
+
+Molecular therapy : the journal of the American Society of Gene Therapy
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.ymthe.2020.07.023>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Angela C Boroughs
+
+</td>
+
+<td class="gt_row gt_center">
+
+Marcela V Maus
+
+</td>
+
+<td class="gt_row gt_left">
+
+Regev A
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Natural Language Processing to Ascertain Cancer Outcomes From Medical
+Oncologist Notes.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-08-07
+
+</td>
+
+<td class="gt_row gt_left">
+
+JCO clinical cancer informatics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1200/CCI.20.00020>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Kenneth L Kehl
+
+</td>
+
+<td class="gt_row gt_center">
+
+Deborah Schrag
+
+</td>
+
+<td class="gt_row gt_left">
+
+Van Allen E
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +605,28 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Detecting regulatory elements in high-throughput reporter assays" by Kim Y-S. et al. bioRxiv, from Reddy, T search. Aug 7, 2020. https://doi.org/10.1101/2020.08.07.241901
+
+    ## your tweet has been posted!
+
+    ## "A Switch in p53 Dynamics Marks Cells That Escape from DSB-Induced Cell Cycle Arrest." by Michael Tsabar et al. Cell reports, from Regev A search. Aug 7, 2020. https://doi.org/10.1016/j.celrep.2020.107995
+
+    ## your tweet has been posted!
+
+    ## "A Distinct Transcriptional Program in Human CAR T Cells Bearing the 4-1BB Signaling Domain Revealed by scRNA-Seq." by Angela C Boroughs et al. Molecular therapy : the journal of the American Society of Gene Therapy, from Regev A search. Aug 7, 2020. https://doi.org/10.1016/j.ymthe.2020.07.023
+
+    ## your tweet has been posted!
+
+    ## "Natural Language Processing to Ascertain Cancer Outcomes From Medical Oncologist Notes." by Kenneth L Kehl et al. JCO clinical cancer informatics, from Van Allen E search. Aug 7, 2020. https://doi.org/10.1200/CCI.20.00020
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
