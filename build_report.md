@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-08-25
+2020-09-18
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -84,8 +84,9 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-07-31
+    ## found paper published on 2020-08-26
 
+    ## found paper published on 2020-07-31
     ## found paper published on 2020-07-31
     ## found paper published on 2020-07-31
 
@@ -144,6 +145,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-08-29
+
     ## found paper published on 2020-07-03
 
     ## found paper published on 2020-06-27
@@ -173,6 +176,10 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-04
+
+    ## found paper published on 2020-08-26
 
     ## found paper published on 2020-08-14
 
@@ -257,6 +264,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-10
 
     ## found paper published on 2020-08-19
 
@@ -378,6 +387,12 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-17
+
+    ## found paper published on 2020-09-06
+
+    ## found paper published on 2020-08-29
+
     ## found paper published on 2020-08-15
 
     ## found paper published on 2020-08-14
@@ -440,6 +455,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-14
 
     ## found paper published on 2020-08-14
 
@@ -538,12 +555,31 @@ make(plan)
 
     ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2020-08-22"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2020-09-12
+
+    ## found paper published on 2020-09-12
+    ## found paper published on 2020-09-12
+    ## found paper published on 2020-09-12
+    ## found paper published on 2020-09-12
+    ## found paper published on 2020-09-12
+
+    ## done!
 
     ## Searching ((Van Allen E[Author] AND Broad Institute[Affiliation]) OR (Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2020-08-22"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-15
+
+    ## found paper published on 2020-09-04
+
+    ## found paper published on 2020-09-02
+
+    ## found paper published on 2020-08-28
 
     ## found paper published on 2020-08-09
 
@@ -609,6 +645,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-10
+
     ## found paper published on 2020-07-14
 
     ## found paper published on 2020-04-02
@@ -660,6 +698,12 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-17
+
+    ## found paper published on 2020-09-04
+
+    ## found paper published on 2020-08-25
+
     ## found paper published on 2020-08-21
 
     ## found paper published on 2020-08-09
@@ -710,6 +754,10 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-03
+
+    ## found paper published on 2020-08-25
+
     ## found paper published on 2020-08-05
 
     ## found paper published on 2020-05-18
@@ -735,8 +783,13 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-08-14
+    ## found paper published on 2020-09-06
 
+    ## found paper published on 2020-09-06
+
+    ## found paper published on 2020-08-26
+
+    ## found paper published on 2020-08-14
     ## found paper published on 2020-08-14
 
     ## found paper published on 2020-07-25
@@ -769,8 +822,11 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-08-14
+    ## found paper published on 2020-09-06
 
+    ## found paper published on 2020-09-06
+
+    ## found paper published on 2020-08-14
     ## found paper published on 2020-08-14
 
     ## found paper published on 2020-08-09
@@ -791,6 +847,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-17
 
     ## found paper published on 2020-07-16
 
@@ -815,6 +873,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-08-30
+
     ## found paper published on 2020-08-15
 
     ## found paper published on 2019-12-04
@@ -825,6 +885,16 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-16
+
+    ## found paper published on 2020-09-11
+
+    ## found paper published on 2020-09-08
+
+    ## found paper published on 2020-08-29
+
+    ## found paper published on 2020-08-26
 
     ## found paper published on 2020-08-21
 
@@ -1017,6 +1087,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-08-25
+
     ## found paper published on 2020-06-03
 
     ## found paper published on 2020-05-10
@@ -1027,6 +1099,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-12
 
     ## found paper published on 2020-08-19
 
@@ -1069,6 +1143,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-08-26
 
     ## found paper published on 2020-08-19
 
@@ -1142,6 +1218,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-08-26
+
     ## found paper published on 2020-05-06
 
     ## found paper published on 2020-04-22
@@ -1165,6 +1243,10 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-12
+
+    ## found paper published on 2020-09-10
 
     ## found paper published on 2020-08-17
 
@@ -1384,6 +1466,10 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-15
+
+    ## found paper published on 2020-08-28
+
     ## found paper published on 2020-06-09
 
     ## found paper published on 2020-05-01
@@ -1402,7 +1488,9 @@ make(plan)
 
     ## Searching ((McVicker G[Author] AND University of California San Diego[Affiliation]) OR (McVicker G[Author] AND Salk[Affiliation])) AND (("2020-08-22"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2020-09-17
+
+    ## done!
 
     ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-08-22"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -1414,6 +1502,10 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-16
+
+    ## found paper published on 2020-08-28
 
     ## found paper published on 2020-08-21
 
@@ -1503,6 +1595,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-12
+
     ## found paper published on 2020-06-26
 
     ## found paper published on 2020-06-17
@@ -1556,6 +1650,10 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-17
+
+    ## found paper published on 2020-09-03
+
     ## found paper published on 2020-08-01
 
     ## found paper published on 2020-05-29
@@ -1570,6 +1668,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-12
 
     ## found paper published on 2020-07-10
 
@@ -1636,6 +1736,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-11
+
     ## found paper published on 2020-07-17
 
     ## found paper published on 2020-05-21
@@ -1651,6 +1753,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-08
 
     ## found paper published on 2020-08-19
 
@@ -1706,6 +1810,10 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-08-29
+
+    ## found paper published on 2020-08-26
+
     ## found paper published on 2020-06-24
 
     ## found paper published on 2020-05-13
@@ -1718,6 +1826,11 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-09-17
+
+    ## found paper published on 2020-08-29
+    ## found paper published on 2020-08-29
 
     ## found paper published on 2020-07-19
 
@@ -1786,6 +1899,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-09-17
+
     ## found paper published on 2020-07-29
 
     ## found paper published on 2020-07-25
@@ -1849,7 +1964,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#eulhhypacd .gt_table {
+#phmaykpgrr .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1872,7 +1987,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_heading {
+#phmaykpgrr .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1884,7 +1999,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_title {
+#phmaykpgrr .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1894,7 +2009,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#eulhhypacd .gt_subtitle {
+#phmaykpgrr .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1904,13 +2019,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#eulhhypacd .gt_bottom_border {
+#phmaykpgrr .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_col_headings {
+#phmaykpgrr .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1925,7 +2040,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_col_heading {
+#phmaykpgrr .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1945,7 +2060,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#eulhhypacd .gt_column_spanner_outer {
+#phmaykpgrr .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1957,15 +2072,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#eulhhypacd .gt_column_spanner_outer:first-child {
+#phmaykpgrr .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#eulhhypacd .gt_column_spanner_outer:last-child {
+#phmaykpgrr .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#eulhhypacd .gt_column_spanner {
+#phmaykpgrr .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1977,7 +2092,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#eulhhypacd .gt_group_heading {
+#phmaykpgrr .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1999,7 +2114,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#eulhhypacd .gt_empty_group_heading {
+#phmaykpgrr .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2014,19 +2129,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#eulhhypacd .gt_striped {
+#phmaykpgrr .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#eulhhypacd .gt_from_md > :first-child {
+#phmaykpgrr .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#eulhhypacd .gt_from_md > :last-child {
+#phmaykpgrr .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#eulhhypacd .gt_row {
+#phmaykpgrr .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2045,7 +2160,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#eulhhypacd .gt_stub {
+#phmaykpgrr .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2057,7 +2172,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#eulhhypacd .gt_summary_row {
+#phmaykpgrr .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2067,7 +2182,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#eulhhypacd .gt_first_summary_row {
+#phmaykpgrr .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2077,7 +2192,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_grand_summary_row {
+#phmaykpgrr .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2087,7 +2202,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#eulhhypacd .gt_first_grand_summary_row {
+#phmaykpgrr .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2097,7 +2212,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_table_body {
+#phmaykpgrr .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2106,7 +2221,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_footnotes {
+#phmaykpgrr .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2120,13 +2235,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_footnote {
+#phmaykpgrr .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#eulhhypacd .gt_sourcenotes {
+#phmaykpgrr .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2140,47 +2255,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#eulhhypacd .gt_sourcenote {
+#phmaykpgrr .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#eulhhypacd .gt_left {
+#phmaykpgrr .gt_left {
   text-align: left;
 }
 
-#eulhhypacd .gt_center {
+#phmaykpgrr .gt_center {
   text-align: center;
 }
 
-#eulhhypacd .gt_right {
+#phmaykpgrr .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#eulhhypacd .gt_font_normal {
+#phmaykpgrr .gt_font_normal {
   font-weight: normal;
 }
 
-#eulhhypacd .gt_font_bold {
+#phmaykpgrr .gt_font_bold {
   font-weight: bold;
 }
 
-#eulhhypacd .gt_font_italic {
+#phmaykpgrr .gt_font_italic {
   font-style: italic;
 }
 
-#eulhhypacd .gt_super {
+#phmaykpgrr .gt_super {
   font-size: 65%;
 }
 
-#eulhhypacd .gt_footnote_marks {
+#phmaykpgrr .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="eulhhypacd" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="phmaykpgrr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2228,7 +2343,7 @@ affils
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2256,13 +2371,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.224s
+0.219s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.099s
+0.092s
 
 </td>
 
@@ -2284,7 +2399,7 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2312,19 +2427,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-16.072s
+63s (\~1.05 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-1.033s
+9.583s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.053s
+0.103s
 
 </td>
 
@@ -2340,19 +2455,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.368s
+0.355s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.139s
+0.133s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.012s
+0s
 
 </td>
 
@@ -2368,13 +2483,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -2396,19 +2511,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-93s (\~1.55 minutes)
+92s (\~1.53 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-37.623s
+38.081s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.182s
+0.151s
 
 </td>
 
@@ -2424,19 +2539,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.02s
+1.06s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.161s
+0.154s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.016s
+0.005s
 
 </td>
 
@@ -2452,7 +2567,7 @@ token
 
 <td class="gt_row gt_center">
 
-0.015s
+0.014s
 
 </td>
 
