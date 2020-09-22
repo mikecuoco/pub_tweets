@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-09-21
+2020-09-22
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#kmgnxvvcnp .gt_table {
+#uuurdoffwz .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_heading {
+#uuurdoffwz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_title {
+#uuurdoffwz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#kmgnxvvcnp .gt_subtitle {
+#uuurdoffwz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#kmgnxvvcnp .gt_bottom_border {
+#uuurdoffwz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_col_headings {
+#uuurdoffwz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_col_heading {
+#uuurdoffwz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#kmgnxvvcnp .gt_column_spanner_outer {
+#uuurdoffwz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#kmgnxvvcnp .gt_column_spanner_outer:first-child {
+#uuurdoffwz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#kmgnxvvcnp .gt_column_spanner_outer:last-child {
+#uuurdoffwz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#kmgnxvvcnp .gt_column_spanner {
+#uuurdoffwz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#kmgnxvvcnp .gt_group_heading {
+#uuurdoffwz .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#kmgnxvvcnp .gt_empty_group_heading {
+#uuurdoffwz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#kmgnxvvcnp .gt_striped {
+#uuurdoffwz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#kmgnxvvcnp .gt_from_md > :first-child {
+#uuurdoffwz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#kmgnxvvcnp .gt_from_md > :last-child {
+#uuurdoffwz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#kmgnxvvcnp .gt_row {
+#uuurdoffwz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#kmgnxvvcnp .gt_stub {
+#uuurdoffwz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#kmgnxvvcnp .gt_summary_row {
+#uuurdoffwz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#kmgnxvvcnp .gt_first_summary_row {
+#uuurdoffwz .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_grand_summary_row {
+#uuurdoffwz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#kmgnxvvcnp .gt_first_grand_summary_row {
+#uuurdoffwz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_table_body {
+#uuurdoffwz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_footnotes {
+#uuurdoffwz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_footnote {
+#uuurdoffwz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#kmgnxvvcnp .gt_sourcenotes {
+#uuurdoffwz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#kmgnxvvcnp .gt_sourcenote {
+#uuurdoffwz .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#kmgnxvvcnp .gt_left {
+#uuurdoffwz .gt_left {
   text-align: left;
 }
 
-#kmgnxvvcnp .gt_center {
+#uuurdoffwz .gt_center {
   text-align: center;
 }
 
-#kmgnxvvcnp .gt_right {
+#uuurdoffwz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#kmgnxvvcnp .gt_font_normal {
+#uuurdoffwz .gt_font_normal {
   font-weight: normal;
 }
 
-#kmgnxvvcnp .gt_font_bold {
+#uuurdoffwz .gt_font_bold {
   font-weight: bold;
 }
 
-#kmgnxvvcnp .gt_font_italic {
+#uuurdoffwz .gt_font_italic {
   font-style: italic;
 }
 
-#kmgnxvvcnp .gt_super {
+#uuurdoffwz .gt_super {
   font-size: 65%;
 }
 
-#kmgnxvvcnp .gt_footnote_marks {
+#uuurdoffwz .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="kmgnxvvcnp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="uuurdoffwz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
