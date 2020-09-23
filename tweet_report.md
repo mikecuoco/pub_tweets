@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-09-22
+2020-09-23
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#uuurdoffwz .gt_table {
+#lshczwsapk .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_heading {
+#lshczwsapk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_title {
+#lshczwsapk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#uuurdoffwz .gt_subtitle {
+#lshczwsapk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#uuurdoffwz .gt_bottom_border {
+#lshczwsapk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_col_headings {
+#lshczwsapk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_col_heading {
+#lshczwsapk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#uuurdoffwz .gt_column_spanner_outer {
+#lshczwsapk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#uuurdoffwz .gt_column_spanner_outer:first-child {
+#lshczwsapk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#uuurdoffwz .gt_column_spanner_outer:last-child {
+#lshczwsapk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#uuurdoffwz .gt_column_spanner {
+#lshczwsapk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#uuurdoffwz .gt_group_heading {
+#lshczwsapk .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#uuurdoffwz .gt_empty_group_heading {
+#lshczwsapk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#uuurdoffwz .gt_striped {
+#lshczwsapk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#uuurdoffwz .gt_from_md > :first-child {
+#lshczwsapk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#uuurdoffwz .gt_from_md > :last-child {
+#lshczwsapk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#uuurdoffwz .gt_row {
+#lshczwsapk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#uuurdoffwz .gt_stub {
+#lshczwsapk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#uuurdoffwz .gt_summary_row {
+#lshczwsapk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#uuurdoffwz .gt_first_summary_row {
+#lshczwsapk .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_grand_summary_row {
+#lshczwsapk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#uuurdoffwz .gt_first_grand_summary_row {
+#lshczwsapk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_table_body {
+#lshczwsapk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_footnotes {
+#lshczwsapk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_footnote {
+#lshczwsapk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#uuurdoffwz .gt_sourcenotes {
+#lshczwsapk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uuurdoffwz .gt_sourcenote {
+#lshczwsapk .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#uuurdoffwz .gt_left {
+#lshczwsapk .gt_left {
   text-align: left;
 }
 
-#uuurdoffwz .gt_center {
+#lshczwsapk .gt_center {
   text-align: center;
 }
 
-#uuurdoffwz .gt_right {
+#lshczwsapk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#uuurdoffwz .gt_font_normal {
+#lshczwsapk .gt_font_normal {
   font-weight: normal;
 }
 
-#uuurdoffwz .gt_font_bold {
+#lshczwsapk .gt_font_bold {
   font-weight: bold;
 }
 
-#uuurdoffwz .gt_font_italic {
+#lshczwsapk .gt_font_italic {
   font-style: italic;
 }
 
-#uuurdoffwz .gt_super {
+#lshczwsapk .gt_super {
   font-size: 65%;
 }
 
-#uuurdoffwz .gt_footnote_marks {
+#lshczwsapk .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="uuurdoffwz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="lshczwsapk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,145 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Positive selection within the genomes of SARS-CoV-2 and other
+Coronaviruses independent of impact on protein function
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.09.16.300038>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Berrio A
+
+</td>
+
+<td class="gt_row gt_center">
+
+Alejandro Berrio
+
+</td>
+
+<td class="gt_row gt_left">
+
+Wray, G
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+GW190521: A Binary Black Hole Merger with a Total Mass of 150  M\_{⊙}.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+Physical review letters
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1103/PhysRevLett.125.101102>
+
+</td>
+
+<td class="gt_row gt_center">
+
+R Abbott
+
+</td>
+
+<td class="gt_row gt_center">
+
+J Zweizig
+
+</td>
+
+<td class="gt_row gt_left">
+
+Berger B
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Candidate variants in TUB are associated with familial tremor.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+PLoS genetics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1371/journal.pgen.1009010>
+
+</td>
+
+<td class="gt_row gt_center">
+
+M Reza Sailani
+
+</td>
+
+<td class="gt_row gt_center">
+
+Michael P Snyder
+
+</td>
+
+<td class="gt_row gt_left">
+
+Snyder M
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +557,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Positive selection within the genomes of SARS-CoV-2 and other Coronaviruses independent of impact on protein function" by Berrio A et al. bioRxiv, from Wray, G search. Sep 22, 2020. https://doi.org/10.1101/2020.09.16.300038
+
+    ## your tweet has been posted!
+
+    ## "GW190521: A Binary Black Hole Merger with a Total Mass of 150  M_{⊙}." by R Abbott et al. Physical review letters, from Berger B search. Sep 22, 2020. https://doi.org/10.1103/PhysRevLett.125.101102
+
+    ## your tweet has been posted!
+
+    ## "Candidate variants in TUB are associated with familial tremor." by M Reza Sailani et al. PLoS genetics, from Snyder M search. Sep 22, 2020. https://doi.org/10.1371/journal.pgen.1009010
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
