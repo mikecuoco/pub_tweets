@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-09-24
+2020-09-25
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#okvphzcjla .gt_table {
+#vcixfnvfwg .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_heading {
+#vcixfnvfwg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_title {
+#vcixfnvfwg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#okvphzcjla .gt_subtitle {
+#vcixfnvfwg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#okvphzcjla .gt_bottom_border {
+#vcixfnvfwg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_col_headings {
+#vcixfnvfwg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_col_heading {
+#vcixfnvfwg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#okvphzcjla .gt_column_spanner_outer {
+#vcixfnvfwg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#okvphzcjla .gt_column_spanner_outer:first-child {
+#vcixfnvfwg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#okvphzcjla .gt_column_spanner_outer:last-child {
+#vcixfnvfwg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#okvphzcjla .gt_column_spanner {
+#vcixfnvfwg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#okvphzcjla .gt_group_heading {
+#vcixfnvfwg .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#okvphzcjla .gt_empty_group_heading {
+#vcixfnvfwg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#okvphzcjla .gt_striped {
+#vcixfnvfwg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#okvphzcjla .gt_from_md > :first-child {
+#vcixfnvfwg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#okvphzcjla .gt_from_md > :last-child {
+#vcixfnvfwg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#okvphzcjla .gt_row {
+#vcixfnvfwg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#okvphzcjla .gt_stub {
+#vcixfnvfwg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#okvphzcjla .gt_summary_row {
+#vcixfnvfwg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#okvphzcjla .gt_first_summary_row {
+#vcixfnvfwg .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_grand_summary_row {
+#vcixfnvfwg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#okvphzcjla .gt_first_grand_summary_row {
+#vcixfnvfwg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_table_body {
+#vcixfnvfwg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_footnotes {
+#vcixfnvfwg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_footnote {
+#vcixfnvfwg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#okvphzcjla .gt_sourcenotes {
+#vcixfnvfwg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#okvphzcjla .gt_sourcenote {
+#vcixfnvfwg .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#okvphzcjla .gt_left {
+#vcixfnvfwg .gt_left {
   text-align: left;
 }
 
-#okvphzcjla .gt_center {
+#vcixfnvfwg .gt_center {
   text-align: center;
 }
 
-#okvphzcjla .gt_right {
+#vcixfnvfwg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#okvphzcjla .gt_font_normal {
+#vcixfnvfwg .gt_font_normal {
   font-weight: normal;
 }
 
-#okvphzcjla .gt_font_bold {
+#vcixfnvfwg .gt_font_bold {
   font-weight: bold;
 }
 
-#okvphzcjla .gt_font_italic {
+#vcixfnvfwg .gt_font_italic {
   font-style: italic;
 }
 
-#okvphzcjla .gt_super {
+#vcixfnvfwg .gt_super {
   font-size: 65%;
 }
 
-#okvphzcjla .gt_footnote_marks {
+#vcixfnvfwg .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="okvphzcjla" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vcixfnvfwg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,146 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Deep learning and alignment of spatially-resolved whole transcriptomes
+of single cells in the mouse brain with Tangram
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-24
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.08.29.272831>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Biancalani T
+
+</td>
+
+<td class="gt_row gt_center">
+
+Tommaso Biancalani
+
+</td>
+
+<td class="gt_row gt_left">
+
+Macosko, E
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A Human Organoid Model of Aggressive Hepatoblastoma for Disease Modeling
+and Drug Testing.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-24
+
+</td>
+
+<td class="gt_row gt_left">
+
+Cancers
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.3390/cancers12092668>
+
+</td>
+
+<td class="gt_row gt_center">
+
+James A Saltsman
+
+</td>
+
+<td class="gt_row gt_center">
+
+Sanford Simon
+
+</td>
+
+<td class="gt_row gt_left">
+
+Clevers H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-24
+
+</td>
+
+<td class="gt_row gt_left">
+
+Cell reports
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.celrep.2020.108180>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Rebecca Leylek
+
+</td>
+
+<td class="gt_row gt_center">
+
+Juliana Idoyaga
+
+</td>
+
+<td class="gt_row gt_left">
+
+Chang H
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +558,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Deep learning and alignment of spatially-resolved whole transcriptomes of single cells in the mouse brain with Tangram" by Biancalani T et al. bioRxiv, from Macosko, E search. Sep 24, 2020. https://doi.org/10.1101/2020.08.29.272831
+
+    ## your tweet has been posted!
+
+    ## "A Human Organoid Model of Aggressive Hepatoblastoma for Disease Modeling and Drug Testing." by James A Saltsman et al. Cancers, from Clevers H search. Sep 24, 2020. https://doi.org/10.3390/cancers12092668
+
+    ## your tweet has been posted!
+
+    ## "Chromatin Landscape Underpinning Human Dendritic Cell Heterogeneity." by Rebecca Leylek et al. Cell reports, from Chang H search. Sep 24, 2020. https://doi.org/10.1016/j.celrep.2020.108180
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
