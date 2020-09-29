@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-09-28
+2020-09-29
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#esvazuagsi .gt_table {
+#jziuzktyot .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_heading {
+#jziuzktyot .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_title {
+#jziuzktyot .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#esvazuagsi .gt_subtitle {
+#jziuzktyot .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#esvazuagsi .gt_bottom_border {
+#jziuzktyot .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_col_headings {
+#jziuzktyot .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_col_heading {
+#jziuzktyot .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#esvazuagsi .gt_column_spanner_outer {
+#jziuzktyot .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#esvazuagsi .gt_column_spanner_outer:first-child {
+#jziuzktyot .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#esvazuagsi .gt_column_spanner_outer:last-child {
+#jziuzktyot .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#esvazuagsi .gt_column_spanner {
+#jziuzktyot .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#esvazuagsi .gt_group_heading {
+#jziuzktyot .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#esvazuagsi .gt_empty_group_heading {
+#jziuzktyot .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#esvazuagsi .gt_striped {
+#jziuzktyot .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#esvazuagsi .gt_from_md > :first-child {
+#jziuzktyot .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#esvazuagsi .gt_from_md > :last-child {
+#jziuzktyot .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#esvazuagsi .gt_row {
+#jziuzktyot .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#esvazuagsi .gt_stub {
+#jziuzktyot .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#esvazuagsi .gt_summary_row {
+#jziuzktyot .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#esvazuagsi .gt_first_summary_row {
+#jziuzktyot .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_grand_summary_row {
+#jziuzktyot .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#esvazuagsi .gt_first_grand_summary_row {
+#jziuzktyot .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_table_body {
+#jziuzktyot .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_footnotes {
+#jziuzktyot .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_footnote {
+#jziuzktyot .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#esvazuagsi .gt_sourcenotes {
+#jziuzktyot .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#esvazuagsi .gt_sourcenote {
+#jziuzktyot .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#esvazuagsi .gt_left {
+#jziuzktyot .gt_left {
   text-align: left;
 }
 
-#esvazuagsi .gt_center {
+#jziuzktyot .gt_center {
   text-align: center;
 }
 
-#esvazuagsi .gt_right {
+#jziuzktyot .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#esvazuagsi .gt_font_normal {
+#jziuzktyot .gt_font_normal {
   font-weight: normal;
 }
 
-#esvazuagsi .gt_font_bold {
+#jziuzktyot .gt_font_bold {
   font-weight: bold;
 }
 
-#esvazuagsi .gt_font_italic {
+#jziuzktyot .gt_font_italic {
   font-style: italic;
 }
 
-#esvazuagsi .gt_super {
+#jziuzktyot .gt_super {
   font-size: 65%;
 }
 
-#esvazuagsi .gt_footnote_marks {
+#jziuzktyot .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="esvazuagsi" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="jziuzktyot" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,53 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Synthetic auxotrophy remains stable after continuous evolution and in
+co-culture with mammalian cells
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-09-28
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.09.27.315804>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Kunjapur AM
+
+</td>
+
+<td class="gt_row gt_center">
+
+Aditya M Kunjapur
+
+</td>
+
+<td class="gt_row gt_left">
+
+Church, G
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +465,16 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Synthetic auxotrophy remains stable after continuous evolution and in co-culture with mammalian cells" by Kunjapur AM et al. bioRxiv, from Church, G search. Sep 28, 2020. https://doi.org/10.1101/2020.09.27.315804
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 1 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
