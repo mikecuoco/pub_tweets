@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-01
+2020-10-02
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#irzkwimzmv .gt_table {
+#xmpooxmvds .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_heading {
+#xmpooxmvds .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_title {
+#xmpooxmvds .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#irzkwimzmv .gt_subtitle {
+#xmpooxmvds .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#irzkwimzmv .gt_bottom_border {
+#xmpooxmvds .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_col_headings {
+#xmpooxmvds .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_col_heading {
+#xmpooxmvds .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#irzkwimzmv .gt_column_spanner_outer {
+#xmpooxmvds .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#irzkwimzmv .gt_column_spanner_outer:first-child {
+#xmpooxmvds .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#irzkwimzmv .gt_column_spanner_outer:last-child {
+#xmpooxmvds .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#irzkwimzmv .gt_column_spanner {
+#xmpooxmvds .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#irzkwimzmv .gt_group_heading {
+#xmpooxmvds .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#irzkwimzmv .gt_empty_group_heading {
+#xmpooxmvds .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#irzkwimzmv .gt_striped {
+#xmpooxmvds .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#irzkwimzmv .gt_from_md > :first-child {
+#xmpooxmvds .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#irzkwimzmv .gt_from_md > :last-child {
+#xmpooxmvds .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#irzkwimzmv .gt_row {
+#xmpooxmvds .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#irzkwimzmv .gt_stub {
+#xmpooxmvds .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#irzkwimzmv .gt_summary_row {
+#xmpooxmvds .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#irzkwimzmv .gt_first_summary_row {
+#xmpooxmvds .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_grand_summary_row {
+#xmpooxmvds .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#irzkwimzmv .gt_first_grand_summary_row {
+#xmpooxmvds .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_table_body {
+#xmpooxmvds .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_footnotes {
+#xmpooxmvds .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_footnote {
+#xmpooxmvds .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#irzkwimzmv .gt_sourcenotes {
+#xmpooxmvds .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#irzkwimzmv .gt_sourcenote {
+#xmpooxmvds .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#irzkwimzmv .gt_left {
+#xmpooxmvds .gt_left {
   text-align: left;
 }
 
-#irzkwimzmv .gt_center {
+#xmpooxmvds .gt_center {
   text-align: center;
 }
 
-#irzkwimzmv .gt_right {
+#xmpooxmvds .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#irzkwimzmv .gt_font_normal {
+#xmpooxmvds .gt_font_normal {
   font-weight: normal;
 }
 
-#irzkwimzmv .gt_font_bold {
+#xmpooxmvds .gt_font_bold {
   font-weight: bold;
 }
 
-#irzkwimzmv .gt_font_italic {
+#xmpooxmvds .gt_font_italic {
   font-style: italic;
 }
 
-#irzkwimzmv .gt_super {
+#xmpooxmvds .gt_super {
   font-size: 65%;
 }
 
-#irzkwimzmv .gt_footnote_marks {
+#xmpooxmvds .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="irzkwimzmv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="xmpooxmvds" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,147 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein
-Variant.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-09-30
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.cell.2020.09.032>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Leonid Yurkovetskiy
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jeremy Luban
-
-</td>
-
-<td class="gt_row gt_left">
-
-Sabeti P
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Epigenetic mutation load is weakly correlated with epigenetic age
-acceleration.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-09-30
-
-</td>
-
-<td class="gt_row gt_left">
-
-Aging
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.18632/aging.103950>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Qi Yan
-
-</td>
-
-<td class="gt_row gt_center">
-
-Beate Ritz
-
-</td>
-
-<td class="gt_row gt_left">
-
-Horvath S
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-High-Resolution Mapping of Multiway Enhancer-Promoter Interactions
-Regulating Pathogen Detection.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-09-30
-
-</td>
-
-<td class="gt_row gt_left">
-
-Molecular cell
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.molcel.2020.09.005>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Pranitha Vangala
-
-</td>
-
-<td class="gt_row gt_center">
-
-Manuel Garber
-
-</td>
-
-<td class="gt_row gt_left">
-
-Garber M
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -559,24 +418,14 @@ Garber M
 tweet_pubs(all_df, token)
 ```
 
-    ## "Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein Variant." by Leonid Yurkovetskiy et al. Cell, from Sabeti P search. Sep 30, 2020. https://doi.org/10.1016/j.cell.2020.09.032
-
-    ## your tweet has been posted!
-
-    ## "Epigenetic mutation load is weakly correlated with epigenetic age acceleration." by Qi Yan et al. Aging, from Horvath S search. Sep 30, 2020. https://doi.org/10.18632/aging.103950
-
-    ## your tweet has been posted!
-
-    ## "High-Resolution Mapping of Multiway Enhancer-Promoter Interactions Regulating Pathogen Detection." by Pranitha Vangala et al. Molecular cell, from Garber M search. Sep 30, 2020. https://doi.org/10.1016/j.molcel.2020.09.005
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 3 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
