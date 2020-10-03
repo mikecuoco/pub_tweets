@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-02
+2020-10-03
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xmpooxmvds .gt_table {
+#cclyyffjfv .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_heading {
+#cclyyffjfv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_title {
+#cclyyffjfv .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#xmpooxmvds .gt_subtitle {
+#cclyyffjfv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#xmpooxmvds .gt_bottom_border {
+#cclyyffjfv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_col_headings {
+#cclyyffjfv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_col_heading {
+#cclyyffjfv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#xmpooxmvds .gt_column_spanner_outer {
+#cclyyffjfv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#xmpooxmvds .gt_column_spanner_outer:first-child {
+#cclyyffjfv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xmpooxmvds .gt_column_spanner_outer:last-child {
+#cclyyffjfv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xmpooxmvds .gt_column_spanner {
+#cclyyffjfv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#xmpooxmvds .gt_group_heading {
+#cclyyffjfv .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#xmpooxmvds .gt_empty_group_heading {
+#cclyyffjfv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#xmpooxmvds .gt_striped {
+#cclyyffjfv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xmpooxmvds .gt_from_md > :first-child {
+#cclyyffjfv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xmpooxmvds .gt_from_md > :last-child {
+#cclyyffjfv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xmpooxmvds .gt_row {
+#cclyyffjfv .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#xmpooxmvds .gt_stub {
+#cclyyffjfv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#xmpooxmvds .gt_summary_row {
+#cclyyffjfv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#xmpooxmvds .gt_first_summary_row {
+#cclyyffjfv .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_grand_summary_row {
+#cclyyffjfv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#xmpooxmvds .gt_first_grand_summary_row {
+#cclyyffjfv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_table_body {
+#cclyyffjfv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_footnotes {
+#cclyyffjfv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_footnote {
+#cclyyffjfv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#xmpooxmvds .gt_sourcenotes {
+#cclyyffjfv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xmpooxmvds .gt_sourcenote {
+#cclyyffjfv .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#xmpooxmvds .gt_left {
+#cclyyffjfv .gt_left {
   text-align: left;
 }
 
-#xmpooxmvds .gt_center {
+#cclyyffjfv .gt_center {
   text-align: center;
 }
 
-#xmpooxmvds .gt_right {
+#cclyyffjfv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xmpooxmvds .gt_font_normal {
+#cclyyffjfv .gt_font_normal {
   font-weight: normal;
 }
 
-#xmpooxmvds .gt_font_bold {
+#cclyyffjfv .gt_font_bold {
   font-weight: bold;
 }
 
-#xmpooxmvds .gt_font_italic {
+#cclyyffjfv .gt_font_italic {
   font-style: italic;
 }
 
-#xmpooxmvds .gt_super {
+#cclyyffjfv .gt_super {
   font-size: 65%;
 }
 
-#xmpooxmvds .gt_footnote_marks {
+#cclyyffjfv .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="xmpooxmvds" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="cclyyffjfv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,194 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+SARS-CoV-2 infected cells present HLA-I peptides from canonical and
+out-of-frame ORFs
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-02
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.10.02.324145>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Weingarten-Gabbay S
+
+</td>
+
+<td class="gt_row gt_center">
+
+Shira Weingarten-Gabbay
+
+</td>
+
+<td class="gt_row gt_left">
+
+Hacohen, N
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Single-cell multimodal profiling of proteins and chromatin accessibility
+using PHAGE-ATAC
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-02
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.10.01.322420>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Fiskin E
+
+</td>
+
+<td class="gt_row gt_center">
+
+Evgenij Fiskin
+
+</td>
+
+<td class="gt_row gt_left">
+
+Regev, A
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Bicyclic azetidines kill the diarrheal pathogen Cryptosporidium in mice
+by inhibiting parasite phenylalanyl-tRNA synthetase.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-02
+
+</td>
+
+<td class="gt_row gt_left">
+
+Science translational medicine
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1126/scitranslmed.aba8412>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Sumiti Vinayak
+
+</td>
+
+<td class="gt_row gt_center">
+
+Eamon Comer
+
+</td>
+
+<td class="gt_row gt_left">
+
+Schreiber S
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Ocean acidification induces distinct transcriptomic responses across
+life history stages of the sea urchin Heliocidaris erythrogramma.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-02
+
+</td>
+
+<td class="gt_row gt_left">
+
+Molecular ecology
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1111/mec.15664>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Hannah R Devens
+
+</td>
+
+<td class="gt_row gt_center">
+
+Maria Byrne
+
+</td>
+
+<td class="gt_row gt_left">
+
+Wray G
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +606,28 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "SARS-CoV-2 infected cells present HLA-I peptides from canonical and out-of-frame ORFs" by Weingarten-Gabbay S et al. bioRxiv, from Hacohen, N search. Oct 2, 2020. https://doi.org/10.1101/2020.10.02.324145
+
+    ## your tweet has been posted!
+
+    ## "Single-cell multimodal profiling of proteins and chromatin accessibility using PHAGE-ATAC" by Fiskin E et al. bioRxiv, from Regev, A search. Oct 2, 2020. https://doi.org/10.1101/2020.10.01.322420
+
+    ## your tweet has been posted!
+
+    ## "Bicyclic azetidines kill the diarrheal pathogen Cryptosporidium in mice by inhibiting parasite phenylalanyl-tRNA synthetase." by Sumiti Vinayak et al. Science translational medicine, from Schreiber S search. Oct 2, 2020. https://doi.org/10.1126/scitranslmed.aba8412
+
+    ## your tweet has been posted!
+
+    ## "Ocean acidification induces distinct transcriptomic responses across life history stages of the sea urchin Heliocidaris erythrogramma." by Hannah R Devens et al. Molecular ecology, from Wray G search. Oct 2, 2020. https://doi.org/10.1111/mec.15664
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
