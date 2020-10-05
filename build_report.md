@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-10-04
+2020-10-05
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -508,11 +508,6 @@ make(plan)
     ## done!
 
     ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2020-10-03"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-08-05
 
     ## found paper published on 2020-01-25
 
@@ -2050,7 +2045,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#lapdselljt .gt_table {
+#ulkhtwonjm .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2073,7 +2068,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#lapdselljt .gt_heading {
+#ulkhtwonjm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2085,7 +2080,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#lapdselljt .gt_title {
+#ulkhtwonjm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2095,7 +2090,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#lapdselljt .gt_subtitle {
+#ulkhtwonjm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2105,13 +2100,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#lapdselljt .gt_bottom_border {
+#ulkhtwonjm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#lapdselljt .gt_col_headings {
+#ulkhtwonjm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2126,7 +2121,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#lapdselljt .gt_col_heading {
+#ulkhtwonjm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2146,7 +2141,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#lapdselljt .gt_column_spanner_outer {
+#ulkhtwonjm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2158,15 +2153,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#lapdselljt .gt_column_spanner_outer:first-child {
+#ulkhtwonjm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#lapdselljt .gt_column_spanner_outer:last-child {
+#ulkhtwonjm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#lapdselljt .gt_column_spanner {
+#ulkhtwonjm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2178,7 +2173,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#lapdselljt .gt_group_heading {
+#ulkhtwonjm .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2200,7 +2195,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#lapdselljt .gt_empty_group_heading {
+#ulkhtwonjm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2215,19 +2210,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#lapdselljt .gt_striped {
+#ulkhtwonjm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#lapdselljt .gt_from_md > :first-child {
+#ulkhtwonjm .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#lapdselljt .gt_from_md > :last-child {
+#ulkhtwonjm .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#lapdselljt .gt_row {
+#ulkhtwonjm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2246,7 +2241,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#lapdselljt .gt_stub {
+#ulkhtwonjm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2258,7 +2253,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#lapdselljt .gt_summary_row {
+#ulkhtwonjm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2268,7 +2263,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#lapdselljt .gt_first_summary_row {
+#ulkhtwonjm .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2278,7 +2273,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#lapdselljt .gt_grand_summary_row {
+#ulkhtwonjm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2288,7 +2283,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#lapdselljt .gt_first_grand_summary_row {
+#ulkhtwonjm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2298,7 +2293,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#lapdselljt .gt_table_body {
+#ulkhtwonjm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2307,7 +2302,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#lapdselljt .gt_footnotes {
+#ulkhtwonjm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2321,13 +2316,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#lapdselljt .gt_footnote {
+#ulkhtwonjm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#lapdselljt .gt_sourcenotes {
+#ulkhtwonjm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2341,47 +2336,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#lapdselljt .gt_sourcenote {
+#ulkhtwonjm .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#lapdselljt .gt_left {
+#ulkhtwonjm .gt_left {
   text-align: left;
 }
 
-#lapdselljt .gt_center {
+#ulkhtwonjm .gt_center {
   text-align: center;
 }
 
-#lapdselljt .gt_right {
+#ulkhtwonjm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#lapdselljt .gt_font_normal {
+#ulkhtwonjm .gt_font_normal {
   font-weight: normal;
 }
 
-#lapdselljt .gt_font_bold {
+#ulkhtwonjm .gt_font_bold {
   font-weight: bold;
 }
 
-#lapdselljt .gt_font_italic {
+#ulkhtwonjm .gt_font_italic {
   font-style: italic;
 }
 
-#lapdselljt .gt_super {
+#ulkhtwonjm .gt_super {
   font-size: 65%;
 }
 
-#lapdselljt .gt_footnote_marks {
+#ulkhtwonjm .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="lapdselljt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ulkhtwonjm" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2429,13 +2424,13 @@ affils
 
 <td class="gt_row gt_center">
 
-0.003s
+0.005s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.005s
 
 </td>
 
@@ -2457,13 +2452,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.221s
+0.244s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.102s
+0.106s
 
 </td>
 
@@ -2485,13 +2480,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.005s
 
 </td>
 
@@ -2513,19 +2508,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-0.967s
+2.516s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.317s
+0.631s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.036s
+0.041s
 
 </td>
 
@@ -2541,19 +2536,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.33s
+0.39s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.135s
+0.147s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.004s
+0.017s
 
 </td>
 
@@ -2569,7 +2564,7 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0.005s
 
 </td>
 
@@ -2597,19 +2592,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-105s (\~1.75 minutes)
+115s (\~1.92 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-57.088s
+57.905s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.188s
+0.231s
 
 </td>
 
@@ -2625,19 +2620,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.91s
+1.019s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.169s
+0.199s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.007s
+0.008s
 
 </td>
 
@@ -2653,13 +2648,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.02s
+0.018s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.019s
+0.018s
 
 </td>
 
