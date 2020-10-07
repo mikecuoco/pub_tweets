@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-06
+2020-10-07
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zcocmvqppt .gt_table {
+#wywwfqdekf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_heading {
+#wywwfqdekf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_title {
+#wywwfqdekf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#zcocmvqppt .gt_subtitle {
+#wywwfqdekf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#zcocmvqppt .gt_bottom_border {
+#wywwfqdekf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_col_headings {
+#wywwfqdekf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_col_heading {
+#wywwfqdekf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#zcocmvqppt .gt_column_spanner_outer {
+#wywwfqdekf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#zcocmvqppt .gt_column_spanner_outer:first-child {
+#wywwfqdekf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zcocmvqppt .gt_column_spanner_outer:last-child {
+#wywwfqdekf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zcocmvqppt .gt_column_spanner {
+#wywwfqdekf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#zcocmvqppt .gt_group_heading {
+#wywwfqdekf .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#zcocmvqppt .gt_empty_group_heading {
+#wywwfqdekf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#zcocmvqppt .gt_striped {
+#wywwfqdekf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zcocmvqppt .gt_from_md > :first-child {
+#wywwfqdekf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zcocmvqppt .gt_from_md > :last-child {
+#wywwfqdekf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zcocmvqppt .gt_row {
+#wywwfqdekf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#zcocmvqppt .gt_stub {
+#wywwfqdekf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#zcocmvqppt .gt_summary_row {
+#wywwfqdekf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#zcocmvqppt .gt_first_summary_row {
+#wywwfqdekf .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_grand_summary_row {
+#wywwfqdekf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#zcocmvqppt .gt_first_grand_summary_row {
+#wywwfqdekf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_table_body {
+#wywwfqdekf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_footnotes {
+#wywwfqdekf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_footnote {
+#wywwfqdekf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#zcocmvqppt .gt_sourcenotes {
+#wywwfqdekf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zcocmvqppt .gt_sourcenote {
+#wywwfqdekf .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#zcocmvqppt .gt_left {
+#wywwfqdekf .gt_left {
   text-align: left;
 }
 
-#zcocmvqppt .gt_center {
+#wywwfqdekf .gt_center {
   text-align: center;
 }
 
-#zcocmvqppt .gt_right {
+#wywwfqdekf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zcocmvqppt .gt_font_normal {
+#wywwfqdekf .gt_font_normal {
   font-weight: normal;
 }
 
-#zcocmvqppt .gt_font_bold {
+#wywwfqdekf .gt_font_bold {
   font-weight: bold;
 }
 
-#zcocmvqppt .gt_font_italic {
+#wywwfqdekf .gt_font_italic {
   font-style: italic;
 }
 
-#zcocmvqppt .gt_super {
+#wywwfqdekf .gt_super {
   font-size: 65%;
 }
 
-#zcocmvqppt .gt_footnote_marks {
+#wywwfqdekf .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="zcocmvqppt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="wywwfqdekf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,193 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Bayesian segmentation of spatially resolved transcriptomics data
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.10.05.326777>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Petukhov V
+
+</td>
+
+<td class="gt_row gt_center">
+
+Peter V. Kharchenko
+
+</td>
+
+<td class="gt_row gt_left">
+
+Kharchenko, P
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Evaluating CRISPR-based Prime Editing for cancer modeling and CFTR
+repair in intestinal organoids
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.10.05.325837>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Geurts MH
+
+</td>
+
+<td class="gt_row gt_center">
+
+Hans C. Clevers
+
+</td>
+
+<td class="gt_row gt_left">
+
+Clevers, H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Fitness Landscape of Clonal Hematopoiesis Under Selective Pressure of
+Immune Checkpoint Blockade.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+JCO precision oncology
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1200/PO.20.00186>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Peter G Miller
+
+</td>
+
+<td class="gt_row gt_center">
+
+Benjamin L Ebert
+
+</td>
+
+<td class="gt_row gt_left">
+
+Hacohen N
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Prospects for observing and localizing gravitational-wave transients
+with Advanced LIGO, Advanced Virgo and KAGRA.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+Living reviews in relativity
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1007/s41114-020-00026-9>
+
+</td>
+
+<td class="gt_row gt_center">
+
+B P Abbott
+
+</td>
+
+<td class="gt_row gt_center">
+
+J Zweizig
+
+</td>
+
+<td class="gt_row gt_left">
+
+Berger B
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +605,28 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Bayesian segmentation of spatially resolved transcriptomics data" by Petukhov V et al. bioRxiv, from Kharchenko, P search. Oct 6, 2020. https://doi.org/10.1101/2020.10.05.326777
+
+    ## your tweet has been posted!
+
+    ## "Evaluating CRISPR-based Prime Editing for cancer modeling and CFTR repair in intestinal organoids" by Geurts MH et al. bioRxiv, from Clevers, H search. Oct 6, 2020. https://doi.org/10.1101/2020.10.05.325837
+
+    ## your tweet has been posted!
+
+    ## "Fitness Landscape of Clonal Hematopoiesis Under Selective Pressure of Immune Checkpoint Blockade." by Peter G Miller et al. JCO precision oncology, from Hacohen N search. Oct 6, 2020. https://doi.org/10.1200/PO.20.00186
+
+    ## your tweet has been posted!
+
+    ## "Prospects for observing and localizing gravitational-wave transients with Advanced LIGO, Advanced Virgo and KAGRA." by B P Abbott et al. Living reviews in relativity, from Berger B search. Oct 6, 2020. https://doi.org/10.1007/s41114-020-00026-9
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
