@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-18
+2020-10-19
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ghwqzjmfsl .gt_table {
+#ousydlcrfp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_heading {
+#ousydlcrfp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_title {
+#ousydlcrfp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#ghwqzjmfsl .gt_subtitle {
+#ousydlcrfp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#ghwqzjmfsl .gt_bottom_border {
+#ousydlcrfp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_col_headings {
+#ousydlcrfp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_col_heading {
+#ousydlcrfp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ghwqzjmfsl .gt_column_spanner_outer {
+#ousydlcrfp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#ghwqzjmfsl .gt_column_spanner_outer:first-child {
+#ousydlcrfp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ghwqzjmfsl .gt_column_spanner_outer:last-child {
+#ousydlcrfp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ghwqzjmfsl .gt_column_spanner {
+#ousydlcrfp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#ghwqzjmfsl .gt_group_heading {
+#ousydlcrfp .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ghwqzjmfsl .gt_empty_group_heading {
+#ousydlcrfp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ghwqzjmfsl .gt_striped {
+#ousydlcrfp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ghwqzjmfsl .gt_from_md > :first-child {
+#ousydlcrfp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ghwqzjmfsl .gt_from_md > :last-child {
+#ousydlcrfp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ghwqzjmfsl .gt_row {
+#ousydlcrfp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ghwqzjmfsl .gt_stub {
+#ousydlcrfp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#ghwqzjmfsl .gt_summary_row {
+#ousydlcrfp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ghwqzjmfsl .gt_first_summary_row {
+#ousydlcrfp .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_grand_summary_row {
+#ousydlcrfp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ghwqzjmfsl .gt_first_grand_summary_row {
+#ousydlcrfp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_table_body {
+#ousydlcrfp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_footnotes {
+#ousydlcrfp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_footnote {
+#ousydlcrfp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ghwqzjmfsl .gt_sourcenotes {
+#ousydlcrfp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ghwqzjmfsl .gt_sourcenote {
+#ousydlcrfp .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ghwqzjmfsl .gt_left {
+#ousydlcrfp .gt_left {
   text-align: left;
 }
 
-#ghwqzjmfsl .gt_center {
+#ousydlcrfp .gt_center {
   text-align: center;
 }
 
-#ghwqzjmfsl .gt_right {
+#ousydlcrfp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ghwqzjmfsl .gt_font_normal {
+#ousydlcrfp .gt_font_normal {
   font-weight: normal;
 }
 
-#ghwqzjmfsl .gt_font_bold {
+#ousydlcrfp .gt_font_bold {
   font-weight: bold;
 }
 
-#ghwqzjmfsl .gt_font_italic {
+#ousydlcrfp .gt_font_italic {
   font-style: italic;
 }
 
-#ghwqzjmfsl .gt_super {
+#ousydlcrfp .gt_super {
   font-size: 65%;
 }
 
-#ghwqzjmfsl .gt_footnote_marks {
+#ousydlcrfp .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ghwqzjmfsl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ousydlcrfp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,52 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Dissecting Mammalian Spermatogenesis Using Spatial Transcriptomics
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-10-17
-
-</td>
-
-<td class="gt_row gt_left">
-
-bioRxiv
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1101/2020.10.17.343335>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Chen H
-
-</td>
-
-<td class="gt_row gt_center">
-
-Fei Chen
-
-</td>
-
-<td class="gt_row gt_left">
-
-Macosko, E
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -464,16 +418,14 @@ Macosko, E
 tweet_pubs(all_df, token)
 ```
 
-    ## "Dissecting Mammalian Spermatogenesis Using Spatial Transcriptomics" by Chen H et al. bioRxiv, from Macosko, E search. Oct 17, 2020. https://doi.org/10.1101/2020.10.17.343335
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 1 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
