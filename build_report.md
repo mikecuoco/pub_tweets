@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-10-19
+2020-10-20
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -136,6 +136,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-16
+
     ## found paper published on 2020-04-03
 
     ## found paper published on 2020-03-08
@@ -143,6 +145,11 @@ make(plan)
     ## done!
 
     ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2020-10-18"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2020-10-16
 
     ## found paper published on 2020-03-08
 
@@ -235,6 +242,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-16
+
     ## found paper published on 2020-08-21
 
     ## found paper published on 2020-05-29
@@ -277,11 +286,15 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-16
+
     ## found paper published on 2020-09-30
 
     ## found paper published on 2020-09-10
 
     ## found paper published on 2020-08-19
+
+    ## found paper published on 2020-07-09
 
     ## found paper published on 2020-06-13
 
@@ -407,6 +420,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-10-16
 
     ## found paper published on 2020-09-26
 
@@ -582,8 +597,9 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-09-12
+    ## found paper published on 2020-10-16
 
+    ## found paper published on 2020-09-12
     ## found paper published on 2020-09-12
     ## found paper published on 2020-09-12
     ## found paper published on 2020-09-12
@@ -732,6 +748,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-18
+
     ## found paper published on 2020-10-09
 
     ## found paper published on 2020-10-08
@@ -792,6 +810,8 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-15
+
     ## found paper published on 2020-09-03
 
     ## found paper published on 2020-08-25
@@ -830,8 +850,9 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
-    ## found paper published on 2020-09-06
+    ## found paper published on 2020-10-16
 
+    ## found paper published on 2020-09-06
     ## found paper published on 2020-09-06
 
     ## found paper published on 2020-08-26
@@ -868,6 +889,10 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-10-16
+
+    ## found paper published on 2020-10-16
 
     ## found paper published on 2020-09-28
 
@@ -1066,6 +1091,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2020-10-17
 
     ## found paper published on 2020-10-06
 
@@ -1329,11 +1356,15 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2020-10-18
+
     ## found paper published on 2020-10-03
 
     ## found paper published on 2020-09-23
 
     ## found paper published on 2020-09-22
+
+    ## found paper published on 2020-09-16
 
     ## found paper published on 2020-09-12
 
@@ -2079,7 +2110,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zoyyxfncfp .gt_table {
+#bgbmtrunox .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2102,7 +2133,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_heading {
+#bgbmtrunox .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2114,7 +2145,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_title {
+#bgbmtrunox .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2124,7 +2155,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#zoyyxfncfp .gt_subtitle {
+#bgbmtrunox .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2134,13 +2165,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#zoyyxfncfp .gt_bottom_border {
+#bgbmtrunox .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_col_headings {
+#bgbmtrunox .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2155,7 +2186,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_col_heading {
+#bgbmtrunox .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2175,7 +2206,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#zoyyxfncfp .gt_column_spanner_outer {
+#bgbmtrunox .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2187,15 +2218,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#zoyyxfncfp .gt_column_spanner_outer:first-child {
+#bgbmtrunox .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zoyyxfncfp .gt_column_spanner_outer:last-child {
+#bgbmtrunox .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zoyyxfncfp .gt_column_spanner {
+#bgbmtrunox .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2207,7 +2238,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#zoyyxfncfp .gt_group_heading {
+#bgbmtrunox .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2229,7 +2260,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#zoyyxfncfp .gt_empty_group_heading {
+#bgbmtrunox .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2244,19 +2275,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#zoyyxfncfp .gt_striped {
+#bgbmtrunox .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zoyyxfncfp .gt_from_md > :first-child {
+#bgbmtrunox .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zoyyxfncfp .gt_from_md > :last-child {
+#bgbmtrunox .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zoyyxfncfp .gt_row {
+#bgbmtrunox .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2275,7 +2306,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#zoyyxfncfp .gt_stub {
+#bgbmtrunox .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2287,7 +2318,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#zoyyxfncfp .gt_summary_row {
+#bgbmtrunox .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2297,7 +2328,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#zoyyxfncfp .gt_first_summary_row {
+#bgbmtrunox .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2307,7 +2338,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_grand_summary_row {
+#bgbmtrunox .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2317,7 +2348,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#zoyyxfncfp .gt_first_grand_summary_row {
+#bgbmtrunox .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2327,7 +2358,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_table_body {
+#bgbmtrunox .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2336,7 +2367,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_footnotes {
+#bgbmtrunox .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2350,13 +2381,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_footnote {
+#bgbmtrunox .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#zoyyxfncfp .gt_sourcenotes {
+#bgbmtrunox .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2370,47 +2401,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zoyyxfncfp .gt_sourcenote {
+#bgbmtrunox .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#zoyyxfncfp .gt_left {
+#bgbmtrunox .gt_left {
   text-align: left;
 }
 
-#zoyyxfncfp .gt_center {
+#bgbmtrunox .gt_center {
   text-align: center;
 }
 
-#zoyyxfncfp .gt_right {
+#bgbmtrunox .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zoyyxfncfp .gt_font_normal {
+#bgbmtrunox .gt_font_normal {
   font-weight: normal;
 }
 
-#zoyyxfncfp .gt_font_bold {
+#bgbmtrunox .gt_font_bold {
   font-weight: bold;
 }
 
-#zoyyxfncfp .gt_font_italic {
+#bgbmtrunox .gt_font_italic {
   font-style: italic;
 }
 
-#zoyyxfncfp .gt_super {
+#bgbmtrunox .gt_super {
   font-size: 65%;
 }
 
-#zoyyxfncfp .gt_footnote_marks {
+#bgbmtrunox .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="zoyyxfncfp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bgbmtrunox" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2458,7 +2489,7 @@ affils
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
@@ -2486,13 +2517,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.219s
+0.213s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.092s
+0.093s
 
 </td>
 
@@ -2514,13 +2545,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.004s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2542,19 +2573,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-3.463s
+5.339s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.297s
+0.498s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.032s
+0.016s
 
 </td>
 
@@ -2570,19 +2601,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.342s
+0.306s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.123s
+0.122s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.009s
+0s
 
 </td>
 
@@ -2604,13 +2635,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.004s
+0s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0s
+0.004s
 
 </td>
 
@@ -2626,19 +2657,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-129s (\~2.15 minutes)
+99s (\~1.65 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-60s (\~1 minutes)
+47.487s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.299s
+0.314s
 
 </td>
 
@@ -2654,19 +2685,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.241s
+0.855s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.178s
+0.164s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.011s
+0.005s
 
 </td>
 
@@ -2682,7 +2713,7 @@ token
 
 <td class="gt_row gt_center">
 
-0.016s
+0.015s
 
 </td>
 
