@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-20
+2020-10-21
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zjuisisyjl .gt_table {
+#bcvsknivnt .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_heading {
+#bcvsknivnt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_title {
+#bcvsknivnt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#zjuisisyjl .gt_subtitle {
+#bcvsknivnt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#zjuisisyjl .gt_bottom_border {
+#bcvsknivnt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_col_headings {
+#bcvsknivnt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_col_heading {
+#bcvsknivnt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#zjuisisyjl .gt_column_spanner_outer {
+#bcvsknivnt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#zjuisisyjl .gt_column_spanner_outer:first-child {
+#bcvsknivnt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zjuisisyjl .gt_column_spanner_outer:last-child {
+#bcvsknivnt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zjuisisyjl .gt_column_spanner {
+#bcvsknivnt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#zjuisisyjl .gt_group_heading {
+#bcvsknivnt .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#zjuisisyjl .gt_empty_group_heading {
+#bcvsknivnt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#zjuisisyjl .gt_striped {
+#bcvsknivnt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zjuisisyjl .gt_from_md > :first-child {
+#bcvsknivnt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zjuisisyjl .gt_from_md > :last-child {
+#bcvsknivnt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zjuisisyjl .gt_row {
+#bcvsknivnt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#zjuisisyjl .gt_stub {
+#bcvsknivnt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#zjuisisyjl .gt_summary_row {
+#bcvsknivnt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#zjuisisyjl .gt_first_summary_row {
+#bcvsknivnt .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_grand_summary_row {
+#bcvsknivnt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#zjuisisyjl .gt_first_grand_summary_row {
+#bcvsknivnt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_table_body {
+#bcvsknivnt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_footnotes {
+#bcvsknivnt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_footnote {
+#bcvsknivnt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#zjuisisyjl .gt_sourcenotes {
+#bcvsknivnt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#zjuisisyjl .gt_sourcenote {
+#bcvsknivnt .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#zjuisisyjl .gt_left {
+#bcvsknivnt .gt_left {
   text-align: left;
 }
 
-#zjuisisyjl .gt_center {
+#bcvsknivnt .gt_center {
   text-align: center;
 }
 
-#zjuisisyjl .gt_right {
+#bcvsknivnt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zjuisisyjl .gt_font_normal {
+#bcvsknivnt .gt_font_normal {
   font-weight: normal;
 }
 
-#zjuisisyjl .gt_font_bold {
+#bcvsknivnt .gt_font_bold {
   font-weight: bold;
 }
 
-#zjuisisyjl .gt_font_italic {
+#bcvsknivnt .gt_font_italic {
   font-style: italic;
 }
 
-#zjuisisyjl .gt_super {
+#bcvsknivnt .gt_super {
   font-size: 65%;
 }
 
-#zjuisisyjl .gt_footnote_marks {
+#bcvsknivnt .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="zjuisisyjl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bcvsknivnt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,53 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Genome-wide patterns of de novo tandem repeat mutations and their
+contribution to autism spectrum disorders.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-20
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.03.04.974170>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Mitra I
+
+</td>
+
+<td class="gt_row gt_center">
+
+Melissa Gymrek
+
+</td>
+
+<td class="gt_row gt_left">
+
+Gymrek, M
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +465,16 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Genome-wide patterns of de novo tandem repeat mutations and their contribution to autism spectrum disorders." by Mitra I et al. bioRxiv, from Gymrek, M search. Oct 20, 2020. https://doi.org/10.1101/2020.03.04.974170
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 1 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
