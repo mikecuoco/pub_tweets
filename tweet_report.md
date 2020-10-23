@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-22
+2020-10-23
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#iepjdoaydp .gt_table {
+#takeluxvaf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_heading {
+#takeluxvaf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_title {
+#takeluxvaf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#iepjdoaydp .gt_subtitle {
+#takeluxvaf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#iepjdoaydp .gt_bottom_border {
+#takeluxvaf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_col_headings {
+#takeluxvaf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_col_heading {
+#takeluxvaf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#iepjdoaydp .gt_column_spanner_outer {
+#takeluxvaf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#iepjdoaydp .gt_column_spanner_outer:first-child {
+#takeluxvaf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#iepjdoaydp .gt_column_spanner_outer:last-child {
+#takeluxvaf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#iepjdoaydp .gt_column_spanner {
+#takeluxvaf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#iepjdoaydp .gt_group_heading {
+#takeluxvaf .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#iepjdoaydp .gt_empty_group_heading {
+#takeluxvaf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#iepjdoaydp .gt_striped {
+#takeluxvaf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#iepjdoaydp .gt_from_md > :first-child {
+#takeluxvaf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#iepjdoaydp .gt_from_md > :last-child {
+#takeluxvaf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#iepjdoaydp .gt_row {
+#takeluxvaf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#iepjdoaydp .gt_stub {
+#takeluxvaf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#iepjdoaydp .gt_summary_row {
+#takeluxvaf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#iepjdoaydp .gt_first_summary_row {
+#takeluxvaf .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_grand_summary_row {
+#takeluxvaf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#iepjdoaydp .gt_first_grand_summary_row {
+#takeluxvaf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_table_body {
+#takeluxvaf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_footnotes {
+#takeluxvaf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_footnote {
+#takeluxvaf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#iepjdoaydp .gt_sourcenotes {
+#takeluxvaf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iepjdoaydp .gt_sourcenote {
+#takeluxvaf .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#iepjdoaydp .gt_left {
+#takeluxvaf .gt_left {
   text-align: left;
 }
 
-#iepjdoaydp .gt_center {
+#takeluxvaf .gt_center {
   text-align: center;
 }
 
-#iepjdoaydp .gt_right {
+#takeluxvaf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#iepjdoaydp .gt_font_normal {
+#takeluxvaf .gt_font_normal {
   font-weight: normal;
 }
 
-#iepjdoaydp .gt_font_bold {
+#takeluxvaf .gt_font_bold {
   font-weight: bold;
 }
 
-#iepjdoaydp .gt_font_italic {
+#takeluxvaf .gt_font_italic {
   font-style: italic;
 }
 
-#iepjdoaydp .gt_super {
+#takeluxvaf .gt_super {
   font-size: 65%;
 }
 
-#iepjdoaydp .gt_footnote_marks {
+#takeluxvaf .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="iepjdoaydp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="takeluxvaf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,147 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Data-Driven Polymer Model for Mechanistic Exploration of Diploid Genome
+Organization.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+Biophysical journal
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.bpj.2020.09.009>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Yifeng Qi
+
+</td>
+
+<td class="gt_row gt_center">
+
+Bin Zhang
+
+</td>
+
+<td class="gt_row gt_left">
+
+Bernstein B
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Simultaneous Observation of Carrier-Specific Redistribution and Coherent
+Lattice Dynamics in 2H-MoTe2 with Femtosecond Core-Level Spectroscopy.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+ACS nano
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1021/acsnano.0c06988>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Andrew R Attar
+
+</td>
+
+<td class="gt_row gt_center">
+
+Stephen R Leone
+
+</td>
+
+<td class="gt_row gt_left">
+
+Chang H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Gene expression variability in human and chimpanzee populations share
+common determinants.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-22
+
+</td>
+
+<td class="gt_row gt_left">
+
+eLife
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.7554/eLife.59929>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Benjamin Jung Fair
+
+</td>
+
+<td class="gt_row gt_center">
+
+Yoav Gilad
+
+</td>
+
+<td class="gt_row gt_left">
+
+Gilad Y
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +559,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Data-Driven Polymer Model for Mechanistic Exploration of Diploid Genome Organization." by Yifeng Qi et al. Biophysical journal, from Bernstein B search. Oct 22, 2020. https://doi.org/10.1016/j.bpj.2020.09.009
+
+    ## your tweet has been posted!
+
+    ## "Simultaneous Observation of Carrier-Specific Redistribution and Coherent Lattice Dynamics in 2H-MoTe2 with Femtosecond Core-Level Spectroscopy." by Andrew R Attar et al. ACS nano, from Chang H search. Oct 22, 2020. https://doi.org/10.1021/acsnano.0c06988
+
+    ## your tweet has been posted!
+
+    ## "Gene expression variability in human and chimpanzee populations share common determinants." by Benjamin Jung Fair et al. eLife, from Gilad Y search. Oct 22, 2020. https://doi.org/10.7554/eLife.59929
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
