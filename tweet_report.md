@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-10-28
+2020-10-29
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#weszjgzehg .gt_table {
+#rpdxzcrcsh .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_heading {
+#rpdxzcrcsh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_title {
+#rpdxzcrcsh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#weszjgzehg .gt_subtitle {
+#rpdxzcrcsh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#weszjgzehg .gt_bottom_border {
+#rpdxzcrcsh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_col_headings {
+#rpdxzcrcsh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_col_heading {
+#rpdxzcrcsh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#weszjgzehg .gt_column_spanner_outer {
+#rpdxzcrcsh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#weszjgzehg .gt_column_spanner_outer:first-child {
+#rpdxzcrcsh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#weszjgzehg .gt_column_spanner_outer:last-child {
+#rpdxzcrcsh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#weszjgzehg .gt_column_spanner {
+#rpdxzcrcsh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#weszjgzehg .gt_group_heading {
+#rpdxzcrcsh .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#weszjgzehg .gt_empty_group_heading {
+#rpdxzcrcsh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#weszjgzehg .gt_striped {
+#rpdxzcrcsh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#weszjgzehg .gt_from_md > :first-child {
+#rpdxzcrcsh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#weszjgzehg .gt_from_md > :last-child {
+#rpdxzcrcsh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#weszjgzehg .gt_row {
+#rpdxzcrcsh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#weszjgzehg .gt_stub {
+#rpdxzcrcsh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#weszjgzehg .gt_summary_row {
+#rpdxzcrcsh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#weszjgzehg .gt_first_summary_row {
+#rpdxzcrcsh .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_grand_summary_row {
+#rpdxzcrcsh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#weszjgzehg .gt_first_grand_summary_row {
+#rpdxzcrcsh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_table_body {
+#rpdxzcrcsh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_footnotes {
+#rpdxzcrcsh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_footnote {
+#rpdxzcrcsh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#weszjgzehg .gt_sourcenotes {
+#rpdxzcrcsh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#weszjgzehg .gt_sourcenote {
+#rpdxzcrcsh .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#weszjgzehg .gt_left {
+#rpdxzcrcsh .gt_left {
   text-align: left;
 }
 
-#weszjgzehg .gt_center {
+#rpdxzcrcsh .gt_center {
   text-align: center;
 }
 
-#weszjgzehg .gt_right {
+#rpdxzcrcsh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#weszjgzehg .gt_font_normal {
+#rpdxzcrcsh .gt_font_normal {
   font-weight: normal;
 }
 
-#weszjgzehg .gt_font_bold {
+#rpdxzcrcsh .gt_font_bold {
   font-weight: bold;
 }
 
-#weszjgzehg .gt_font_italic {
+#rpdxzcrcsh .gt_font_italic {
   font-style: italic;
 }
 
-#weszjgzehg .gt_super {
+#rpdxzcrcsh .gt_super {
   font-size: 65%;
 }
 
-#weszjgzehg .gt_footnote_marks {
+#rpdxzcrcsh .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="weszjgzehg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="rpdxzcrcsh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,147 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Single-cell epigenomic analyses implicate candidate causal variants at
+inherited risk loci for Alzheimer’s and Parkinson’s diseases.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-28
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature genetics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41588-020-00721-x>
+
+</td>
+
+<td class="gt_row gt_center">
+
+M Ryan Corces
+
+</td>
+
+<td class="gt_row gt_center">
+
+Thomas J Montine
+
+</td>
+
+<td class="gt_row gt_left">
+
+Chang H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Single-cell epigenomic analyses implicate candidate causal variants at
+inherited risk loci for Alzheimer’s and Parkinson’s diseases.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-28
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature genetics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41588-020-00721-x>
+
+</td>
+
+<td class="gt_row gt_center">
+
+M Ryan Corces
+
+</td>
+
+<td class="gt_row gt_center">
+
+Thomas J Montine
+
+</td>
+
+<td class="gt_row gt_left">
+
+Greenleaf W
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Acute liver failure is regulated by MYC- and microbiome-dependent
+programs.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-10-28
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature medicine
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41591-020-1102-2>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Aleksandra A Kolodziejczyk
+
+</td>
+
+<td class="gt_row gt_center">
+
+Eran Elinav
+
+</td>
+
+<td class="gt_row gt_left">
+
+Amit I
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +559,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Single-cell epigenomic analyses implicate candidate causal variants at inherited risk loci for Alzheimer's and Parkinson's diseases." by M Ryan Corces et al. Nature genetics, from Chang H search. Oct 28, 2020. https://doi.org/10.1038/s41588-020-00721-x
+
+    ## your tweet has been posted!
+
+    ## "Single-cell epigenomic analyses implicate candidate causal variants at inherited risk loci for Alzheimer's and Parkinson's diseases." by M Ryan Corces et al. Nature genetics, from Greenleaf W search. Oct 28, 2020. https://doi.org/10.1038/s41588-020-00721-x
+
+    ## your tweet has been posted!
+
+    ## "Acute liver failure is regulated by MYC- and microbiome-dependent programs." by Aleksandra A Kolodziejczyk et al. Nature medicine, from Amit I search. Oct 28, 2020. https://doi.org/10.1038/s41591-020-1102-2
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
