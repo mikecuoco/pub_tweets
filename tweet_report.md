@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-11-01
+2020-11-02
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#uroasvhapd .gt_table {
+#bblptvbbwr .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_heading {
+#bblptvbbwr .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_title {
+#bblptvbbwr .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#uroasvhapd .gt_subtitle {
+#bblptvbbwr .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#uroasvhapd .gt_bottom_border {
+#bblptvbbwr .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_col_headings {
+#bblptvbbwr .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_col_heading {
+#bblptvbbwr .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#uroasvhapd .gt_column_spanner_outer {
+#bblptvbbwr .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#uroasvhapd .gt_column_spanner_outer:first-child {
+#bblptvbbwr .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#uroasvhapd .gt_column_spanner_outer:last-child {
+#bblptvbbwr .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#uroasvhapd .gt_column_spanner {
+#bblptvbbwr .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#uroasvhapd .gt_group_heading {
+#bblptvbbwr .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#uroasvhapd .gt_empty_group_heading {
+#bblptvbbwr .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#uroasvhapd .gt_striped {
+#bblptvbbwr .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#uroasvhapd .gt_from_md > :first-child {
+#bblptvbbwr .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#uroasvhapd .gt_from_md > :last-child {
+#bblptvbbwr .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#uroasvhapd .gt_row {
+#bblptvbbwr .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#uroasvhapd .gt_stub {
+#bblptvbbwr .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#uroasvhapd .gt_summary_row {
+#bblptvbbwr .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#uroasvhapd .gt_first_summary_row {
+#bblptvbbwr .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_grand_summary_row {
+#bblptvbbwr .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#uroasvhapd .gt_first_grand_summary_row {
+#bblptvbbwr .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_table_body {
+#bblptvbbwr .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_footnotes {
+#bblptvbbwr .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_footnote {
+#bblptvbbwr .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#uroasvhapd .gt_sourcenotes {
+#bblptvbbwr .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#uroasvhapd .gt_sourcenote {
+#bblptvbbwr .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#uroasvhapd .gt_left {
+#bblptvbbwr .gt_left {
   text-align: left;
 }
 
-#uroasvhapd .gt_center {
+#bblptvbbwr .gt_center {
   text-align: center;
 }
 
-#uroasvhapd .gt_right {
+#bblptvbbwr .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#uroasvhapd .gt_font_normal {
+#bblptvbbwr .gt_font_normal {
   font-weight: normal;
 }
 
-#uroasvhapd .gt_font_bold {
+#bblptvbbwr .gt_font_bold {
   font-weight: bold;
 }
 
-#uroasvhapd .gt_font_italic {
+#bblptvbbwr .gt_font_italic {
   font-style: italic;
 }
 
-#uroasvhapd .gt_super {
+#bblptvbbwr .gt_super {
   font-size: 65%;
 }
 
-#uroasvhapd .gt_footnote_marks {
+#bblptvbbwr .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="uroasvhapd" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bblptvbbwr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,194 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Pan-cancer single-cell RNA-seq identifies recurring programs of cellular
+heterogeneity.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-11-01
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature genetics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41588-020-00726-6>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Gabriela S Kinker
+
+</td>
+
+<td class="gt_row gt_center">
+
+Itay Tirosh
+
+</td>
+
+<td class="gt_row gt_left">
+
+Regev A
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Optimized design of single-cell RNA sequencing experiments for
+cell-type-specific eQTL analysis.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-11-01
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature communications
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41467-020-19365-w>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Igor Mandric
+
+</td>
+
+<td class="gt_row gt_center">
+
+Eran Halperin
+
+</td>
+
+<td class="gt_row gt_left">
+
+Satija R
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Rapid bioprinting of conjunctival stem cell micro-constructs for
+subconjunctival ocular injection.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-11-01
+
+</td>
+
+<td class="gt_row gt_left">
+
+Biomaterials
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.biomaterials.2020.120462>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Zheng Zhong
+
+</td>
+
+<td class="gt_row gt_center">
+
+Shaochen Chen
+
+</td>
+
+<td class="gt_row gt_left">
+
+Zhang K
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Pan-cancer single-cell RNA-seq identifies recurring programs of cellular
+heterogeneity.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-11-01
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature genetics
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41588-020-00726-6>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Gabriela S Kinker
+
+</td>
+
+<td class="gt_row gt_center">
+
+Itay Tirosh
+
+</td>
+
+<td class="gt_row gt_left">
+
+Tirosh I
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +606,28 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Pan-cancer single-cell RNA-seq identifies recurring programs of cellular heterogeneity." by Gabriela S Kinker et al. Nature genetics, from Regev A search. Nov 1, 2020. https://doi.org/10.1038/s41588-020-00726-6
+
+    ## your tweet has been posted!
+
+    ## "Optimized design of single-cell RNA sequencing experiments for cell-type-specific eQTL analysis." by Igor Mandric et al. Nature communications, from Satija R search. Nov 1, 2020. https://doi.org/10.1038/s41467-020-19365-w
+
+    ## your tweet has been posted!
+
+    ## "Rapid bioprinting of conjunctival stem cell micro-constructs for subconjunctival ocular injection." by Zheng Zhong et al. Biomaterials, from Zhang K search. Nov 1, 2020. https://doi.org/10.1016/j.biomaterials.2020.120462
+
+    ## your tweet has been posted!
+
+    ## "Pan-cancer single-cell RNA-seq identifies recurring programs of cellular heterogeneity." by Gabriela S Kinker et al. Nature genetics, from Tirosh I search. Nov 1, 2020. https://doi.org/10.1038/s41588-020-00726-6
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
