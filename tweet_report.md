@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-11-06
+2020-11-07
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#vgvkidrxdw .gt_table {
+#kthengzxtt .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_heading {
+#kthengzxtt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_title {
+#kthengzxtt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#vgvkidrxdw .gt_subtitle {
+#kthengzxtt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#vgvkidrxdw .gt_bottom_border {
+#kthengzxtt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_col_headings {
+#kthengzxtt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_col_heading {
+#kthengzxtt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vgvkidrxdw .gt_column_spanner_outer {
+#kthengzxtt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#vgvkidrxdw .gt_column_spanner_outer:first-child {
+#kthengzxtt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vgvkidrxdw .gt_column_spanner_outer:last-child {
+#kthengzxtt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vgvkidrxdw .gt_column_spanner {
+#kthengzxtt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#vgvkidrxdw .gt_group_heading {
+#kthengzxtt .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vgvkidrxdw .gt_empty_group_heading {
+#kthengzxtt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vgvkidrxdw .gt_striped {
+#kthengzxtt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vgvkidrxdw .gt_from_md > :first-child {
+#kthengzxtt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vgvkidrxdw .gt_from_md > :last-child {
+#kthengzxtt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vgvkidrxdw .gt_row {
+#kthengzxtt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vgvkidrxdw .gt_stub {
+#kthengzxtt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#vgvkidrxdw .gt_summary_row {
+#kthengzxtt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vgvkidrxdw .gt_first_summary_row {
+#kthengzxtt .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_grand_summary_row {
+#kthengzxtt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vgvkidrxdw .gt_first_grand_summary_row {
+#kthengzxtt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_table_body {
+#kthengzxtt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_footnotes {
+#kthengzxtt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_footnote {
+#kthengzxtt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vgvkidrxdw .gt_sourcenotes {
+#kthengzxtt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vgvkidrxdw .gt_sourcenote {
+#kthengzxtt .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vgvkidrxdw .gt_left {
+#kthengzxtt .gt_left {
   text-align: left;
 }
 
-#vgvkidrxdw .gt_center {
+#kthengzxtt .gt_center {
   text-align: center;
 }
 
-#vgvkidrxdw .gt_right {
+#kthengzxtt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vgvkidrxdw .gt_font_normal {
+#kthengzxtt .gt_font_normal {
   font-weight: normal;
 }
 
-#vgvkidrxdw .gt_font_bold {
+#kthengzxtt .gt_font_bold {
   font-weight: bold;
 }
 
-#vgvkidrxdw .gt_font_italic {
+#kthengzxtt .gt_font_italic {
   font-style: italic;
 }
 
-#vgvkidrxdw .gt_super {
+#kthengzxtt .gt_super {
   font-size: 65%;
 }
 
-#vgvkidrxdw .gt_footnote_marks {
+#kthengzxtt .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="vgvkidrxdw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="kthengzxtt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,194 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Identification of Required Host Factors for SARS-CoV-2 Infection in
-Human Cells.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-05
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.cell.2020.10.030>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Zharko Daniloski
-
-</td>
-
-<td class="gt_row gt_center">
-
-Neville E Sanjana
-
-</td>
-
-<td class="gt_row gt_left">
-
-Lappalainen T
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-In Vivo Gene Editing of Muscle Stem Cells with Adeno-Associated Viral
-Vectors in a Mouse Model of Duchenne Muscular Dystrophy.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-05
-
-</td>
-
-<td class="gt_row gt_left">
-
-Molecular therapy. Methods & clinical development
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.omtm.2020.09.016>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jennifer B Kwon
-
-</td>
-
-<td class="gt_row gt_center">
-
-Charles A Gersbach
-
-</td>
-
-<td class="gt_row gt_left">
-
-Gersbach C
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Genome-wide CRISPR Screens Reveal Host Factors Critical for SARS-CoV-2
-Infection.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-05
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.cell.2020.10.028>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jin Wei
-
-</td>
-
-<td class="gt_row gt_center">
-
-Craig B Wilen
-
-</td>
-
-<td class="gt_row gt_left">
-
-Kadoch C
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Evaluation of Engineered CRISPR-Cas-Mediated Systems for Site-Specific
-RNA Editing.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-05
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell reports
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.celrep.2020.108350>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Ryan J Marina
-
-</td>
-
-<td class="gt_row gt_center">
-
-Gene W Yeo
-
-</td>
-
-<td class="gt_row gt_left">
-
-Yeo G
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -606,28 +418,14 @@ Yeo G
 tweet_pubs(all_df, token)
 ```
 
-    ## "Identification of Required Host Factors for SARS-CoV-2 Infection in Human Cells." by Zharko Daniloski et al. Cell, from Lappalainen T search. Nov 5, 2020. https://doi.org/10.1016/j.cell.2020.10.030
-
-    ## your tweet has been posted!
-
-    ## "In Vivo Gene Editing of Muscle Stem Cells with Adeno-Associated Viral Vectors in a Mouse Model of Duchenne Muscular Dystrophy." by Jennifer B Kwon et al. Molecular therapy. Methods & clinical development, from Gersbach C search. Nov 5, 2020. https://doi.org/10.1016/j.omtm.2020.09.016
-
-    ## your tweet has been posted!
-
-    ## "Genome-wide CRISPR Screens Reveal Host Factors Critical for SARS-CoV-2 Infection." by Jin Wei et al. Cell, from Kadoch C search. Nov 5, 2020. https://doi.org/10.1016/j.cell.2020.10.028
-
-    ## your tweet has been posted!
-
-    ## "Evaluation of Engineered CRISPR-Cas-Mediated Systems for Site-Specific RNA Editing." by Ryan J Marina et al. Cell reports, from Yeo G search. Nov 5, 2020. https://doi.org/10.1016/j.celrep.2020.108350
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 4 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
