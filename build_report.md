@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2020-11-09
+2020-11-10
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -1398,10 +1398,6 @@ make(plan)
 
     ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2020-11-06"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## retrying...
-
-    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2020-11-06"[Date - Publication] : "3000"[Date - Publication]))...
-
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
@@ -1675,10 +1671,6 @@ make(plan)
     ## found paper published on 2020-09-17
 
     ## done!
-
-    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-11-06"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## retrying...
 
     ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-11-06"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -2189,7 +2181,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#luzatwlxnk .gt_table {
+#yrkhukkfqw .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2212,7 +2204,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_heading {
+#yrkhukkfqw .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2224,7 +2216,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_title {
+#yrkhukkfqw .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2234,7 +2226,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#luzatwlxnk .gt_subtitle {
+#yrkhukkfqw .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2244,13 +2236,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#luzatwlxnk .gt_bottom_border {
+#yrkhukkfqw .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_col_headings {
+#yrkhukkfqw .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2265,7 +2257,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_col_heading {
+#yrkhukkfqw .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2285,7 +2277,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#luzatwlxnk .gt_column_spanner_outer {
+#yrkhukkfqw .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2297,15 +2289,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#luzatwlxnk .gt_column_spanner_outer:first-child {
+#yrkhukkfqw .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#luzatwlxnk .gt_column_spanner_outer:last-child {
+#yrkhukkfqw .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#luzatwlxnk .gt_column_spanner {
+#yrkhukkfqw .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2317,7 +2309,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#luzatwlxnk .gt_group_heading {
+#yrkhukkfqw .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2339,7 +2331,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#luzatwlxnk .gt_empty_group_heading {
+#yrkhukkfqw .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2354,19 +2346,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#luzatwlxnk .gt_striped {
+#yrkhukkfqw .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#luzatwlxnk .gt_from_md > :first-child {
+#yrkhukkfqw .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#luzatwlxnk .gt_from_md > :last-child {
+#yrkhukkfqw .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#luzatwlxnk .gt_row {
+#yrkhukkfqw .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2385,7 +2377,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#luzatwlxnk .gt_stub {
+#yrkhukkfqw .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2397,7 +2389,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#luzatwlxnk .gt_summary_row {
+#yrkhukkfqw .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2407,7 +2399,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#luzatwlxnk .gt_first_summary_row {
+#yrkhukkfqw .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2417,7 +2409,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_grand_summary_row {
+#yrkhukkfqw .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2427,7 +2419,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#luzatwlxnk .gt_first_grand_summary_row {
+#yrkhukkfqw .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2437,7 +2429,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_table_body {
+#yrkhukkfqw .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2446,7 +2438,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_footnotes {
+#yrkhukkfqw .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2460,13 +2452,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_footnote {
+#yrkhukkfqw .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#luzatwlxnk .gt_sourcenotes {
+#yrkhukkfqw .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2480,47 +2472,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#luzatwlxnk .gt_sourcenote {
+#yrkhukkfqw .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#luzatwlxnk .gt_left {
+#yrkhukkfqw .gt_left {
   text-align: left;
 }
 
-#luzatwlxnk .gt_center {
+#yrkhukkfqw .gt_center {
   text-align: center;
 }
 
-#luzatwlxnk .gt_right {
+#yrkhukkfqw .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#luzatwlxnk .gt_font_normal {
+#yrkhukkfqw .gt_font_normal {
   font-weight: normal;
 }
 
-#luzatwlxnk .gt_font_bold {
+#yrkhukkfqw .gt_font_bold {
   font-weight: bold;
 }
 
-#luzatwlxnk .gt_font_italic {
+#yrkhukkfqw .gt_font_italic {
   font-style: italic;
 }
 
-#luzatwlxnk .gt_super {
+#yrkhukkfqw .gt_super {
   font-size: 65%;
 }
 
-#luzatwlxnk .gt_footnote_marks {
+#yrkhukkfqw .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="luzatwlxnk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="yrkhukkfqw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2568,19 +2560,19 @@ affils
 
 <td class="gt_row gt_center">
 
-0.002s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.002s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.001s
+0s
 
 </td>
 
@@ -2596,13 +2588,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.205s
+0.194s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.089s
+0.087s
 
 </td>
 
@@ -2624,19 +2616,19 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
-
-</td>
-
-<td class="gt_row gt_center">
-
-0.003s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
 0s
+
+</td>
+
+<td class="gt_row gt_center">
+
+0.004s
 
 </td>
 
@@ -2652,13 +2644,13 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-11.457s
+14.863s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.845s
+1.058s
 
 </td>
 
@@ -2680,19 +2672,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.334s
+0.358s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.133s
+0.126s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.01s
+0.009s
 
 </td>
 
@@ -2736,19 +2728,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-101s (\~1.68 minutes)
+99s (\~1.65 minutes)
 
 </td>
 
 <td class="gt_row gt_center">
 
-46.246s
+48.105s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.252s
+0.184s
 
 </td>
 
@@ -2764,19 +2756,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.927s
+0.996s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.163s
+0.151s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.012s
+0.016s
 
 </td>
 
@@ -2792,13 +2784,13 @@ token
 
 <td class="gt_row gt_center">
 
-0.014s
+0.016s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.015s
+0.016s
 
 </td>
 
