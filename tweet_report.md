@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-11-13
+2020-11-14
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#wmsyrrbowu .gt_table {
+#vhkuwlprtp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_heading {
+#vhkuwlprtp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_title {
+#vhkuwlprtp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#wmsyrrbowu .gt_subtitle {
+#vhkuwlprtp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#wmsyrrbowu .gt_bottom_border {
+#vhkuwlprtp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_col_headings {
+#vhkuwlprtp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_col_heading {
+#vhkuwlprtp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#wmsyrrbowu .gt_column_spanner_outer {
+#vhkuwlprtp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#wmsyrrbowu .gt_column_spanner_outer:first-child {
+#vhkuwlprtp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wmsyrrbowu .gt_column_spanner_outer:last-child {
+#vhkuwlprtp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wmsyrrbowu .gt_column_spanner {
+#vhkuwlprtp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#wmsyrrbowu .gt_group_heading {
+#vhkuwlprtp .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#wmsyrrbowu .gt_empty_group_heading {
+#vhkuwlprtp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#wmsyrrbowu .gt_striped {
+#vhkuwlprtp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wmsyrrbowu .gt_from_md > :first-child {
+#vhkuwlprtp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wmsyrrbowu .gt_from_md > :last-child {
+#vhkuwlprtp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wmsyrrbowu .gt_row {
+#vhkuwlprtp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#wmsyrrbowu .gt_stub {
+#vhkuwlprtp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#wmsyrrbowu .gt_summary_row {
+#vhkuwlprtp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#wmsyrrbowu .gt_first_summary_row {
+#vhkuwlprtp .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_grand_summary_row {
+#vhkuwlprtp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#wmsyrrbowu .gt_first_grand_summary_row {
+#vhkuwlprtp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_table_body {
+#vhkuwlprtp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_footnotes {
+#vhkuwlprtp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_footnote {
+#vhkuwlprtp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#wmsyrrbowu .gt_sourcenotes {
+#vhkuwlprtp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#wmsyrrbowu .gt_sourcenote {
+#vhkuwlprtp .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#wmsyrrbowu .gt_left {
+#vhkuwlprtp .gt_left {
   text-align: left;
 }
 
-#wmsyrrbowu .gt_center {
+#vhkuwlprtp .gt_center {
   text-align: center;
 }
 
-#wmsyrrbowu .gt_right {
+#vhkuwlprtp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wmsyrrbowu .gt_font_normal {
+#vhkuwlprtp .gt_font_normal {
   font-weight: normal;
 }
 
-#wmsyrrbowu .gt_font_bold {
+#vhkuwlprtp .gt_font_bold {
   font-weight: bold;
 }
 
-#wmsyrrbowu .gt_font_italic {
+#vhkuwlprtp .gt_font_italic {
   font-style: italic;
 }
 
-#wmsyrrbowu .gt_super {
+#vhkuwlprtp .gt_super {
   font-size: 65%;
 }
 
-#wmsyrrbowu .gt_footnote_marks {
+#vhkuwlprtp .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="wmsyrrbowu" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vhkuwlprtp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,100 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Prrx1 Fibroblasts Represent a Pro-fibrotic Lineage in the Mouse Ventral
-Dermis.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-12
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell reports
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.celrep.2020.108356>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Tripp Leavitt
-
-</td>
-
-<td class="gt_row gt_center">
-
-Michael T Longaker
-
-</td>
-
-<td class="gt_row gt_left">
-
-Chang H
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Repeat RNA expansion disorders of the nervous system:
-post-transcriptional mechanisms and therapeutic strategies.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-11-12
-
-</td>
-
-<td class="gt_row gt_left">
-
-Critical reviews in biochemistry and molecular biology
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1080/10409238.2020.1841726>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Joshua L Schwartz
-
-</td>
-
-<td class="gt_row gt_center">
-
-Gene W Yeo
-
-</td>
-
-<td class="gt_row gt_left">
-
-Yeo G
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -512,20 +418,14 @@ Yeo G
 tweet_pubs(all_df, token)
 ```
 
-    ## "Prrx1 Fibroblasts Represent a Pro-fibrotic Lineage in the Mouse Ventral Dermis." by Tripp Leavitt et al. Cell reports, from Chang H search. Nov 12, 2020. https://doi.org/10.1016/j.celrep.2020.108356
-
-    ## your tweet has been posted!
-
-    ## "Repeat RNA expansion disorders of the nervous system: post-transcriptional mechanisms and therapeutic strategies." by Joshua L Schwartz et al. Critical reviews in biochemistry and molecular biology, from Yeo G search. Nov 12, 2020. https://doi.org/10.1080/10409238.2020.1841726
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 2 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
