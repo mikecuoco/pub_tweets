@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-12-06
+2020-12-07
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#fltbxwjevq .gt_table {
+#oczdlgpqhk .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_heading {
+#oczdlgpqhk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_title {
+#oczdlgpqhk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#fltbxwjevq .gt_subtitle {
+#oczdlgpqhk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#fltbxwjevq .gt_bottom_border {
+#oczdlgpqhk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_col_headings {
+#oczdlgpqhk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_col_heading {
+#oczdlgpqhk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#fltbxwjevq .gt_column_spanner_outer {
+#oczdlgpqhk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#fltbxwjevq .gt_column_spanner_outer:first-child {
+#oczdlgpqhk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fltbxwjevq .gt_column_spanner_outer:last-child {
+#oczdlgpqhk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fltbxwjevq .gt_column_spanner {
+#oczdlgpqhk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#fltbxwjevq .gt_group_heading {
+#oczdlgpqhk .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#fltbxwjevq .gt_empty_group_heading {
+#oczdlgpqhk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#fltbxwjevq .gt_striped {
+#oczdlgpqhk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fltbxwjevq .gt_from_md > :first-child {
+#oczdlgpqhk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fltbxwjevq .gt_from_md > :last-child {
+#oczdlgpqhk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fltbxwjevq .gt_row {
+#oczdlgpqhk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#fltbxwjevq .gt_stub {
+#oczdlgpqhk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#fltbxwjevq .gt_summary_row {
+#oczdlgpqhk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#fltbxwjevq .gt_first_summary_row {
+#oczdlgpqhk .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_grand_summary_row {
+#oczdlgpqhk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#fltbxwjevq .gt_first_grand_summary_row {
+#oczdlgpqhk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_table_body {
+#oczdlgpqhk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_footnotes {
+#oczdlgpqhk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_footnote {
+#oczdlgpqhk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#fltbxwjevq .gt_sourcenotes {
+#oczdlgpqhk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#fltbxwjevq .gt_sourcenote {
+#oczdlgpqhk .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#fltbxwjevq .gt_left {
+#oczdlgpqhk .gt_left {
   text-align: left;
 }
 
-#fltbxwjevq .gt_center {
+#oczdlgpqhk .gt_center {
   text-align: center;
 }
 
-#fltbxwjevq .gt_right {
+#oczdlgpqhk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fltbxwjevq .gt_font_normal {
+#oczdlgpqhk .gt_font_normal {
   font-weight: normal;
 }
 
-#fltbxwjevq .gt_font_bold {
+#oczdlgpqhk .gt_font_bold {
   font-weight: bold;
 }
 
-#fltbxwjevq .gt_font_italic {
+#oczdlgpqhk .gt_font_italic {
   font-style: italic;
 }
 
-#fltbxwjevq .gt_super {
+#oczdlgpqhk .gt_super {
   font-size: 65%;
 }
 
-#fltbxwjevq .gt_footnote_marks {
+#oczdlgpqhk .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="fltbxwjevq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="oczdlgpqhk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,100 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Diversity of developing peripheral glia revealed by single cell RNA
+sequencing
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+bioRxiv
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1101/2020.12.04.411975>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Tasdemir-Yilmaz OE
+
+</td>
+
+<td class="gt_row gt_center">
+
+Rosalind A Segal
+
+</td>
+
+<td class="gt_row gt_left">
+
+Kharchenko, P
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Meningeal lymphoid structures are activated under acute and chronic
+spinal cord pathologies.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-06
+
+</td>
+
+<td class="gt_row gt_left">
+
+Life science alliance
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.26508/lsa.202000907>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Merav Cohen
+
+</td>
+
+<td class="gt_row gt_center">
+
+Michal Schwartz
+
+</td>
+
+<td class="gt_row gt_left">
+
+Amit I
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +512,20 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Diversity of developing peripheral glia revealed by single cell RNA sequencing" by Tasdemir-Yilmaz OE et al. bioRxiv, from Kharchenko, P search. Dec 6, 2020. https://doi.org/10.1101/2020.12.04.411975
+
+    ## your tweet has been posted!
+
+    ## "Meningeal lymphoid structures are activated under acute and chronic spinal cord pathologies." by Merav Cohen et al. Life science alliance, from Amit I search. Dec 6, 2020. https://doi.org/10.26508/lsa.202000907
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 2 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
