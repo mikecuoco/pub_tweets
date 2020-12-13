@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-12-12
+2020-12-13
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ulfitzqhij .gt_table {
+#dnzpdcadtf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_heading {
+#dnzpdcadtf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_title {
+#dnzpdcadtf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#ulfitzqhij .gt_subtitle {
+#dnzpdcadtf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#ulfitzqhij .gt_bottom_border {
+#dnzpdcadtf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_col_headings {
+#dnzpdcadtf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_col_heading {
+#dnzpdcadtf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ulfitzqhij .gt_column_spanner_outer {
+#dnzpdcadtf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#ulfitzqhij .gt_column_spanner_outer:first-child {
+#dnzpdcadtf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ulfitzqhij .gt_column_spanner_outer:last-child {
+#dnzpdcadtf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ulfitzqhij .gt_column_spanner {
+#dnzpdcadtf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#ulfitzqhij .gt_group_heading {
+#dnzpdcadtf .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ulfitzqhij .gt_empty_group_heading {
+#dnzpdcadtf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ulfitzqhij .gt_striped {
+#dnzpdcadtf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ulfitzqhij .gt_from_md > :first-child {
+#dnzpdcadtf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ulfitzqhij .gt_from_md > :last-child {
+#dnzpdcadtf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ulfitzqhij .gt_row {
+#dnzpdcadtf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ulfitzqhij .gt_stub {
+#dnzpdcadtf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#ulfitzqhij .gt_summary_row {
+#dnzpdcadtf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ulfitzqhij .gt_first_summary_row {
+#dnzpdcadtf .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_grand_summary_row {
+#dnzpdcadtf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ulfitzqhij .gt_first_grand_summary_row {
+#dnzpdcadtf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_table_body {
+#dnzpdcadtf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_footnotes {
+#dnzpdcadtf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_footnote {
+#dnzpdcadtf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ulfitzqhij .gt_sourcenotes {
+#dnzpdcadtf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ulfitzqhij .gt_sourcenote {
+#dnzpdcadtf .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ulfitzqhij .gt_left {
+#dnzpdcadtf .gt_left {
   text-align: left;
 }
 
-#ulfitzqhij .gt_center {
+#dnzpdcadtf .gt_center {
   text-align: center;
 }
 
-#ulfitzqhij .gt_right {
+#dnzpdcadtf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ulfitzqhij .gt_font_normal {
+#dnzpdcadtf .gt_font_normal {
   font-weight: normal;
 }
 
-#ulfitzqhij .gt_font_bold {
+#dnzpdcadtf .gt_font_bold {
   font-weight: bold;
 }
 
-#ulfitzqhij .gt_font_italic {
+#dnzpdcadtf .gt_font_italic {
   font-style: italic;
 }
 
-#ulfitzqhij .gt_super {
+#dnzpdcadtf .gt_super {
   font-size: 65%;
 }
 
-#ulfitzqhij .gt_footnote_marks {
+#dnzpdcadtf .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="ulfitzqhij" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="dnzpdcadtf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,193 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Phylogenetic analysis of SARS-CoV-2 in Boston highlights the impact of
+superspreading events.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-12
+
+</td>
+
+<td class="gt_row gt_left">
+
+Science (New York, N.Y.)
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1126/science.abe3261>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Jacob E Lemieux
+
+</td>
+
+<td class="gt_row gt_center">
+
+Bronwyn L MacInnis
+
+</td>
+
+<td class="gt_row gt_left">
+
+Sabeti P
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Reliable and accurate diagnostics from highly multiplexed sequencing
+assays.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-12
+
+</td>
+
+<td class="gt_row gt_left">
+
+Scientific reports
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41598-020-78942-7>
+
+</td>
+
+<td class="gt_row gt_center">
+
+A Sina Booeshaghi
+
+</td>
+
+<td class="gt_row gt_center">
+
+Lior Pachter
+
+</td>
+
+<td class="gt_row gt_left">
+
+Pachter L
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Predicting immunotherapy response through genomics.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-12
+
+</td>
+
+<td class="gt_row gt_left">
+
+Current opinion in genetics & development
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1016/j.gde.2020.11.004>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Marina Candido Visontai Cormedi
+
+</td>
+
+<td class="gt_row gt_center">
+
+Leandro Machado Colli
+
+</td>
+
+<td class="gt_row gt_left">
+
+Van Allen E
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Human-engineered Treg-like cells suppress FOXP3-deficient T cells but
+preserve adaptive immune responses in vivo.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-12
+
+</td>
+
+<td class="gt_row gt_left">
+
+Clinical & translational immunology
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1002/cti2.1214>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Yohei Sato
+
+</td>
+
+<td class="gt_row gt_center">
+
+Rosa Bacchetta
+
+</td>
+
+<td class="gt_row gt_left">
+
+Snyder M
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +605,28 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Phylogenetic analysis of SARS-CoV-2 in Boston highlights the impact of superspreading events." by Jacob E Lemieux et al. Science (New York, N.Y.), from Sabeti P search. Dec 12, 2020. https://doi.org/10.1126/science.abe3261
+
+    ## your tweet has been posted!
+
+    ## "Reliable and accurate diagnostics from highly multiplexed sequencing assays." by A Sina Booeshaghi et al. Scientific reports, from Pachter L search. Dec 12, 2020. https://doi.org/10.1038/s41598-020-78942-7
+
+    ## your tweet has been posted!
+
+    ## "Predicting immunotherapy response through genomics." by Marina Candido Visontai Cormedi et al. Current opinion in genetics & development, from Van Allen E search. Dec 12, 2020. https://doi.org/10.1016/j.gde.2020.11.004
+
+    ## your tweet has been posted!
+
+    ## "Human-engineered Treg-like cells suppress FOXP3-deficient T cells but preserve adaptive immune responses in vivo." by Yohei Sato et al. Clinical & translational immunology, from Snyder M search. Dec 12, 2020. https://doi.org/10.1002/cti2.1214
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
