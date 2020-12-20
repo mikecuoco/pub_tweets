@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2020-12-19
+2020-12-20
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#qznycpyhsw .gt_table {
+#dkriccgoxi .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_heading {
+#dkriccgoxi .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_title {
+#dkriccgoxi .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#qznycpyhsw .gt_subtitle {
+#dkriccgoxi .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#qznycpyhsw .gt_bottom_border {
+#dkriccgoxi .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_col_headings {
+#dkriccgoxi .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_col_heading {
+#dkriccgoxi .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#qznycpyhsw .gt_column_spanner_outer {
+#dkriccgoxi .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#qznycpyhsw .gt_column_spanner_outer:first-child {
+#dkriccgoxi .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qznycpyhsw .gt_column_spanner_outer:last-child {
+#dkriccgoxi .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qznycpyhsw .gt_column_spanner {
+#dkriccgoxi .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#qznycpyhsw .gt_group_heading {
+#dkriccgoxi .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#qznycpyhsw .gt_empty_group_heading {
+#dkriccgoxi .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#qznycpyhsw .gt_striped {
+#dkriccgoxi .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qznycpyhsw .gt_from_md > :first-child {
+#dkriccgoxi .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qznycpyhsw .gt_from_md > :last-child {
+#dkriccgoxi .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qznycpyhsw .gt_row {
+#dkriccgoxi .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#qznycpyhsw .gt_stub {
+#dkriccgoxi .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#qznycpyhsw .gt_summary_row {
+#dkriccgoxi .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#qznycpyhsw .gt_first_summary_row {
+#dkriccgoxi .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_grand_summary_row {
+#dkriccgoxi .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#qznycpyhsw .gt_first_grand_summary_row {
+#dkriccgoxi .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_table_body {
+#dkriccgoxi .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_footnotes {
+#dkriccgoxi .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_footnote {
+#dkriccgoxi .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#qznycpyhsw .gt_sourcenotes {
+#dkriccgoxi .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#qznycpyhsw .gt_sourcenote {
+#dkriccgoxi .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#qznycpyhsw .gt_left {
+#dkriccgoxi .gt_left {
   text-align: left;
 }
 
-#qznycpyhsw .gt_center {
+#dkriccgoxi .gt_center {
   text-align: center;
 }
 
-#qznycpyhsw .gt_right {
+#dkriccgoxi .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qznycpyhsw .gt_font_normal {
+#dkriccgoxi .gt_font_normal {
   font-weight: normal;
 }
 
-#qznycpyhsw .gt_font_bold {
+#dkriccgoxi .gt_font_bold {
   font-weight: bold;
 }
 
-#qznycpyhsw .gt_font_italic {
+#dkriccgoxi .gt_font_italic {
   font-style: italic;
 }
 
-#qznycpyhsw .gt_super {
+#dkriccgoxi .gt_super {
   font-size: 65%;
 }
 
-#qznycpyhsw .gt_footnote_marks {
+#dkriccgoxi .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="qznycpyhsw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="dkriccgoxi" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,146 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+Transparency is key to ethical vaccine research.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-19
+
+</td>
+
+<td class="gt_row gt_left">
+
+Science (New York, N.Y.)
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1126/science.abf4851>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Preston W Estep
+
+</td>
+
+<td class="gt_row gt_center">
+
+George M Church
+
+</td>
+
+<td class="gt_row gt_left">
+
+Church G
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Cerebellar nuclei evolved by repeatedly duplicating a conserved
+cell-type set.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-19
+
+</td>
+
+<td class="gt_row gt_left">
+
+Science (New York, N.Y.)
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1126/science.abd5059>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Justus M Kebschull
+
+</td>
+
+<td class="gt_row gt_center">
+
+Liqun Luo
+
+</td>
+
+<td class="gt_row gt_left">
+
+Chang H
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Multiomics Characterization of Preterm Birth in Low- and Middle-Income
+Countries.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2020-12-19
+
+</td>
+
+<td class="gt_row gt_left">
+
+JAMA network open
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1001/jamanetworkopen.2020.29655>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Fyezah Jehan
+
+</td>
+
+<td class="gt_row gt_center">
+
+Nima Aghaeepour
+
+</td>
+
+<td class="gt_row gt_left">
+
+Snyder M
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +558,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Transparency is key to ethical vaccine research." by Preston W Estep et al. Science (New York, N.Y.), from Church G search. Dec 19, 2020. https://doi.org/10.1126/science.abf4851
+
+    ## your tweet has been posted!
+
+    ## "Cerebellar nuclei evolved by repeatedly duplicating a conserved cell-type set." by Justus M Kebschull et al. Science (New York, N.Y.), from Chang H search. Dec 19, 2020. https://doi.org/10.1126/science.abd5059
+
+    ## your tweet has been posted!
+
+    ## "Multiomics Characterization of Preterm Birth in Low- and Middle-Income Countries." by Fyezah Jehan et al. JAMA network open, from Snyder M search. Dec 19, 2020. https://doi.org/10.1001/jamanetworkopen.2020.29655
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
