@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-01-02
+2021-01-03
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#rwtniwnmrh .gt_table {
+#sqbzmuwdpx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_heading {
+#sqbzmuwdpx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_title {
+#sqbzmuwdpx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#rwtniwnmrh .gt_subtitle {
+#sqbzmuwdpx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#rwtniwnmrh .gt_bottom_border {
+#sqbzmuwdpx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_col_headings {
+#sqbzmuwdpx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_col_heading {
+#sqbzmuwdpx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#rwtniwnmrh .gt_column_spanner_outer {
+#sqbzmuwdpx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#rwtniwnmrh .gt_column_spanner_outer:first-child {
+#sqbzmuwdpx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#rwtniwnmrh .gt_column_spanner_outer:last-child {
+#sqbzmuwdpx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#rwtniwnmrh .gt_column_spanner {
+#sqbzmuwdpx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#rwtniwnmrh .gt_group_heading {
+#sqbzmuwdpx .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#rwtniwnmrh .gt_empty_group_heading {
+#sqbzmuwdpx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#rwtniwnmrh .gt_striped {
+#sqbzmuwdpx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#rwtniwnmrh .gt_from_md > :first-child {
+#sqbzmuwdpx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#rwtniwnmrh .gt_from_md > :last-child {
+#sqbzmuwdpx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#rwtniwnmrh .gt_row {
+#sqbzmuwdpx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#rwtniwnmrh .gt_stub {
+#sqbzmuwdpx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#rwtniwnmrh .gt_summary_row {
+#sqbzmuwdpx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#rwtniwnmrh .gt_first_summary_row {
+#sqbzmuwdpx .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_grand_summary_row {
+#sqbzmuwdpx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#rwtniwnmrh .gt_first_grand_summary_row {
+#sqbzmuwdpx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_table_body {
+#sqbzmuwdpx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_footnotes {
+#sqbzmuwdpx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_footnote {
+#sqbzmuwdpx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#rwtniwnmrh .gt_sourcenotes {
+#sqbzmuwdpx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#rwtniwnmrh .gt_sourcenote {
+#sqbzmuwdpx .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#rwtniwnmrh .gt_left {
+#sqbzmuwdpx .gt_left {
   text-align: left;
 }
 
-#rwtniwnmrh .gt_center {
+#sqbzmuwdpx .gt_center {
   text-align: center;
 }
 
-#rwtniwnmrh .gt_right {
+#sqbzmuwdpx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#rwtniwnmrh .gt_font_normal {
+#sqbzmuwdpx .gt_font_normal {
   font-weight: normal;
 }
 
-#rwtniwnmrh .gt_font_bold {
+#sqbzmuwdpx .gt_font_bold {
   font-weight: bold;
 }
 
-#rwtniwnmrh .gt_font_italic {
+#sqbzmuwdpx .gt_font_italic {
   font-style: italic;
 }
 
-#rwtniwnmrh .gt_super {
+#sqbzmuwdpx .gt_super {
   font-size: 65%;
 }
 
-#rwtniwnmrh .gt_footnote_marks {
+#sqbzmuwdpx .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="rwtniwnmrh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="sqbzmuwdpx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,289 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-HyPR-seq: Single-cell quantification of chosen RNAs via hybridization
-and sequencing of DNA probes.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-12-31
-
-</td>
-
-<td class="gt_row gt_left">
-
-Proceedings of the National Academy of Sciences of the United States of
-America
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1073/pnas.2010738117>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jamie L Marshall
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jesse M Engreitz
-
-</td>
-
-<td class="gt_row gt_left">
-
-Bergman D
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-HyPR-seq: Single-cell quantification of chosen RNAs via hybridization
-and sequencing of DNA probes.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-12-31
-
-</td>
-
-<td class="gt_row gt_left">
-
-Proceedings of the National Academy of Sciences of the United States of
-America
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1073/pnas.2010738117>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jamie L Marshall
-
-</td>
-
-<td class="gt_row gt_center">
-
-Jesse M Engreitz
-
-</td>
-
-<td class="gt_row gt_left">
-
-Doughty B
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Aging-Associated Alterations in Mammary Epithelia and Stroma Revealed by
-Single-Cell RNA Sequencing.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-12-31
-
-</td>
-
-<td class="gt_row gt_left">
-
-Cell reports
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.celrep.2020.108566>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Carman Man-Chung Li
-
-</td>
-
-<td class="gt_row gt_center">
-
-Joan S Brugge
-
-</td>
-
-<td class="gt_row gt_left">
-
-Regev A
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Altered NKp46 Recognition and Elimination of Influenza B Viruses.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-12-31
-
-</td>
-
-<td class="gt_row gt_left">
-
-Viruses
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.3390/v13010034>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Alexandra Duev-Cohen
-
-</td>
-
-<td class="gt_row gt_center">
-
-Ofer Mandelboim
-
-</td>
-
-<td class="gt_row gt_left">
-
-Friedman N
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Cell-free DNA (cfDNA) and Exosome Profiling from a Year-Long Human
-Spaceflight Reveals Circulating Biomarkers.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2020-12-31
-
-</td>
-
-<td class="gt_row gt_left">
-
-iScience
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.isci.2020.101844>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Daniela Bezdan
-
-</td>
-
-<td class="gt_row gt_center">
-
-Christopher E Mason
-
-</td>
-
-<td class="gt_row gt_left">
-
-Snyder M
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Neurological Manifestations of COVID-19 Feature T Cell Exhaustion and
-Dedifferentiated Monocytes in Cerebrospinal Fluid.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2021-01-01
-
-</td>
-
-<td class="gt_row gt_left">
-
-Immunity
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1016/j.immuni.2020.12.011>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Michael Heming
-
-</td>
-
-<td class="gt_row gt_center">
-
-Gerd Meyer Zu Hörste
-
-</td>
-
-<td class="gt_row gt_left">
-
-Yosef N
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -701,36 +418,14 @@ Yosef N
 tweet_pubs(all_df, token)
 ```
 
-    ## "HyPR-seq: Single-cell quantification of chosen RNAs via hybridization and sequencing of DNA probes." by Jamie L Marshall et al. Proceedings of the National Academy of Sciences of the United States of America, from Bergman D search. Dec 31, 2020. https://doi.org/10.1073/pnas.2010738117
-
-    ## your tweet has been posted!
-
-    ## "HyPR-seq: Single-cell quantification of chosen RNAs via hybridization and sequencing of DNA probes." by Jamie L Marshall et al. Proceedings of the National Academy of Sciences of the United States of America, from Doughty B search. Dec 31, 2020. https://doi.org/10.1073/pnas.2010738117
-
-    ## your tweet has been posted!
-
-    ## "Aging-Associated Alterations in Mammary Epithelia and Stroma Revealed by Single-Cell RNA Sequencing." by Carman Man-Chung Li et al. Cell reports, from Regev A search. Dec 31, 2020. https://doi.org/10.1016/j.celrep.2020.108566
-
-    ## your tweet has been posted!
-
-    ## "Altered NKp46 Recognition and Elimination of Influenza B Viruses." by Alexandra Duev-Cohen et al. Viruses, from Friedman N search. Dec 31, 2020. https://doi.org/10.3390/v13010034
-
-    ## your tweet has been posted!
-
-    ## "Cell-free DNA (cfDNA) and Exosome Profiling from a Year-Long Human Spaceflight Reveals Circulating Biomarkers." by Daniela Bezdan et al. iScience, from Snyder M search. Dec 31, 2020. https://doi.org/10.1016/j.isci.2020.101844
-
-    ## your tweet has been posted!
-
-    ## "Neurological Manifestations of COVID-19 Feature T Cell Exhaustion and Dedifferentiated Monocytes in Cerebrospinal Fluid." by Michael Heming et al. Immunity, from Yosef N search. Jan 1, 2021. https://doi.org/10.1016/j.immuni.2020.12.011
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 6 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)

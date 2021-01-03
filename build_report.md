@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2021-01-02
+2021-01-03
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -13,7 +13,7 @@ source("R/functions.R")
     ## It seems that the version of `phantomjs` installed is greater than or equal to the requested version.To install the requested version or downgrade to another version, use `force = TRUE`.
 
     ## 
-    ##      checking for file ‘/tmp/RtmpuN5Ieu/remotes51022f014f6d/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpuN5Ieu/remotes51022f014f6d/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
+    ##      checking for file ‘/tmp/Rtmpx1HDn5/remotes520f277838b4/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmpx1HDn5/remotes520f277838b4/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
     ##   ─  preparing ‘rbiorxiv’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -50,2390 +50,387 @@ make(plan)
 
     ## ▶ target pub_df
 
-    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-11-17
+    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-11-11
+    ## no papers found
 
-    ## found paper published on 2020-10-14
+    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-09
+    ## no papers found
 
-    ## found paper published on 2020-07-24
+    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-06-20
+    ## no papers found
 
-    ## found paper published on 2020-05-29
+    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-05-04
+    ## no papers found
 
-    ## found paper published on 2020-04-23
+    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-03-12
+    ## no papers found
 
-    ## found paper published on 2020-02-20
+    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-02-07
+    ## no papers found
 
-    ## found paper published on 2020-01-17
+    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2019-12-10
+    ## no papers found
 
-    ## found paper published on 2019-11-22
+    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2019-10-11
+    ## no papers found
 
-    ## found paper published on 2019-01-31
+    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2019-01-06
+    ## no papers found
 
-    ## done!
+    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-12-31
+    ## no papers found
 
-    ## found paper published on 2020-03-08
+    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sabeti P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-11-24
+    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-11-20
+    ## no papers found
 
-    ## found paper published on 2020-10-22
+    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-10-08
+    ## no papers found
 
-    ## found paper published on 2020-08-26
+    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
+    ## no papers found
 
-    ## found paper published on 2020-07-17
+    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-04-10
-
-    ## found paper published on 2020-03-18
+    ## found paper published on 2021-01-02
 
     ## done!
 
-    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-06-09
+    ## no papers found
 
-    ## done!
+    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-15
+    ## no papers found
 
-    ## found paper published on 2020-06-05
+    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-03-08
+    ## no papers found
 
-    ## found paper published on 2019-12-04
+    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-12-31
+    ## no papers found
 
-    ## done!
-
-    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-04-03
-
-    ## found paper published on 2020-03-08
-
-    ## done!
-
-    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-03-08
-
-    ## done!
-
-    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-17
-
-    ## found paper published on 2020-12-11
-
-    ## found paper published on 2020-08-29
-
-    ## found paper published on 2020-07-03
-
-    ## found paper published on 2020-06-27
-
-    ## found paper published on 2020-06-05
-
-    ## found paper published on 2020-05-20
-
-    ## found paper published on 2020-03-15
-
-    ## found paper published on 2020-02-12
-
-    ## done!
-
-    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-05-10
-
-    ## found paper published on 2020-03-13
-
-    ## done!
-
-    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-11
-
-    ## found paper published on 2020-12-03
-
-    ## found paper published on 2020-11-19
-
-    ## found paper published on 2020-10-11
-
-    ## found paper published on 2020-10-06
-
-    ## found paper published on 2020-09-04
-
-    ## found paper published on 2020-08-26
-
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-12
-
-    ## found paper published on 2020-06-05
-
-    ## found paper published on 2020-05-13
-
-    ## found paper published on 2020-04-29
-    ## found paper published on 2020-04-29
-
-    ## found paper published on 2020-03-08
-
-    ## found paper published on 2020-03-04
-
-    ## found paper published on 2020-02-29
-
-    ## found paper published on 2020-02-19
-
-    ## found paper published on 2020-01-22
-
-    ## found paper published on 2020-01-17
-
-    ## found paper published on 2020-01-11
-
-    ## found paper published on 2019-12-18
-
-    ## found paper published on 2019-12-11
-
-    ## found paper published on 2019-09-22
-
-    ## found paper published on 2019-09-11
-
-    ## done!
-
-    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-23
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-08-21
-
-    ## found paper published on 2020-05-29
-
-    ## found paper published on 2020-05-28
-
-    ## found paper published on 2020-03-22
-
-    ## found paper published on 2020-03-08
-
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2020-01-22
-
-    ## found paper published on 2019-10-23
-
-    ## found paper published on 2018-08-16
-
-    ## done!
-
-    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-26
-
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-09
-
-    ## found paper published on 2020-06-12
-
-    ## found paper published on 2019-12-18
-
-    ## done!
-
-    ## Searching ((Sabeti P[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-29
-
-    ## found paper published on 2020-12-12
-
-    ## found paper published on 2020-11-22
-
-    ## found paper published on 2020-11-08
-
-    ## found paper published on 2020-10-24
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-09-30
-
-    ## found paper published on 2020-09-10
-
-    ## found paper published on 2020-09-02
-
-    ## found paper published on 2020-08-19
-
-    ## found paper published on 2020-07-09
-
-    ## found paper published on 2020-06-13
-
-    ## found paper published on 2020-06-09
-
-    ## found paper published on 2020-05-28
-
-    ## found paper published on 2020-05-18
-
-    ## found paper published on 2020-04-30
-
-    ## found paper published on 2020-04-18
-
-    ## found paper published on 2020-04-10
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-01-19
-
-    ## done!
-
-    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-25
-
-    ## found paper published on 2020-11-25
-
-    ## found paper published on 2020-11-18
-
-    ## found paper published on 2020-10-31
-
-    ## found paper published on 2020-10-21
-
-    ## found paper published on 2020-08-01
-
-    ## found paper published on 2020-07-30
-
-    ## found paper published on 2020-07-10
-
-    ## found paper published on 2020-07-01
-
-    ## found paper published on 2020-06-24
-
-    ## found paper published on 2020-06-21
-
-    ## found paper published on 2020-06-14
-
-    ## found paper published on 2020-06-05
-
-    ## found paper published on 2020-05-24
-
-    ## found paper published on 2020-05-21
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-05-20
-
-    ## found paper published on 2020-05-14
-
-    ## found paper published on 2020-05-13
-
-    ## found paper published on 2020-04-26
-
-    ## found paper published on 2020-03-17
-
-    ## found paper published on 2020-03-05
-
-    ## found paper published on 2020-02-12
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-02-07
-
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2020-01-16
-    ## found paper published on 2020-01-16
-
-    ## found paper published on 2019-11-20
-
-    ## found paper published on 2019-08-23
-
-    ## found paper published on 2019-01-09
-
-    ## done!
-
-    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-09
-
-    ## found paper published on 2020-10-14
-
-    ## found paper published on 2020-05-20
-
-    ## done!
-
-    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-12-02
-
-    ## found paper published on 2020-11-29
-
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-07-12
-
-    ## found paper published on 2020-07-03
-
-    ## found paper published on 2020-04-16
-
-    ## found paper published on 2020-03-18
-
-    ## found paper published on 2020-03-17
-
-    ## found paper published on 2020-03-15
-
-    ## found paper published on 2020-02-28
-
-    ## found paper published on 2020-02-07
-
-    ## found paper published on 2020-02-02
-
-    ## found paper published on 2019-12-22
-
-    ## done!
-
-    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-31
-
-    ## found paper published on 2020-12-02
-
-    ## found paper published on 2020-11-28
-
-    ## found paper published on 2020-11-26
-
-    ## found paper published on 2020-11-11
-
-    ## found paper published on 2020-11-04
-    ## found paper published on 2020-11-04
-
-    ## found paper published on 2020-11-01
-
-    ## found paper published on 2020-10-30
-
-    ## found paper published on 2020-10-26
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-09-26
-
-    ## found paper published on 2020-09-17
-
-    ## found paper published on 2020-09-06
-
-    ## found paper published on 2020-08-29
-
-    ## found paper published on 2020-08-15
-
-    ## found paper published on 2020-08-14
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-08-07
-    ## found paper published on 2020-08-07
-
-    ## found paper published on 2020-07-30
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-25
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-15
-
-    ## found paper published on 2020-07-02
-
-    ## found paper published on 2020-06-27
-
-    ## found paper published on 2020-06-24
-
-    ## found paper published on 2020-06-21
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-06-11
-
-    ## found paper published on 2020-06-09
-
-    ## found paper published on 2020-06-05
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-05-02
-
-    ## found paper published on 2020-04-29
-    ## found paper published on 2020-04-29
-    ## found paper published on 2020-04-29
-    ## found paper published on 2020-04-29
-
-    ## found paper published on 2020-04-19
-
-    ## found paper published on 2020-04-18
-
-    ## found paper published on 2020-03-08
-
-    ## found paper published on 2020-03-04
-
-    ## found paper published on 2020-01-26
-
-    ## found paper published on 2020-01-24
-
-    ## found paper published on 2019-12-04
-
-    ## done!
-
-    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-02
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-09-14
-
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-08-11
-
-    ## found paper published on 2020-07-31
-
-    ## found paper published on 2020-07-30
-
-    ## found paper published on 2020-07-08
-
-    ## found paper published on 2020-05-29
-
-    ## found paper published on 2020-05-28
-
-    ## found paper published on 2020-04-18
-
-    ## found paper published on 2020-04-09
-
-    ## found paper published on 2020-04-02
-
-    ## found paper published on 2020-03-22
-    ## found paper published on 2020-03-22
-
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-02-13
-
-    ## found paper published on 2020-01-14
-
-    ## found paper published on 2019-10-18
-
-    ## done!
-
-    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-20
-
-    ## found paper published on 2020-01-25
-
-    ## done!
-
-    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-01-29
-
-    ## found paper published on 2019-11-20
-
-    ## done!
-
-    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-12
-
-    ## found paper published on 2020-11-29
-
-    ## found paper published on 2020-09-19
-
-    ## found paper published on 2020-07-24
-
-    ## found paper published on 2020-03-17
-
-    ## found paper published on 2020-02-20
-
-    ## found paper published on 2019-12-25
-
-    ## done!
-
-    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-09
-
-    ## found paper published on 2020-06-27
-
-    ## found paper published on 2020-06-24
-
-    ## found paper published on 2020-06-21
-
-    ## found paper published on 2020-05-22
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-02-15
-
-    ## found paper published on 2019-12-29
-
-    ## found paper published on 2019-10-22
-
-    ## done!
-
-    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-05
-
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-09-12
-    ## found paper published on 2020-09-12
-    ## found paper published on 2020-09-12
-    ## found paper published on 2020-09-12
-    ## found paper published on 2020-09-12
-    ## found paper published on 2020-09-12
-
-    ## done!
-
-    ## Searching ((Van Allen E[Author] AND Broad Institute[Affiliation]) OR (Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-12
-
-    ## found paper published on 2020-12-11
-
-    ## found paper published on 2020-12-02
-
-    ## found paper published on 2020-11-25
-
-    ## found paper published on 2020-11-22
-
-    ## found paper published on 2020-11-20
-
-    ## found paper published on 2020-11-18
-
-    ## found paper published on 2020-11-10
-
-    ## found paper published on 2020-10-14
-
-    ## found paper published on 2020-09-15
-
-    ## found paper published on 2020-09-04
-
-    ## found paper published on 2020-09-02
+    ## Searching ((Van Allen E[Author] AND Broad Institute[Affiliation]) OR (Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-08-28
 
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-08-07
-
-    ## found paper published on 2020-06-28
-
-    ## found paper published on 2020-06-21
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-06-14
-
-    ## found paper published on 2020-06-06
-
-    ## found paper published on 2020-05-31
-
-    ## found paper published on 2020-05-23
-
-    ## found paper published on 2020-05-20
-
-    ## found paper published on 2020-05-11
-
-    ## found paper published on 2020-05-07
-
-    ## found paper published on 2020-04-24
-
-    ## found paper published on 2020-03-05
-    ## found paper published on 2020-03-05
-
-    ## found paper published on 2020-02-06
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2020-02-03
-
-    ## found paper published on 2019-12-21
-
-    ## found paper published on 2019-12-18
-
-    ## found paper published on 2019-11-14
-
     ## done!
 
-    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-03
-
-    ## found paper published on 2020-11-18
-
-    ## found paper published on 2020-11-13
-
-    ## found paper published on 2020-11-05
-
-    ## found paper published on 2020-08-19
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-05-20
-
-    ## found paper published on 2020-04-25
-
-    ## found paper published on 2020-02-20
-
-    ## done!
-
-    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-12-03
-
-    ## found paper published on 2020-09-10
-
-    ## found paper published on 2020-07-14
-
-    ## found paper published on 2020-04-02
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2019-10-02
-
-    ## found paper published on 2019-08-02
-
-    ## done!
-
-    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-09-23
-
-    ## found paper published on 2020-06-23
-
-    ## found paper published on 2020-05-23
-
-    ## found paper published on 2019-12-20
-
-    ## found paper published on 2019-10-16
-
-    ## done!
-
-    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-29
-
-    ## found paper published on 2020-10-23
-
-    ## found paper published on 2020-10-02
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-04-28
-
-    ## found paper published on 2020-04-15
-
-    ## found paper published on 2019-12-18
-
-    ## done!
-
-    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-29
-
-    ## found paper published on 2020-12-19
-
-    ## found paper published on 2020-12-10
-    ## found paper published on 2020-12-10
-
-    ## found paper published on 2020-12-09
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-12-02
-
-    ## found paper published on 2020-11-25
-
-    ## found paper published on 2020-11-13
-
-    ## found paper published on 2020-10-18
-
-    ## found paper published on 2020-10-09
-
-    ## found paper published on 2020-10-08
-
-    ## found paper published on 2020-09-23
-
-    ## found paper published on 2020-09-04
-
-    ## found paper published on 2020-08-25
-
-    ## found paper published on 2020-08-21
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-08-06
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-24
-
-    ## found paper published on 2020-07-16
-
-    ## found paper published on 2020-07-01
-
-    ## found paper published on 2020-06-17
-    ## found paper published on 2020-06-17
-
-    ## found paper published on 2020-06-07
-
-    ## found paper published on 2020-05-30
-
-    ## found paper published on 2020-05-10
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-04-11
-
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-01-18
-
-    ## found paper published on 2019-12-21
-
-    ## found paper published on 2019-11-28
-
-    ## found paper published on 2019-11-02
-
-    ## done!
-
-    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-12-05
-
-    ## found paper published on 2020-11-25
-
-    ## found paper published on 2020-11-05
-
-    ## found paper published on 2020-10-15
-
-    ## found paper published on 2020-09-03
-
-    ## found paper published on 2020-08-25
-
-    ## found paper published on 2020-08-05
-
-    ## found paper published on 2020-05-18
-
-    ## found paper published on 2020-04-24
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-03-04
-
-    ## found paper published on 2020-01-15
-
-    ## done!
-
-    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-21
-
-    ## found paper published on 2020-10-09
-
-    ## found paper published on 2020-09-25
+    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-09-18
 
-    ## found paper published on 2020-03-13
-
     ## done!
 
-    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-12-29
+    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-12-23
+    ## no papers found
 
-    ## found paper published on 2020-10-26
+    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-10-16
+    ## no papers found
 
-    ## found paper published on 2020-09-06
-    ## found paper published on 2020-09-06
+    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-26
+    ## no papers found
 
-    ## found paper published on 2020-08-14
-    ## found paper published on 2020-08-14
+    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-07-25
+    ## no papers found
 
-    ## found paper published on 2020-06-03
+    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-03-08
+    ## no papers found
 
-    ## found paper published on 2020-02-15
+    ## Searching ((Zhuang Xiaowei[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-01-22
+    ## no papers found
 
-    ## done!
+    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Zhuang Xiaowei[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-22
+    ## no papers found
 
-    ## found paper published on 2020-05-27
-
-    ## found paper published on 2020-02-28
-
-    ## done!
-
-    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-23
-
-    ## found paper published on 2020-10-23
-
-    ## found paper published on 2020-10-16
-    ## found paper published on 2020-10-16
-
-    ## found paper published on 2020-09-28
-
-    ## found paper published on 2020-09-19
-
-    ## found paper published on 2020-09-06
-    ## found paper published on 2020-09-06
-
-    ## found paper published on 2020-08-14
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-06-15
-
-    ## found paper published on 2020-06-05
-
-    ## found paper published on 2020-04-19
-
-    ## found paper published on 2020-04-04
-
-    ## found paper published on 2020-01-22
-
-    ## done!
-
-    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-10-10
-
-    ## found paper published on 2020-09-17
-
-    ## found paper published on 2020-07-16
-
-    ## found paper published on 2020-06-23
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-05-30
-
-    ## found paper published on 2020-04-09
-
-    ## found paper published on 2020-03-29
-
-    ## found paper published on 2020-02-13
-
-    ## found paper published on 2020-02-12
-
-    ## done!
-
-    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-31
+    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-10-07
 
-    ## found paper published on 2020-08-30
-
-    ## found paper published on 2020-08-15
-
-    ## found paper published on 2019-12-04
-
     ## done!
 
-    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-29
-
-    ## found paper published on 2020-12-16
-
-    ## found paper published on 2020-12-08
-
-    ## found paper published on 2020-12-05
-
-    ## found paper published on 2020-11-29
-
-    ## found paper published on 2020-11-15
-
-    ## found paper published on 2020-11-07
-
-    ## found paper published on 2020-10-23
-    ## found paper published on 2020-10-23
-
-    ## found paper published on 2020-09-26
-
-    ## found paper published on 2020-09-24
+    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-09-23
 
-    ## found paper published on 2020-09-18
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-09-16
-
-    ## found paper published on 2020-09-11
-
-    ## found paper published on 2020-09-08
-
-    ## found paper published on 2020-08-29
-
-    ## found paper published on 2020-08-26
-
-    ## found paper published on 2020-08-21
-
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-08-05
-
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-07-16
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-06-13
-
-    ## found paper published on 2020-06-03
-
-    ## found paper published on 2020-05-30
-
-    ## found paper published on 2020-05-29
-
-    ## found paper published on 2020-05-28
-
-    ## found paper published on 2020-05-19
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-05-07
-
-    ## found paper published on 2020-05-03
-
-    ## found paper published on 2020-05-01
-
-    ## found paper published on 2020-04-08
-
-    ## found paper published on 2020-04-07
-
-    ## found paper published on 2020-04-05
-
-    ## found paper published on 2020-03-29
-
-    ## found paper published on 2020-03-24
-
-    ## found paper published on 2020-03-13
-
-    ## found paper published on 2020-03-07
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-03-04
-
-    ## found paper published on 2020-02-28
-
-    ## found paper published on 2020-02-23
-    ## found paper published on 2020-02-23
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-02-15
-
-    ## found paper published on 2020-01-25
-
-    ## found paper published on 2020-01-14
-
-    ## found paper published on 2019-12-20
-
-    ## found paper published on 2019-12-14
-
-    ## found paper published on 2019-11-26
-
-    ## found paper published on 2019-11-19
-
-    ## found paper published on 2019-11-13
-
-    ## found paper published on 2019-10-08
-
-    ## found paper published on 2019-09-26
-
     ## done!
 
-    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-28
-
-    ## found paper published on 2020-07-25
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-22
-
-    ## found paper published on 2020-07-11
-
-    ## found paper published on 2020-04-19
-
-    ## found paper published on 2020-04-03
-
-    ## found paper published on 2019-12-25
-
-    ## done!
-
-    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-16
-
-    ## found paper published on 2020-10-17
-
-    ## found paper published on 2020-10-06
-
-    ## found paper published on 2020-09-22
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-07-14
-
-    ## found paper published on 2020-05-16
-
-    ## found paper published on 2020-04-07
-
-    ## done!
-
-    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-11-15
-
-    ## found paper published on 2020-10-07
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-07-31
-
-    ## found paper published on 2020-06-10
-
-    ## found paper published on 2020-06-04
-
-    ## found paper published on 2020-05-23
-
-    ## found paper published on 2020-04-03
-
-    ## found paper published on 2020-03-07
-
-    ## done!
-
-    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-04-02
-
-    ## found paper published on 2020-01-15
-
-    ## done!
-
-    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-14
-
-    ## found paper published on 2020-10-31
-
-    ## found paper published on 2020-07-30
-
-    ## found paper published on 2020-07-18
-
-    ## found paper published on 2020-07-14
-
-    ## found paper published on 2020-06-12
-
-    ## found paper published on 2020-05-02
-
-    ## found paper published on 2020-04-18
-
-    ## found paper published on 2020-03-24
-
-    ## found paper published on 2020-03-11
-
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-02-01
-
-    ## found paper published on 2020-01-09
-
-    ## done!
-
-    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-01
-
-    ## found paper published on 2020-07-03
-
-    ## found paper published on 2020-02-14
-
-    ## done!
-
-    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-18
-
-    ## found paper published on 2020-09-20
-
-    ## found paper published on 2020-08-25
-
-    ## found paper published on 2020-06-03
-
-    ## found paper published on 2020-05-10
-
-    ## done!
-
-    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-09-12
-
-    ## found paper published on 2020-09-10
-
-    ## found paper published on 2020-08-19
-
-    ## found paper published on 2020-08-12
-
-    ## found paper published on 2020-08-02
-
-    ## found paper published on 2020-07-23
-
-    ## found paper published on 2020-07-09
-
-    ## found paper published on 2020-05-06
-
-    ## found paper published on 2020-02-29
-
-    ## found paper published on 2020-02-28
-
-    ## found paper published on 2020-02-09
-
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2020-01-18
-
-    ## done!
-
-    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-07-09
-
-    ## found paper published on 2020-06-06
-
-    ## found paper published on 2020-01-14
-
-    ## done!
-
-    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-19
-
-    ## found paper published on 2020-12-16
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-11-27
-
-    ## found paper published on 2020-11-19
-
-    ## found paper published on 2020-11-12
-
-    ## found paper published on 2020-10-28
-
-    ## found paper published on 2020-10-22
-
-    ## found paper published on 2020-09-24
-
-    ## found paper published on 2020-09-23
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-08-26
-
-    ## found paper published on 2020-08-19
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-18
-
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-07-15
-
-    ## found paper published on 2020-07-13
-
-    ## found paper published on 2020-06-26
-
-    ## found paper published on 2020-06-23
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-06-09
-
-    ## found paper published on 2020-06-06
-
-    ## found paper published on 2020-06-03
-
-    ## found paper published on 2020-05-08
-
-    ## found paper published on 2020-04-30
-
-    ## found paper published on 2020-04-02
-    ## found paper published on 2020-04-02
-
-    ## found paper published on 2020-03-30
-
-    ## found paper published on 2020-03-24
-
-    ## found paper published on 2020-03-03
-
-    ## found paper published on 2020-02-26
-
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-02-08
-    ## found paper published on 2020-02-08
-
-    ## found paper published on 2020-01-25
-
-    ## found paper published on 2020-01-04
-
-    ## found paper published on 2019-12-21
-
-    ## found paper published on 2019-12-10
-
-    ## done!
-
-    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-28
-
-    ## found paper published on 2020-04-05
-
-    ## found paper published on 2020-02-12
-
-    ## found paper published on 2020-01-25
-
-    ## done!
-
-    ## Searching ((Crabtree G[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-08
-
-    ## found paper published on 2020-08-26
-
-    ## found paper published on 2020-05-06
-
-    ## found paper published on 2020-04-22
-
-    ## done!
-
-    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-01-31
-
-    ## found paper published on 2020-01-25
-
-    ## found paper published on 2020-01-21
-
-    ## done!
-
-    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-31
-
-    ## found paper published on 2020-12-29
-
-    ## found paper published on 2020-12-19
-
-    ## found paper published on 2020-12-17
-
-    ## found paper published on 2020-12-12
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-12-03
-    ## found paper published on 2020-12-03
-
-    ## found paper published on 2020-11-20
-
-    ## found paper published on 2020-10-25
-
-    ## found paper published on 2020-10-18
-
-    ## found paper published on 2020-10-03
-
-    ## found paper published on 2020-09-23
-
-    ## found paper published on 2020-09-22
-
-    ## found paper published on 2020-09-16
-
-    ## found paper published on 2020-09-12
-
-    ## found paper published on 2020-09-10
-
-    ## found paper published on 2020-08-17
-
-    ## found paper published on 2020-08-08
-
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
-
-    ## found paper published on 2020-07-24
-
-    ## found paper published on 2020-07-23
-
-    ## found paper published on 2020-07-11
-    ## found paper published on 2020-07-11
-
-    ## found paper published on 2020-07-03
-
-    ## found paper published on 2020-06-27
-    ## found paper published on 2020-06-27
-    ## found paper published on 2020-06-27
-
-    ## found paper published on 2020-05-30
-
-    ## found paper published on 2020-05-27
-
-    ## found paper published on 2020-05-06
-
-    ## found paper published on 2020-05-05
-
-    ## found paper published on 2020-05-02
-
-    ## found paper published on 2020-04-18
-
-    ## found paper published on 2020-04-05
-
-    ## found paper published on 2020-03-17
-
-    ## found paper published on 2020-03-12
-
-    ## found paper published on 2020-03-01
-
-    ## found paper published on 2020-02-26
-
-    ## found paper published on 2020-02-06
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2020-01-24
-
-    ## found paper published on 2020-01-15
-
-    ## found paper published on 2019-11-27
-
-    ## found paper published on 2019-11-21
-
-    ## done!
-
-    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-04
-
-    ## found paper published on 2020-06-27
-
-    ## found paper published on 2020-06-24
-
-    ## found paper published on 2020-05-15
-
-    ## done!
-
-    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2021-01-01
-
-    ## found paper published on 2020-11-11
-
-    ## found paper published on 2020-04-16
-
-    ## done!
-
-    ## Searching ((Horvath S[Author] AND University of California Los Angeles[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-04
-
-    ## found paper published on 2020-11-20
-
-    ## found paper published on 2020-09-30
-
-    ## found paper published on 2020-08-09
-
-    ## found paper published on 2020-08-02
-
-    ## found paper published on 2020-07-23
-
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-04-12
-
-    ## found paper published on 2020-03-25
-
-    ## found paper published on 2020-03-08
-
-    ## found paper published on 2020-02-19
-
-    ## found paper published on 2020-02-16
-
-    ## found paper published on 2019-12-06
-
-    ## found paper published on 2019-08-30
-
-    ## done!
-
-    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-06-20
-
-    ## found paper published on 2020-04-12
-
-    ## found paper published on 2020-01-27
-
-    ## found paper published on 2020-01-04
-
-    ## done!
-
-    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-12-29
+    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-10-14
+    ## no papers found
 
-    ## found paper published on 2020-10-11
+    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
-    ## found paper published on 2020-07-31
+    ## no papers found
+
+    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Crabtree G[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## no papers found
+
+    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-07-23
 
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-05-14
-
-    ## found paper published on 2020-05-13
-
-    ## found paper published on 2020-03-15
-
-    ## found paper published on 2020-03-12
-
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2019-11-23
-
     ## done!
 
-    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-07-15
+    ## no papers found
 
-    ## done!
+    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Horvath S[Author] AND University of California Los Angeles[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-12-30
+    ## no papers found
 
-    ## found paper published on 2020-12-01
+    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-06-12
-    ## found paper published on 2020-06-12
+    ## no papers found
 
-    ## found paper published on 2020-05-23
+    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-04-22
+    ## no papers found
 
-    ## found paper published on 2020-01-30
+    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-11-10
+    ## no papers found
 
-    ## done!
+    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-09-29
+    ## no papers found
 
-    ## found paper published on 2020-09-25
+    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-04-12
+    ## no papers found
 
-    ## found paper published on 2020-01-27
+    ## Searching ((Hasty J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-01-22
+    ## no papers found
 
-    ## found paper published on 2019-10-04
+    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Hasty J[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-07-18
+    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-03-07
+    ## no papers found
 
-    ## found paper published on 2020-01-25
+    ## Searching ((McVicker G[Author] AND University of California San Diego[Affiliation]) OR (McVicker G[Author] AND Salk[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-18
+    ## no papers found
 
-    ## done!
+    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-10-24
-
-    ## found paper published on 2020-09-15
-
-    ## found paper published on 2020-08-28
-
-    ## found paper published on 2020-06-09
-
-    ## found paper published on 2020-05-01
-
-    ## found paper published on 2020-04-02
-
-    ## found paper published on 2020-02-09
-
-    ## found paper published on 2019-09-11
-
-    ## done!
-
-    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## found paper published on 2020-10-14
-
-    ## done!
-
-    ## Searching ((McVicker G[Author] AND University of California San Diego[Affiliation]) OR (McVicker G[Author] AND Salk[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## found paper published on 2020-09-17
-
-    ## done!
-
-    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## found paper published on 2020-01-16
-
-    ## done!
-
-    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-18
-
-    ## found paper published on 2020-12-09
-
-    ## found paper published on 2020-11-12
-
-    ## found paper published on 2020-11-07
-
-    ## found paper published on 2020-11-05
-
-    ## found paper published on 2020-09-16
-
-    ## found paper published on 2020-08-28
-
-    ## found paper published on 2020-08-21
-
-    ## found paper published on 2020-07-31
-
-    ## found paper published on 2020-07-17
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-05-18
-
-    ## found paper published on 2020-05-13
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-04-08
-
-    ## found paper published on 2020-01-30
-
-    ## found paper published on 2019-10-19
-
-    ## done!
-
-    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-17
-
-    ## found paper published on 2020-11-10
+    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-11-01
 
-    ## found paper published on 2020-04-10
-
-    ## found paper published on 2020-04-03
-
-    ## found paper published on 2020-03-05
-
-    ## found paper published on 2020-01-17
-
     ## done!
 
-    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-11-26
-
-    ## found paper published on 2020-04-16
-
-    ## found paper published on 2020-01-19
-
-    ## done!
-
-    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-12-10
 
-    ## found paper published on 2020-10-31
-
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-05-13
-
-    ## found paper published on 2020-04-15
-
-    ## found paper published on 2020-03-30
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-02-14
-
-    ## found paper published on 2019-10-18
-
-    ## found paper published on 2019-10-16
-
     ## done!
 
-    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-06-21
-
-    ## found paper published on 2020-02-01
-
-    ## found paper published on 2019-07-29
-
-    ## done!
-
-    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-19
-
-    ## found paper published on 2020-10-22
-
-    ## found paper published on 2020-09-12
-
-    ## found paper published on 2020-06-26
-
-    ## found paper published on 2020-06-17
-
-    ## found paper published on 2020-04-26
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-02-01
-
-    ## found paper published on 2020-01-19
-
-    ## done!
-
-    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-23
-
-    ## found paper published on 2020-02-26
-
-    ## found paper published on 2020-01-25
-
-    ## found paper published on 2019-11-30
-
-    ## done!
-
-    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-09-30
-
-    ## found paper published on 2020-07-31
-
-    ## found paper published on 2020-05-16
-
-    ## found paper published on 2020-04-21
-
-    ## found paper published on 2020-02-19
-
-    ## found paper published on 2020-01-10
-
-    ## done!
-
-    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-12-08
+    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-09-03
+    ## no papers found
 
-    ## found paper published on 2020-08-01
+    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-05-29
+    ## no papers found
 
-    ## found paper published on 2020-04-24
+    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-02-13
+    ## no papers found
 
-    ## done!
+    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## no papers found
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-11-29
+    ## no papers found
 
-    ## found paper published on 2020-11-14
-    ## found paper published on 2020-11-14
+    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-11-01
+    ## no papers found
 
-    ## found paper published on 2020-10-14
+    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-10-10
+    ## no papers found
 
-    ## found paper published on 2020-09-19
-
-    ## found paper published on 2020-09-12
-
-    ## found paper published on 2020-07-10
-
-    ## found paper published on 2020-07-06
-
-    ## found paper published on 2020-06-13
-
-    ## found paper published on 2020-06-10
-
-    ## found paper published on 2020-06-09
-    ## found paper published on 2020-06-09
-    ## found paper published on 2020-06-09
-
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-05-02
-
-    ## found paper published on 2020-04-23
-
-    ## found paper published on 2020-04-15
-
-    ## found paper published on 2020-02-08
-
-    ## found paper published on 2020-01-29
-
-    ## found paper published on 2020-01-10
-
-    ## found paper published on 2019-12-07
-
-    ## found paper published on 2019-09-20
-
-    ## done!
-
-    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-14
-
-    ## found paper published on 2020-11-14
-
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-06-06
-
-    ## found paper published on 2020-06-03
-
-    ## found paper published on 2020-05-11
-
-    ## found paper published on 2020-04-21
-
-    ## found paper published on 2020-04-15
-
-    ## found paper published on 2020-03-27
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-02-09
-
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2019-12-07
-
-    ## done!
-
-    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-28
-
-    ## found paper published on 2020-11-26
-
-    ## found paper published on 2020-09-11
-
-    ## found paper published on 2020-07-17
-
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-02-26
-    ## found paper published on 2020-02-26
-
-    ## found paper published on 2020-02-15
-
-    ## done!
-
-    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-18
+    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-12-06
 
-    ## found paper published on 2020-10-28
-
-    ## found paper published on 2020-09-08
-
-    ## found paper published on 2020-08-19
-
-    ## found paper published on 2020-08-18
-
-    ## found paper published on 2020-08-14
-
-    ## found paper published on 2020-07-21
-
-    ## found paper published on 2020-06-26
-
-    ## found paper published on 2020-06-13
-
-    ## found paper published on 2020-06-10
-
-    ## found paper published on 2020-06-02
-
-    ## found paper published on 2020-05-14
-
-    ## found paper published on 2020-04-24
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-03-15
-
-    ## found paper published on 2020-03-11
-
-    ## found paper published on 2020-02-19
-
-    ## found paper published on 2020-02-06
-
-    ## found paper published on 2019-11-28
-
     ## done!
 
-    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-05-01
-
-    ## found paper published on 2020-01-26
-
-    ## done!
-
-    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
+    ## no papers found
 
-    ## found paper published on 2020-11-01
+    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-09-23
+    ## no papers found
 
-    ## found paper published on 2020-08-29
+    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-08-26
+    ## no papers found
 
-    ## found paper published on 2020-06-24
+    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## found paper published on 2020-05-13
+    ## no papers found
 
-    ## found paper published on 2020-03-07
+    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## done!
+    ## no papers found
 
-    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2021-01-02"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-15
-
-    ## found paper published on 2020-12-09
-
-    ## found paper published on 2020-11-15
-
-    ## found paper published on 2020-10-14
-
-    ## found paper published on 2020-09-25
-
-    ## found paper published on 2020-09-23
-
-    ## found paper published on 2020-09-17
-
-    ## found paper published on 2020-08-29
-    ## found paper published on 2020-08-29
-
-    ## found paper published on 2020-07-19
-
-    ## found paper published on 2020-07-02
-
-    ## found paper published on 2020-06-03
-
-    ## found paper published on 2020-05-21
-
-    ## found paper published on 2020-05-20
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-05-10
-
-    ## found paper published on 2020-04-28
-
-    ## found paper published on 2020-04-24
-
-    ## found paper published on 2020-04-19
-
-    ## found paper published on 2020-03-24
-
-    ## found paper published on 2020-02-28
-
-    ## found paper published on 2020-02-23
-    ## found paper published on 2020-02-23
-
-    ## found paper published on 2020-02-19
-
-    ## found paper published on 2020-01-19
-
-    ## found paper published on 2020-01-08
-
-    ## found paper published on 2019-12-18
-
-    ## found paper published on 2019-12-05
-
-    ## found paper published on 2019-10-31
-
-    ## found paper published on 2019-08-11
-
-    ## done!
-
-    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-19
-
-    ## found paper published on 2020-09-29
-
-    ## found paper published on 2020-07-23
-
-    ## found paper published on 2020-06-25
-
-    ## found paper published on 2020-04-11
-
-    ## found paper published on 2020-03-07
-
-    ## found paper published on 2020-01-29
-
-    ## found paper published on 2019-12-28
-
-    ## done!
-
-    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-11-20
-
-    ## found paper published on 2020-11-06
-
-    ## found paper published on 2020-10-23
-
-    ## found paper published on 2020-07-29
-
-    ## found paper published on 2020-07-25
-
-    ## found paper published on 2020-07-23
-
-    ## found paper published on 2020-06-24
-
-    ## found paper published on 2020-05-22
-
-    ## found paper published on 2020-05-18
-
-    ## found paper published on 2020-05-15
-
-    ## found paper published on 2020-05-07
-
-    ## found paper published on 2020-04-09
-
-    ## found paper published on 2020-03-28
-
-    ## found paper published on 2020-02-02
-
-    ## found paper published on 2020-01-31
-
-    ## found paper published on 2020-01-22
-
-    ## found paper published on 2020-01-16
-
-    ## found paper published on 2019-10-28
-
-    ## done!
-
-    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2020-12-30"[Date - Publication] : "3000"[Date - Publication]))...
-
-    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
-    ## element will be used
-
-    ## found paper published on 2020-12-18
-
-    ## found paper published on 2020-11-08
-    ## found paper published on 2020-11-08
-
-    ## found paper published on 2020-09-18
-
-    ## found paper published on 2020-04-22
-
-    ## found paper published on 2020-04-18
-
-    ## done!
+    ## no papers found
 
     ## ▶ target bio_df
 
@@ -2455,7 +452,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#jjhycvmqsf .gt_table {
+#otwjxokiuw .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2478,7 +475,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_heading {
+#otwjxokiuw .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2490,7 +487,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_title {
+#otwjxokiuw .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2500,7 +497,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#jjhycvmqsf .gt_subtitle {
+#otwjxokiuw .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2510,13 +507,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#jjhycvmqsf .gt_bottom_border {
+#otwjxokiuw .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_col_headings {
+#otwjxokiuw .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2531,7 +528,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_col_heading {
+#otwjxokiuw .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2551,7 +548,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#jjhycvmqsf .gt_column_spanner_outer {
+#otwjxokiuw .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2563,15 +560,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#jjhycvmqsf .gt_column_spanner_outer:first-child {
+#otwjxokiuw .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#jjhycvmqsf .gt_column_spanner_outer:last-child {
+#otwjxokiuw .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#jjhycvmqsf .gt_column_spanner {
+#otwjxokiuw .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2583,7 +580,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#jjhycvmqsf .gt_group_heading {
+#otwjxokiuw .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2605,7 +602,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#jjhycvmqsf .gt_empty_group_heading {
+#otwjxokiuw .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2620,19 +617,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#jjhycvmqsf .gt_striped {
+#otwjxokiuw .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#jjhycvmqsf .gt_from_md > :first-child {
+#otwjxokiuw .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#jjhycvmqsf .gt_from_md > :last-child {
+#otwjxokiuw .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#jjhycvmqsf .gt_row {
+#otwjxokiuw .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2651,7 +648,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#jjhycvmqsf .gt_stub {
+#otwjxokiuw .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2663,7 +660,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#jjhycvmqsf .gt_summary_row {
+#otwjxokiuw .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2673,7 +670,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#jjhycvmqsf .gt_first_summary_row {
+#otwjxokiuw .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2683,7 +680,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_grand_summary_row {
+#otwjxokiuw .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2693,7 +690,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#jjhycvmqsf .gt_first_grand_summary_row {
+#otwjxokiuw .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2703,7 +700,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_table_body {
+#otwjxokiuw .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2712,7 +709,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_footnotes {
+#otwjxokiuw .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2726,13 +723,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_footnote {
+#otwjxokiuw .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#jjhycvmqsf .gt_sourcenotes {
+#otwjxokiuw .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2746,47 +743,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#jjhycvmqsf .gt_sourcenote {
+#otwjxokiuw .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#jjhycvmqsf .gt_left {
+#otwjxokiuw .gt_left {
   text-align: left;
 }
 
-#jjhycvmqsf .gt_center {
+#otwjxokiuw .gt_center {
   text-align: center;
 }
 
-#jjhycvmqsf .gt_right {
+#otwjxokiuw .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#jjhycvmqsf .gt_font_normal {
+#otwjxokiuw .gt_font_normal {
   font-weight: normal;
 }
 
-#jjhycvmqsf .gt_font_bold {
+#otwjxokiuw .gt_font_bold {
   font-weight: bold;
 }
 
-#jjhycvmqsf .gt_font_italic {
+#otwjxokiuw .gt_font_italic {
   font-style: italic;
 }
 
-#jjhycvmqsf .gt_super {
+#otwjxokiuw .gt_super {
   font-size: 65%;
 }
 
-#jjhycvmqsf .gt_footnote_marks {
+#otwjxokiuw .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="jjhycvmqsf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="otwjxokiuw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -2862,13 +859,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.225s
+0.202s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.104s
+0.088s
 
 </td>
 
@@ -2890,7 +887,7 @@ auths
 
 <td class="gt_row gt_center">
 
-0.003s
+0.004s
 
 </td>
 
@@ -2918,19 +915,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-7.908s
+4.318s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.574s
+0.274s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.064s
+0.04s
 
 </td>
 
@@ -2946,7 +943,7 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.327s
+0.31s
 
 </td>
 
@@ -3002,19 +999,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-109s (\~1.82 minutes)
+20.663s
 
 </td>
 
 <td class="gt_row gt_center">
 
-58.201s
+2.451s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.244s
+0.061s
 
 </td>
 
@@ -3030,7 +1027,7 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.744s
+0.843s
 
 </td>
 
@@ -3042,7 +1039,7 @@ term\_table
 
 <td class="gt_row gt_center">
 
-0.008s
+0.015s
 
 </td>
 
@@ -3058,7 +1055,7 @@ token
 
 <td class="gt_row gt_center">
 
-0.016s
+0.017s
 
 </td>
 
