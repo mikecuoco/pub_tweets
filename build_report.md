@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2021-01-06
+2021-01-07
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -13,7 +13,7 @@ source("R/functions.R")
     ## It seems that the version of `phantomjs` installed is greater than or equal to the requested version.To install the requested version or downgrade to another version, use `force = TRUE`.
 
     ## 
-    ##      checking for file ‘/tmp/RtmpbJCSOl/remotes514a30cebe3e/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpbJCSOl/remotes514a30cebe3e/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpBhaB0K/remotes506f276fa8e5/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpBhaB0K/remotes506f276fa8e5/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
     ##   ─  preparing ‘rbiorxiv’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -31,6 +31,8 @@ source("R/plan.R")
 ``` r
 make(plan)
 ```
+
+    ## ℹ Consider drake::r_make() to improve robustness.
 
     ## ▶ target term_table
 
@@ -180,7 +182,9 @@ make(plan)
 
     ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2020-09-04
+
+    ## done!
 
     ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -218,6 +222,11 @@ make(plan)
 
     ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2020-11-29
+
     ## found paper published on 2020-09-23
 
     ## done!
@@ -232,7 +241,9 @@ make(plan)
 
     ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2020-12-04
+
+    ## done!
 
     ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -302,7 +313,9 @@ make(plan)
 
     ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-06
+
+    ## done!
 
     ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -330,7 +343,9 @@ make(plan)
 
     ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-06
+
+    ## done!
 
     ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -342,7 +357,9 @@ make(plan)
 
     ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-06
+
+    ## done!
 
     ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -386,7 +403,9 @@ make(plan)
 
     ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-06
+
+    ## done!
 
     ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2021-01-05"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -456,7 +475,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#emvqrxsqpg .gt_table {
+#fgvircewkf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -479,7 +498,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_heading {
+#fgvircewkf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -491,7 +510,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_title {
+#fgvircewkf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -501,7 +520,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#emvqrxsqpg .gt_subtitle {
+#fgvircewkf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -511,13 +530,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#emvqrxsqpg .gt_bottom_border {
+#fgvircewkf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_col_headings {
+#fgvircewkf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -532,7 +551,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_col_heading {
+#fgvircewkf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -552,7 +571,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#emvqrxsqpg .gt_column_spanner_outer {
+#fgvircewkf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -564,15 +583,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#emvqrxsqpg .gt_column_spanner_outer:first-child {
+#fgvircewkf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#emvqrxsqpg .gt_column_spanner_outer:last-child {
+#fgvircewkf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#emvqrxsqpg .gt_column_spanner {
+#fgvircewkf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -584,7 +603,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#emvqrxsqpg .gt_group_heading {
+#fgvircewkf .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -606,7 +625,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#emvqrxsqpg .gt_empty_group_heading {
+#fgvircewkf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -621,19 +640,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#emvqrxsqpg .gt_striped {
+#fgvircewkf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#emvqrxsqpg .gt_from_md > :first-child {
+#fgvircewkf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#emvqrxsqpg .gt_from_md > :last-child {
+#fgvircewkf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#emvqrxsqpg .gt_row {
+#fgvircewkf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -652,7 +671,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#emvqrxsqpg .gt_stub {
+#fgvircewkf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -664,7 +683,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#emvqrxsqpg .gt_summary_row {
+#fgvircewkf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -674,7 +693,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#emvqrxsqpg .gt_first_summary_row {
+#fgvircewkf .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -684,7 +703,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_grand_summary_row {
+#fgvircewkf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -694,7 +713,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#emvqrxsqpg .gt_first_grand_summary_row {
+#fgvircewkf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -704,7 +723,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_table_body {
+#fgvircewkf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -713,7 +732,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_footnotes {
+#fgvircewkf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -727,13 +746,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_footnote {
+#fgvircewkf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#emvqrxsqpg .gt_sourcenotes {
+#fgvircewkf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -747,47 +766,47 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#emvqrxsqpg .gt_sourcenote {
+#fgvircewkf .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#emvqrxsqpg .gt_left {
+#fgvircewkf .gt_left {
   text-align: left;
 }
 
-#emvqrxsqpg .gt_center {
+#fgvircewkf .gt_center {
   text-align: center;
 }
 
-#emvqrxsqpg .gt_right {
+#fgvircewkf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#emvqrxsqpg .gt_font_normal {
+#fgvircewkf .gt_font_normal {
   font-weight: normal;
 }
 
-#emvqrxsqpg .gt_font_bold {
+#fgvircewkf .gt_font_bold {
   font-weight: bold;
 }
 
-#emvqrxsqpg .gt_font_italic {
+#fgvircewkf .gt_font_italic {
   font-style: italic;
 }
 
-#emvqrxsqpg .gt_super {
+#fgvircewkf .gt_super {
   font-size: 65%;
 }
 
-#emvqrxsqpg .gt_footnote_marks {
+#fgvircewkf .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="emvqrxsqpg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="fgvircewkf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -835,13 +854,13 @@ affils
 
 <td class="gt_row gt_center">
 
-0.006s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.006s
+0.003s
 
 </td>
 
@@ -863,13 +882,13 @@ all\_df
 
 <td class="gt_row gt_center">
 
-0.228s
+0.221s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.095s
+0.081s
 
 </td>
 
@@ -891,13 +910,13 @@ auths
 
 <td class="gt_row gt_center">
 
-0.005s
+0.003s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.005s
+0.003s
 
 </td>
 
@@ -919,19 +938,19 @@ bio\_df
 
 <td class="gt_row gt_center">
 
-4.878s
+11.619s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.345s
+0.671s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.037s
+0.036s
 
 </td>
 
@@ -947,19 +966,19 @@ last\_tweet
 
 <td class="gt_row gt_center">
 
-0.368s
+0.362s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.135s
+0.108s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.02s
+0.016s
 
 </td>
 
@@ -981,13 +1000,13 @@ loc
 
 <td class="gt_row gt_center">
 
-0.002s
+0.004s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.001s
+0s
 
 </td>
 
@@ -1003,19 +1022,19 @@ pub\_df
 
 <td class="gt_row gt_center">
 
-30.981s
+28.799s
 
 </td>
 
 <td class="gt_row gt_center">
 
-2.727s
+2.538s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.048s
+0.038s
 
 </td>
 
@@ -1031,19 +1050,19 @@ term\_table
 
 <td class="gt_row gt_center">
 
-1.232s
+1.045s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.13s
+0.112s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.009s
+0.02s
 
 </td>
 
@@ -1059,19 +1078,19 @@ token
 
 <td class="gt_row gt_center">
 
-0.017s
+0.014s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.017s
+0.014s
 
 </td>
 
 <td class="gt_row gt_center">
 
-0.001s
+0s
 
 </td>
 
