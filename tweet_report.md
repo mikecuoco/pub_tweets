@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-01-07
+2021-01-08
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#cobhtypery .gt_table {
+#yvcwcpmekx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#cobhtypery .gt_heading {
+#yvcwcpmekx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cobhtypery .gt_title {
+#yvcwcpmekx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#cobhtypery .gt_subtitle {
+#yvcwcpmekx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#cobhtypery .gt_bottom_border {
+#yvcwcpmekx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cobhtypery .gt_col_headings {
+#yvcwcpmekx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cobhtypery .gt_col_heading {
+#yvcwcpmekx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#cobhtypery .gt_column_spanner_outer {
+#yvcwcpmekx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#cobhtypery .gt_column_spanner_outer:first-child {
+#yvcwcpmekx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cobhtypery .gt_column_spanner_outer:last-child {
+#yvcwcpmekx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cobhtypery .gt_column_spanner {
+#yvcwcpmekx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#cobhtypery .gt_group_heading {
+#yvcwcpmekx .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#cobhtypery .gt_empty_group_heading {
+#yvcwcpmekx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#cobhtypery .gt_striped {
+#yvcwcpmekx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cobhtypery .gt_from_md > :first-child {
+#yvcwcpmekx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cobhtypery .gt_from_md > :last-child {
+#yvcwcpmekx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cobhtypery .gt_row {
+#yvcwcpmekx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#cobhtypery .gt_stub {
+#yvcwcpmekx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#cobhtypery .gt_summary_row {
+#yvcwcpmekx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#cobhtypery .gt_first_summary_row {
+#yvcwcpmekx .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#cobhtypery .gt_grand_summary_row {
+#yvcwcpmekx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#cobhtypery .gt_first_grand_summary_row {
+#yvcwcpmekx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#cobhtypery .gt_table_body {
+#yvcwcpmekx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#cobhtypery .gt_footnotes {
+#yvcwcpmekx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cobhtypery .gt_footnote {
+#yvcwcpmekx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#cobhtypery .gt_sourcenotes {
+#yvcwcpmekx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#cobhtypery .gt_sourcenote {
+#yvcwcpmekx .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#cobhtypery .gt_left {
+#yvcwcpmekx .gt_left {
   text-align: left;
 }
 
-#cobhtypery .gt_center {
+#yvcwcpmekx .gt_center {
   text-align: center;
 }
 
-#cobhtypery .gt_right {
+#yvcwcpmekx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cobhtypery .gt_font_normal {
+#yvcwcpmekx .gt_font_normal {
   font-weight: normal;
 }
 
-#cobhtypery .gt_font_bold {
+#yvcwcpmekx .gt_font_bold {
   font-weight: bold;
 }
 
-#cobhtypery .gt_font_italic {
+#yvcwcpmekx .gt_font_italic {
   font-style: italic;
 }
 
-#cobhtypery .gt_super {
+#yvcwcpmekx .gt_super {
   font-size: 65%;
 }
 
-#cobhtypery .gt_footnote_marks {
+#yvcwcpmekx .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="cobhtypery" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="yvcwcpmekx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,100 +406,6 @@ search
 
 <tbody class="gt_table_body">
 
-<tr>
-
-<td class="gt_row gt_left">
-
-Promoter-proximal CTCF binding promotes distal enhancer-dependent gene
-activation.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2021-01-06
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature structural & molecular biology
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s41594-020-00539-5>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Naoki Kubo
-
-</td>
-
-<td class="gt_row gt_center">
-
-Bing Ren
-
-</td>
-
-<td class="gt_row gt_left">
-
-Ren B
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Genetic screening for single-cell variability modulators driving therapy
-resistance.
-
-</td>
-
-<td class="gt_row gt_left">
-
-2021-01-06
-
-</td>
-
-<td class="gt_row gt_left">
-
-Nature genetics
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1038/s41588-020-00749-z>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Eduardo A Torre
-
-</td>
-
-<td class="gt_row gt_center">
-
-Arjun Raj
-
-</td>
-
-<td class="gt_row gt_left">
-
-Raj A
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
@@ -512,20 +418,14 @@ Raj A
 tweet_pubs(all_df, token)
 ```
 
-    ## "Promoter-proximal CTCF binding promotes distal enhancer-dependent gene activation." by Naoki Kubo et al. Nature structural & molecular biology, from Ren B search. Jan 6, 2021. https://doi.org/10.1038/s41594-020-00539-5
-
-    ## your tweet has been posted!
-
-    ## "Genetic screening for single-cell variability modulators driving therapy resistance." by Eduardo A Torre et al. Nature genetics, from Raj A search. Jan 6, 2021. https://doi.org/10.1038/s41588-020-00749-z
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 2 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
