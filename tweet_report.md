@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-01-08
+2021-01-09
 
 ``` r
 token = readd(token)
@@ -19,7 +19,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yvcwcpmekx .gt_table {
+#opaddsrmjz .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +42,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_heading {
+#opaddsrmjz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +54,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_title {
+#opaddsrmjz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +64,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#yvcwcpmekx .gt_subtitle {
+#opaddsrmjz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +74,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#yvcwcpmekx .gt_bottom_border {
+#opaddsrmjz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_col_headings {
+#opaddsrmjz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +95,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_col_heading {
+#opaddsrmjz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +115,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#yvcwcpmekx .gt_column_spanner_outer {
+#opaddsrmjz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +127,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#yvcwcpmekx .gt_column_spanner_outer:first-child {
+#opaddsrmjz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yvcwcpmekx .gt_column_spanner_outer:last-child {
+#opaddsrmjz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yvcwcpmekx .gt_column_spanner {
+#opaddsrmjz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +147,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#yvcwcpmekx .gt_group_heading {
+#opaddsrmjz .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +169,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#yvcwcpmekx .gt_empty_group_heading {
+#opaddsrmjz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +184,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#yvcwcpmekx .gt_striped {
+#opaddsrmjz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yvcwcpmekx .gt_from_md > :first-child {
+#opaddsrmjz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yvcwcpmekx .gt_from_md > :last-child {
+#opaddsrmjz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yvcwcpmekx .gt_row {
+#opaddsrmjz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +215,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#yvcwcpmekx .gt_stub {
+#opaddsrmjz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#yvcwcpmekx .gt_summary_row {
+#opaddsrmjz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +237,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#yvcwcpmekx .gt_first_summary_row {
+#opaddsrmjz .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +247,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_grand_summary_row {
+#opaddsrmjz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +257,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#yvcwcpmekx .gt_first_grand_summary_row {
+#opaddsrmjz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +267,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_table_body {
+#opaddsrmjz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +276,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_footnotes {
+#opaddsrmjz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +290,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_footnote {
+#opaddsrmjz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#yvcwcpmekx .gt_sourcenotes {
+#opaddsrmjz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,47 +310,47 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#yvcwcpmekx .gt_sourcenote {
+#opaddsrmjz .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#yvcwcpmekx .gt_left {
+#opaddsrmjz .gt_left {
   text-align: left;
 }
 
-#yvcwcpmekx .gt_center {
+#opaddsrmjz .gt_center {
   text-align: center;
 }
 
-#yvcwcpmekx .gt_right {
+#opaddsrmjz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yvcwcpmekx .gt_font_normal {
+#opaddsrmjz .gt_font_normal {
   font-weight: normal;
 }
 
-#yvcwcpmekx .gt_font_bold {
+#opaddsrmjz .gt_font_bold {
   font-weight: bold;
 }
 
-#yvcwcpmekx .gt_font_italic {
+#opaddsrmjz .gt_font_italic {
   font-style: italic;
 }
 
-#yvcwcpmekx .gt_super {
+#opaddsrmjz .gt_super {
   font-size: 65%;
 }
 
-#yvcwcpmekx .gt_footnote_marks {
+#opaddsrmjz .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="yvcwcpmekx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="opaddsrmjz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
 
@@ -406,6 +406,146 @@ search
 
 <tbody class="gt_table_body">
 
+<tr>
+
+<td class="gt_row gt_left">
+
+In vivo base editing rescues Hutchinson-Gilford progeria syndrome in
+mice.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2021-01-08
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41586-020-03086-7>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Luke W Koblan
+
+</td>
+
+<td class="gt_row gt_center">
+
+David R Liu
+
+</td>
+
+<td class="gt_row gt_left">
+
+Liu D
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+Spatially resolved single-cell genomics and transcriptomics by imaging.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2021-01-08
+
+</td>
+
+<td class="gt_row gt_left">
+
+Nature methods
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1038/s41592-020-01037-8>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Xiaowei Zhuang
+
+</td>
+
+<td class="gt_row gt_center">
+
+Xiaowei Zhuang
+
+</td>
+
+<td class="gt_row gt_left">
+
+Zhuang Xiaowei
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="gt_row gt_left">
+
+A genome-wide CRISPR-based screen identifies KAT7 as a driver of
+cellular senescence.
+
+</td>
+
+<td class="gt_row gt_left">
+
+2021-01-08
+
+</td>
+
+<td class="gt_row gt_left">
+
+Science translational medicine
+
+</td>
+
+<td class="gt_row gt_left">
+
+<https://doi.org/10.1126/scitranslmed.abd2655>
+
+</td>
+
+<td class="gt_row gt_center">
+
+Wei Wang
+
+</td>
+
+<td class="gt_row gt_center">
+
+Guang-Hui Liu
+
+</td>
+
+<td class="gt_row gt_left">
+
+Belmonte
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -418,14 +558,24 @@ search
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "In vivo base editing rescues Hutchinson-Gilford progeria syndrome in mice." by Luke W Koblan et al. Nature, from Liu D search. Jan 8, 2021. https://doi.org/10.1038/s41586-020-03086-7
+
+    ## your tweet has been posted!
+
+    ## "Spatially resolved single-cell genomics and transcriptomics by imaging." by Xiaowei Zhuang et al. Nature methods, from Zhuang Xiaowei search. Jan 8, 2021. https://doi.org/10.1038/s41592-020-01037-8
+
+    ## your tweet has been posted!
+
+    ## "A genome-wide CRISPR-based screen identifies KAT7 as a driver of cellular senescence." by Wei Wang et al. Science translational medicine, from Belmonte search. Jan 8, 2021. https://doi.org/10.1126/scitranslmed.abd2655
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 3 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
