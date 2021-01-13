@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-01-12
+2021-01-13
 
 ``` r
 token = readd(token)
@@ -13,13 +13,11 @@ all_df = readd(all_df) %>% arrange(pubdate)
 head(all_df) %>% gt()
 ```
 
-<!--html_preserve-->
-
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#khkdkeyavo .gt_table {
+#xiskusnlbu .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -42,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_heading {
+#xiskusnlbu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -54,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_title {
+#xiskusnlbu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -64,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#khkdkeyavo .gt_subtitle {
+#xiskusnlbu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -74,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#khkdkeyavo .gt_bottom_border {
+#xiskusnlbu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_col_headings {
+#xiskusnlbu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -95,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_col_heading {
+#xiskusnlbu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -115,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#khkdkeyavo .gt_column_spanner_outer {
+#xiskusnlbu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -127,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#khkdkeyavo .gt_column_spanner_outer:first-child {
+#xiskusnlbu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#khkdkeyavo .gt_column_spanner_outer:last-child {
+#xiskusnlbu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#khkdkeyavo .gt_column_spanner {
+#xiskusnlbu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -147,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#khkdkeyavo .gt_group_heading {
+#xiskusnlbu .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -169,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#khkdkeyavo .gt_empty_group_heading {
+#xiskusnlbu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -184,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#khkdkeyavo .gt_striped {
+#xiskusnlbu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#khkdkeyavo .gt_from_md > :first-child {
+#xiskusnlbu .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#khkdkeyavo .gt_from_md > :last-child {
+#xiskusnlbu .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#khkdkeyavo .gt_row {
+#xiskusnlbu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -215,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#khkdkeyavo .gt_stub {
+#xiskusnlbu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#khkdkeyavo .gt_summary_row {
+#xiskusnlbu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -237,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#khkdkeyavo .gt_first_summary_row {
+#xiskusnlbu .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_grand_summary_row {
+#xiskusnlbu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -257,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#khkdkeyavo .gt_first_grand_summary_row {
+#xiskusnlbu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -267,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_table_body {
+#xiskusnlbu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -276,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_footnotes {
+#xiskusnlbu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -290,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_footnote {
+#xiskusnlbu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#khkdkeyavo .gt_sourcenotes {
+#xiskusnlbu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -310,170 +308,75 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#khkdkeyavo .gt_sourcenote {
+#xiskusnlbu .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#khkdkeyavo .gt_left {
+#xiskusnlbu .gt_left {
   text-align: left;
 }
 
-#khkdkeyavo .gt_center {
+#xiskusnlbu .gt_center {
   text-align: center;
 }
 
-#khkdkeyavo .gt_right {
+#xiskusnlbu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#khkdkeyavo .gt_font_normal {
+#xiskusnlbu .gt_font_normal {
   font-weight: normal;
 }
 
-#khkdkeyavo .gt_font_bold {
+#xiskusnlbu .gt_font_bold {
   font-weight: bold;
 }
 
-#khkdkeyavo .gt_font_italic {
+#xiskusnlbu .gt_font_italic {
   font-style: italic;
 }
 
-#khkdkeyavo .gt_super {
+#xiskusnlbu .gt_super {
   font-size: 65%;
 }
 
-#khkdkeyavo .gt_footnote_marks {
+#xiskusnlbu .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-
-<div id="khkdkeyavo" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-
-<table class="gt_table">
-
-<thead class="gt_col_headings">
-
-<tr>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">
-
-title
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">
-
-pubdate
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">
-
-journal
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">
-
-doi
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">
-
-first\_author
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">
-
-last\_author
-
-</th>
-
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">
-
-search
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody class="gt_table_body">
-
-<tr>
-
-<td class="gt_row gt_left">
-
-Distinct T cell chromatin landscapes in scleroderma subtypes
-
-</td>
-
-<td class="gt_row gt_left">
-
-2021-01-11
-
-</td>
-
-<td class="gt_row gt_left">
-
-bioRxiv
-
-</td>
-
-<td class="gt_row gt_left">
-
-<https://doi.org/10.1101/2021.01.10.426131>
-
-</td>
-
-<td class="gt_row gt_center">
-
-Dou DR
-
-</td>
-
-<td class="gt_row gt_center">
-
-Howard Y Chang
-
-</td>
-
-<td class="gt_row gt_left">
-
-Chang, H
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-<!--/html_preserve-->
+<div id="xiskusnlbu" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">title</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">pubdate</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">journal</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">doi</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">first_author</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">last_author</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body"></tbody>
+  
+  
+</table></div>
 
 ``` r
 tweet_pubs(all_df, token)
 ```
 
-    ## "Distinct T cell chromatin landscapes in scleroderma subtypes" by Dou DR et al. bioRxiv, from Chang, H search. Jan 11, 2021. https://doi.org/10.1101/2021.01.10.426131
-
-    ## your tweet has been posted!
+    ## [1] "No new preprints or publications"
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 1 times
+    ## tweeted 0 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
