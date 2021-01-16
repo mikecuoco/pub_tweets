@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2021-01-15
+2021-01-16
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -13,12 +13,12 @@ source("R/functions.R")
     ## It seems that the version of `phantomjs` installed is greater than or equal to the requested version.To install the requested version or downgrade to another version, use `force = TRUE`.
 
     ## 
-    ##      checking for file ‘/tmp/Rtmp27YZpi/remotes4932530d4c7f/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmp27YZpi/remotes4932530d4c7f/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
+    ##      checking for file ‘/tmp/Rtmp5aCEAh/remotes4a3ac4c4f2f/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmp5aCEAh/remotes4a3ac4c4f2f/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
     ##   ─  preparing ‘rbiorxiv’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘rbiorxiv_0.2.0.tar.gz’
+    ## ─  building ‘rbiorxiv_0.2.0.tar.gz’
     ##      
     ## 
 
@@ -50,65 +50,65 @@ make(plan)
 
     ## ▶ target pub_df
 
-    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zoghbi HY[Author] AND Baylor[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bergman D[Author] AND Broad Institute[Affiliation]) OR (Bergman D[Author] AND Dartmouth[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bernstein B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Cleary B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((de Boer C[Author] AND Broad Institute[Affiliation]) OR (de Boer C[Author] AND University of British Columbia[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Doughty B[Author] AND Broad Institute[Affiliation]) OR (Doughty B[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Engreitz J[Author] AND Broad Institute[Affiliation]) OR (Engreitz J[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Fulco C[Author] AND Broad Institute[Affiliation]) OR (Fulco C[Author] AND Bristol Meyers[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Haas B[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Hacohen N[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-05
 
     ## done!
 
-    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Law T[Author] AND Broad Institute[Affiliation]) OR (Law T[Author] AND Washington[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Sabeti P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sabeti P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Liu D[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -119,15 +119,15 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Macosko E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Meyerson M[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Regev A[Author] AND Broad Institute[Affiliation]) OR (Regev A[Author] AND Genentech[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -138,7 +138,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Schreiber S[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -149,29 +149,29 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sellers W[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Elowitz M[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pachter L[Author] AND California Institute of Technology[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Izar B[Author] AND Columbia[Affiliation]) OR (Izar B[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lappalainen T[Author] AND Columbia[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-11-05
 
     ## done!
 
-    ## Searching ((Van Allen E[Author] AND Broad Institute[Affiliation]) OR (Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Van Allen E[Author] AND Broad Institute[Affiliation]) OR (Van Allen E[Author] AND Dana-Farber[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -182,39 +182,39 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gersbach C[Author] AND Duke[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Wray G[Author] AND Duke[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-09-18
 
     ## done!
 
-    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Burgin G[Author] AND Harvard[Affiliation]) OR (Burgin G[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Church G[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-09-04
 
     ## done!
 
-    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Churchman S[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kadoch C[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -225,29 +225,29 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kharchenko P[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Lareau C[Author] AND Harvard[Affiliation]) OR (Lareau C[Author] AND Broad[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Zhuang Xiaowei[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zhuang Xiaowei[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-08
 
     ## done!
 
-    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sankaran V[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sinclair D[Author] AND Harvard[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Friedman N[Author] AND Hebrew University[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -258,7 +258,7 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Clevers H[Author] AND Hubrecht Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -273,13 +273,13 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Jacks T[Author] AND Koch[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-07-29
 
     ## done!
 
-    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Berger B[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -290,57 +290,57 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Kellis M[Author] AND Massachusetts Institute of Technology[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-12-04
 
     ## done!
 
-    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Norman T[Author] AND Memorial Sloan Kettering[Affiliation]) OR (Norman T[Author] AND University of California San Francisco[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pe'er D[Author] AND Memorial Sloan Kettering[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Satija R[Author] AND New York Genome Center[Affiliation]) OR (Satija R[Author] AND New York University[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Bradner J[Author] AND Novartis[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Belmonte[Author] AND Salk[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-08
 
     ## done!
 
-    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Hargreaves D[Author] AND Salk[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-09
 
     ## done!
 
-    ## Searching ((Crabtree G[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Crabtree G[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Snyder M[Author] AND Stanford[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -351,59 +351,61 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-01
 
     ## done!
 
-    ## Searching ((Horvath S[Author] AND University of California Los Angeles[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Horvath S[Author] AND University of California Los Angeles[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Benner C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Berube P[Author] AND University of California San Diego[Affiliation]) OR (Berube P[Author] AND Broad Institute[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ecker J[Author] AND University of California San Diego[Affiliation]) OR (Ecker J[Author] AND Salk[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-06
 
     ## done!
 
-    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gaulton K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Glass C[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Hasty J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Hasty J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gymrek M[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-15
 
-    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## done!
+
+    ## Searching ((Ideker T[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -414,83 +416,83 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Mesirov J[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-12
 
     ## done!
 
-    ## Searching ((McVicker G[Author] AND University of California San Diego[Affiliation]) OR (McVicker G[Author] AND Salk[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((McVicker G[Author] AND University of California San Diego[Affiliation]) OR (McVicker G[Author] AND Salk[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Ren B[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-06
 
     ## done!
 
-    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-07
 
     ## done!
 
-    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Zhang K[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-11-01
 
     ## done!
 
-    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weissman J[Author] AND University of California San Francisco[Affiliation]) OR (Weissman J[Author] AND Whitehead[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Barreiro L[Author] AND University of Chicago[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2020-12-10
 
     ## done!
 
-    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Basu A[Author] AND University of Chicago[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Gilad Y[Author] AND University of Chicago[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Novembre J[Author] AND University of Chicago[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Garber M[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Pai A[Author] AND University of Massachusetts[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Raj A[Author] AND University of Pennsylvania[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-06
 
     ## done!
 
-    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Shendure J[Author] AND University of Washington[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Trapnell C[Author] AND University of Washington[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Alon U[Author] AND Weizmann[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Amit I[Author] AND Weizmann[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
@@ -501,37 +503,37 @@ make(plan)
 
     ## done!
 
-    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Biton M[Author] AND Weizmann[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Parnas O[Author] AND Weizmann[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Tirosh I[Author] AND Weizmann[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-05
 
     ## done!
 
-    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Teichmann S[Author] AND Wellcome Sanger[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-02
 
     ## done!
 
-    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Jaenisch R[Author] AND Whitehead[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## found paper published on 2021-01-14
 
     ## done!
 
-    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Sabatini D[Author] AND Whitehead[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
-    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2021-01-12"[Date - Publication] : "3000"[Date - Publication]))...
+    ## Searching ((Weinberg R[Author] AND Whitehead[Affiliation])) AND (("2021-01-15"[Date - Publication] : "3000"[Date - Publication]))...
 
     ## no papers found
 
@@ -553,7 +555,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#aozqighyls .gt_table {
+#ammswmfuyi .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -576,7 +578,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#aozqighyls .gt_heading {
+#ammswmfuyi .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -588,7 +590,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#aozqighyls .gt_title {
+#ammswmfuyi .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -598,7 +600,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#aozqighyls .gt_subtitle {
+#ammswmfuyi .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -608,13 +610,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#aozqighyls .gt_bottom_border {
+#ammswmfuyi .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#aozqighyls .gt_col_headings {
+#ammswmfuyi .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -629,7 +631,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#aozqighyls .gt_col_heading {
+#ammswmfuyi .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -649,7 +651,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#aozqighyls .gt_column_spanner_outer {
+#ammswmfuyi .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -661,15 +663,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#aozqighyls .gt_column_spanner_outer:first-child {
+#ammswmfuyi .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#aozqighyls .gt_column_spanner_outer:last-child {
+#ammswmfuyi .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#aozqighyls .gt_column_spanner {
+#ammswmfuyi .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -681,7 +683,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#aozqighyls .gt_group_heading {
+#ammswmfuyi .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -703,7 +705,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#aozqighyls .gt_empty_group_heading {
+#ammswmfuyi .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -718,19 +720,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#aozqighyls .gt_striped {
+#ammswmfuyi .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#aozqighyls .gt_from_md > :first-child {
+#ammswmfuyi .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#aozqighyls .gt_from_md > :last-child {
+#ammswmfuyi .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#aozqighyls .gt_row {
+#ammswmfuyi .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -749,7 +751,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#aozqighyls .gt_stub {
+#ammswmfuyi .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -761,7 +763,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#aozqighyls .gt_summary_row {
+#ammswmfuyi .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -771,7 +773,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#aozqighyls .gt_first_summary_row {
+#ammswmfuyi .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -781,7 +783,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#aozqighyls .gt_grand_summary_row {
+#ammswmfuyi .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -791,7 +793,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#aozqighyls .gt_first_grand_summary_row {
+#ammswmfuyi .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -801,7 +803,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#aozqighyls .gt_table_body {
+#ammswmfuyi .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -810,7 +812,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#aozqighyls .gt_footnotes {
+#ammswmfuyi .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -824,13 +826,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#aozqighyls .gt_footnote {
+#ammswmfuyi .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#aozqighyls .gt_sourcenotes {
+#ammswmfuyi .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -844,46 +846,46 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#aozqighyls .gt_sourcenote {
+#ammswmfuyi .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#aozqighyls .gt_left {
+#ammswmfuyi .gt_left {
   text-align: left;
 }
 
-#aozqighyls .gt_center {
+#ammswmfuyi .gt_center {
   text-align: center;
 }
 
-#aozqighyls .gt_right {
+#ammswmfuyi .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#aozqighyls .gt_font_normal {
+#ammswmfuyi .gt_font_normal {
   font-weight: normal;
 }
 
-#aozqighyls .gt_font_bold {
+#ammswmfuyi .gt_font_bold {
   font-weight: bold;
 }
 
-#aozqighyls .gt_font_italic {
+#ammswmfuyi .gt_font_italic {
   font-style: italic;
 }
 
-#aozqighyls .gt_super {
+#ammswmfuyi .gt_super {
   font-size: 65%;
 }
 
-#aozqighyls .gt_footnote_marks {
+#ammswmfuyi .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="aozqighyls" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="ammswmfuyi" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -896,57 +898,57 @@ build_times() %>% gt()
   <tbody class="gt_table_body">
     <tr>
       <td class="gt_row gt_left">affils</td>
-      <td class="gt_row gt_center">0.002s</td>
       <td class="gt_row gt_center">0.003s</td>
-      <td class="gt_row gt_center">0s</td>
+      <td class="gt_row gt_center">0.002s</td>
+      <td class="gt_row gt_center">0.002s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">all_df</td>
-      <td class="gt_row gt_center">0.212s</td>
-      <td class="gt_row gt_center">0.07s</td>
-      <td class="gt_row gt_center">0.003s</td>
+      <td class="gt_row gt_center">0.208s</td>
+      <td class="gt_row gt_center">0.09s</td>
+      <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">auths</td>
       <td class="gt_row gt_center">0.004s</td>
-      <td class="gt_row gt_center">0.004s</td>
+      <td class="gt_row gt_center">0.003s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">bio_df</td>
-      <td class="gt_row gt_center">16.346s</td>
-      <td class="gt_row gt_center">1.019s</td>
-      <td class="gt_row gt_center">0.048s</td>
+      <td class="gt_row gt_center">4.396s</td>
+      <td class="gt_row gt_center">0.365s</td>
+      <td class="gt_row gt_center">0.032s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">last_tweet</td>
-      <td class="gt_row gt_center">0.467s</td>
-      <td class="gt_row gt_center">0.112s</td>
-      <td class="gt_row gt_center">0.016s</td>
+      <td class="gt_row gt_center">0.305s</td>
+      <td class="gt_row gt_center">0.126s</td>
+      <td class="gt_row gt_center">0.022s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">loc</td>
       <td class="gt_row gt_center">0.004s</td>
-      <td class="gt_row gt_center">0.003s</td>
+      <td class="gt_row gt_center">0.004s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">pub_df</td>
-      <td class="gt_row gt_center">28.507s</td>
-      <td class="gt_row gt_center">3.821s</td>
-      <td class="gt_row gt_center">0.046s</td>
+      <td class="gt_row gt_center">30.311s</td>
+      <td class="gt_row gt_center">4.977s</td>
+      <td class="gt_row gt_center">0.055s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">term_table</td>
-      <td class="gt_row gt_center">0.925s</td>
-      <td class="gt_row gt_center">0.1s</td>
-      <td class="gt_row gt_center">0.002s</td>
+      <td class="gt_row gt_center">0.946s</td>
+      <td class="gt_row gt_center">0.115s</td>
+      <td class="gt_row gt_center">0.012s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">token</td>
-      <td class="gt_row gt_center">0.013s</td>
-      <td class="gt_row gt_center">0.011s</td>
-      <td class="gt_row gt_center">0.003s</td>
+      <td class="gt_row gt_center">0.016s</td>
+      <td class="gt_row gt_center">0.012s</td>
+      <td class="gt_row gt_center">0.004s</td>
     </tr>
   </tbody>
   
