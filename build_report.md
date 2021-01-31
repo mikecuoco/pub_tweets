@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2021-01-30
+2021-01-31
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -13,12 +13,12 @@ source("R/functions.R")
     ## It seems that the version of `phantomjs` installed is greater than or equal to the requested version.To install the requested version or downgrade to another version, use `force = TRUE`.
 
     ## 
-    ##      checking for file ‘/tmp/RtmpmM0q8A/remotes49b520081231/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpmM0q8A/remotes49b520081231/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
+    ##      checking for file ‘/tmp/Rtmpb3wRCo/remotes4b854909d5c4/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/Rtmpb3wRCo/remotes4b854909d5c4/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
     ##   ─  preparing ‘rbiorxiv’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
     ##   ─  checking for empty or unneeded directories
-    ##   ─  building ‘rbiorxiv_0.2.0.tar.gz’
+    ## ─  building ‘rbiorxiv_0.2.0.tar.gz’
     ##      
     ## 
 
@@ -31,6 +31,8 @@ source("R/plan.R")
 ``` r
 make(plan)
 ```
+
+    ## ℹ Consider drake::r_make() to improve robustness.
 
     ## ▶ target term_table
 
@@ -86,6 +88,11 @@ make(plan)
 
     ## Searching ((Golub T[Author] AND Broad Institute[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2021-01-30
+
     ## found paper published on 2021-01-29
 
     ## done!
@@ -103,6 +110,11 @@ make(plan)
     ## done!
 
     ## Searching ((Lander E[Author] AND Broad Institute[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2021-01-30
 
     ## found paper published on 2021-01-05
 
@@ -150,6 +162,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2021-01-30
 
     ## found paper published on 2021-01-28
 
@@ -219,7 +233,9 @@ make(plan)
 
     ## Searching ((Reddy T[Author] AND Duke[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-30
+
+    ## done!
 
     ## Searching ((Tung J[Author] AND Duke[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -244,6 +260,8 @@ make(plan)
 
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
+
+    ## found paper published on 2021-01-30
 
     ## found paper published on 2021-01-28
 
@@ -330,6 +348,8 @@ make(plan)
 
     ## found paper published on 2021-01-02
 
+    ## found paper published on 2020-12-29
+
     ## found paper published on 2020-11-29
 
     ## found paper published on 2020-09-23
@@ -391,7 +411,9 @@ make(plan)
 
     ## Searching ((Chang H[Author] AND Stanford[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-30
+
+    ## done!
 
     ## Searching ((Greenleaf W[Author] AND Stanford[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -411,6 +433,11 @@ make(plan)
     ## done!
 
     ## Searching ((Pritchard J[Author] AND Stanford[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
+
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
+    ## found paper published on 2021-01-30
 
     ## found paper published on 2021-01-20
 
@@ -435,7 +462,9 @@ make(plan)
 
     ## Searching ((Waldman J[Author] AND Touro[Affiliation]) OR (Waldman J[Author] AND Broad Institute[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-01-30
+
+    ## done!
 
     ## Searching ((Yosef N[Author] AND University of California Berkeley[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -544,7 +573,12 @@ make(plan)
 
     ## Searching ((Yeo G[Author] AND University of California San Diego[Affiliation])) AND (("2021-01-29"[Date - Publication] : "3000"[Date - Publication]))...
 
+    ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
+    ## element will be used
+
     ## found paper published on 2021-01-07
+
+    ## found paper published on 2020-11-12
 
     ## done!
 
@@ -683,7 +717,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#nkwqbheyih .gt_table {
+#rswmmzrwnk .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -706,7 +740,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_heading {
+#rswmmzrwnk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -718,7 +752,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_title {
+#rswmmzrwnk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -728,7 +762,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#nkwqbheyih .gt_subtitle {
+#rswmmzrwnk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -738,13 +772,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#nkwqbheyih .gt_bottom_border {
+#rswmmzrwnk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_col_headings {
+#rswmmzrwnk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -759,7 +793,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_col_heading {
+#rswmmzrwnk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -779,7 +813,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#nkwqbheyih .gt_column_spanner_outer {
+#rswmmzrwnk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -791,15 +825,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#nkwqbheyih .gt_column_spanner_outer:first-child {
+#rswmmzrwnk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#nkwqbheyih .gt_column_spanner_outer:last-child {
+#rswmmzrwnk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#nkwqbheyih .gt_column_spanner {
+#rswmmzrwnk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -811,7 +845,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#nkwqbheyih .gt_group_heading {
+#rswmmzrwnk .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -833,7 +867,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#nkwqbheyih .gt_empty_group_heading {
+#rswmmzrwnk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -848,19 +882,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#nkwqbheyih .gt_striped {
+#rswmmzrwnk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#nkwqbheyih .gt_from_md > :first-child {
+#rswmmzrwnk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#nkwqbheyih .gt_from_md > :last-child {
+#rswmmzrwnk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#nkwqbheyih .gt_row {
+#rswmmzrwnk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -879,7 +913,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#nkwqbheyih .gt_stub {
+#rswmmzrwnk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -891,7 +925,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#nkwqbheyih .gt_summary_row {
+#rswmmzrwnk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -901,7 +935,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#nkwqbheyih .gt_first_summary_row {
+#rswmmzrwnk .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -911,7 +945,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_grand_summary_row {
+#rswmmzrwnk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -921,7 +955,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#nkwqbheyih .gt_first_grand_summary_row {
+#rswmmzrwnk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -931,7 +965,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_table_body {
+#rswmmzrwnk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -940,7 +974,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_footnotes {
+#rswmmzrwnk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -954,13 +988,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_footnote {
+#rswmmzrwnk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#nkwqbheyih .gt_sourcenotes {
+#rswmmzrwnk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -974,46 +1008,46 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#nkwqbheyih .gt_sourcenote {
+#rswmmzrwnk .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#nkwqbheyih .gt_left {
+#rswmmzrwnk .gt_left {
   text-align: left;
 }
 
-#nkwqbheyih .gt_center {
+#rswmmzrwnk .gt_center {
   text-align: center;
 }
 
-#nkwqbheyih .gt_right {
+#rswmmzrwnk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#nkwqbheyih .gt_font_normal {
+#rswmmzrwnk .gt_font_normal {
   font-weight: normal;
 }
 
-#nkwqbheyih .gt_font_bold {
+#rswmmzrwnk .gt_font_bold {
   font-weight: bold;
 }
 
-#nkwqbheyih .gt_font_italic {
+#rswmmzrwnk .gt_font_italic {
   font-style: italic;
 }
 
-#nkwqbheyih .gt_super {
+#rswmmzrwnk .gt_super {
   font-size: 65%;
 }
 
-#nkwqbheyih .gt_footnote_marks {
+#rswmmzrwnk .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="nkwqbheyih" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="rswmmzrwnk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -1032,51 +1066,51 @@ build_times() %>% gt()
     </tr>
     <tr>
       <td class="gt_row gt_left">all_df</td>
-      <td class="gt_row gt_center">0.184s</td>
-      <td class="gt_row gt_center">0.069s</td>
-      <td class="gt_row gt_center">0.004s</td>
+      <td class="gt_row gt_center">0.21s</td>
+      <td class="gt_row gt_center">0.098s</td>
+      <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">auths</td>
+      <td class="gt_row gt_center">0.004s</td>
       <td class="gt_row gt_center">0.003s</td>
-      <td class="gt_row gt_center">0.003s</td>
-      <td class="gt_row gt_center">0s</td>
+      <td class="gt_row gt_center">0.002s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">bio_df</td>
-      <td class="gt_row gt_center">2.058s</td>
-      <td class="gt_row gt_center">0.274s</td>
-      <td class="gt_row gt_center">0.02s</td>
+      <td class="gt_row gt_center">4.316s</td>
+      <td class="gt_row gt_center">0.587s</td>
+      <td class="gt_row gt_center">0.016s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">last_tweet</td>
-      <td class="gt_row gt_center">0.273s</td>
-      <td class="gt_row gt_center">0.106s</td>
-      <td class="gt_row gt_center">0.015s</td>
+      <td class="gt_row gt_center">0.339s</td>
+      <td class="gt_row gt_center">0.139s</td>
+      <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">loc</td>
+      <td class="gt_row gt_center">0.005s</td>
       <td class="gt_row gt_center">0.004s</td>
-      <td class="gt_row gt_center">0.003s</td>
-      <td class="gt_row gt_center">0.001s</td>
+      <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">pub_df</td>
-      <td class="gt_row gt_center">37.612s</td>
-      <td class="gt_row gt_center">6.778s</td>
-      <td class="gt_row gt_center">0.065s</td>
+      <td class="gt_row gt_center">40.356s</td>
+      <td class="gt_row gt_center">9.246s</td>
+      <td class="gt_row gt_center">0.073s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">term_table</td>
-      <td class="gt_row gt_center">0.695s</td>
-      <td class="gt_row gt_center">0.095s</td>
-      <td class="gt_row gt_center">0.015s</td>
+      <td class="gt_row gt_center">0.812s</td>
+      <td class="gt_row gt_center">0.128s</td>
+      <td class="gt_row gt_center">0.008s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">token</td>
+      <td class="gt_row gt_center">0.018s</td>
       <td class="gt_row gt_center">0.014s</td>
-      <td class="gt_row gt_center">0.014s</td>
-      <td class="gt_row gt_center">0s</td>
+      <td class="gt_row gt_center">0.004s</td>
     </tr>
   </tbody>
   

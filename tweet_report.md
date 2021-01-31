@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-01-30
+2021-01-31
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xwylhsirgn .gt_table {
+#wiypxxvhjv .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_heading {
+#wiypxxvhjv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_title {
+#wiypxxvhjv .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#xwylhsirgn .gt_subtitle {
+#wiypxxvhjv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#xwylhsirgn .gt_bottom_border {
+#wiypxxvhjv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_col_headings {
+#wiypxxvhjv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_col_heading {
+#wiypxxvhjv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#xwylhsirgn .gt_column_spanner_outer {
+#wiypxxvhjv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#xwylhsirgn .gt_column_spanner_outer:first-child {
+#wiypxxvhjv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xwylhsirgn .gt_column_spanner_outer:last-child {
+#wiypxxvhjv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xwylhsirgn .gt_column_spanner {
+#wiypxxvhjv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#xwylhsirgn .gt_group_heading {
+#wiypxxvhjv .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#xwylhsirgn .gt_empty_group_heading {
+#wiypxxvhjv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#xwylhsirgn .gt_striped {
+#wiypxxvhjv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xwylhsirgn .gt_from_md > :first-child {
+#wiypxxvhjv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xwylhsirgn .gt_from_md > :last-child {
+#wiypxxvhjv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xwylhsirgn .gt_row {
+#wiypxxvhjv .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#xwylhsirgn .gt_stub {
+#wiypxxvhjv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#xwylhsirgn .gt_summary_row {
+#wiypxxvhjv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#xwylhsirgn .gt_first_summary_row {
+#wiypxxvhjv .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_grand_summary_row {
+#wiypxxvhjv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#xwylhsirgn .gt_first_grand_summary_row {
+#wiypxxvhjv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_table_body {
+#wiypxxvhjv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_footnotes {
+#wiypxxvhjv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_footnote {
+#wiypxxvhjv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#xwylhsirgn .gt_sourcenotes {
+#wiypxxvhjv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#xwylhsirgn .gt_sourcenote {
+#wiypxxvhjv .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#xwylhsirgn .gt_left {
+#wiypxxvhjv .gt_left {
   text-align: left;
 }
 
-#xwylhsirgn .gt_center {
+#wiypxxvhjv .gt_center {
   text-align: center;
 }
 
-#xwylhsirgn .gt_right {
+#wiypxxvhjv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xwylhsirgn .gt_font_normal {
+#wiypxxvhjv .gt_font_normal {
   font-weight: normal;
 }
 
-#xwylhsirgn .gt_font_bold {
+#wiypxxvhjv .gt_font_bold {
   font-weight: bold;
 }
 
-#xwylhsirgn .gt_font_italic {
+#wiypxxvhjv .gt_font_italic {
   font-style: italic;
 }
 
-#xwylhsirgn .gt_super {
+#wiypxxvhjv .gt_super {
   font-size: 65%;
 }
 
-#xwylhsirgn .gt_footnote_marks {
+#wiypxxvhjv .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="xwylhsirgn" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="wiypxxvhjv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -360,7 +360,62 @@ head(all_df) %>% gt()
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
     </tr>
   </thead>
-  <tbody class="gt_table_body"></tbody>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Noncanonical open reading frames encode functional proteins essential for cancer cell survival.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">Nature biotechnology</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41587-020-00806-2</td>
+      <td class="gt_row gt_center">John R Prensner</td>
+      <td class="gt_row gt_center">Todd R Golub</td>
+      <td class="gt_row gt_left">Golub T</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">A regulatory variant at 3q21.1 confers an increased pleiotropic risk for hyperglycemia and altered bone mineral density.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">Cell metabolism</td>
+      <td class="gt_row gt_left">https://doi.org/10.1016/j.cmet.2021.01.001</td>
+      <td class="gt_row gt_center">Nasa Sinnott-Armstrong</td>
+      <td class="gt_row gt_center">Melina Claussnitzer</td>
+      <td class="gt_row gt_left">Lander E</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">Science (New York, N.Y.)</td>
+      <td class="gt_row gt_left">https://doi.org/10.1126/science.aax2656</td>
+      <td class="gt_row gt_center">Shahar Alon</td>
+      <td class="gt_row gt_center">Edward S Boyden</td>
+      <td class="gt_row gt_left">Regev A</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Causal network inference from gene transcriptional time-series response to glucocorticoids.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">PLoS computational biology</td>
+      <td class="gt_row gt_left">https://doi.org/10.1371/journal.pcbi.1008223</td>
+      <td class="gt_row gt_center">Jonathan Lu</td>
+      <td class="gt_row gt_center">Barbara E Engelhardt</td>
+      <td class="gt_row gt_left">Reddy T</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">Science (New York, N.Y.)</td>
+      <td class="gt_row gt_left">https://doi.org/10.1126/science.aax2656</td>
+      <td class="gt_row gt_center">Shahar Alon</td>
+      <td class="gt_row gt_center">Edward S Boyden</td>
+      <td class="gt_row gt_left">Church G</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Carrier-specific dynamics in 2H-MoTe2 observed by femtosecond soft x-ray absorption spectroscopy using an x-ray free-electron laser.</td>
+      <td class="gt_row gt_left">2021-01-30</td>
+      <td class="gt_row gt_left">Structural dynamics (Melville, N.Y.)</td>
+      <td class="gt_row gt_left">https://doi.org/10.1063/4.0000048</td>
+      <td class="gt_row gt_center">Alexander Britz</td>
+      <td class="gt_row gt_center">Uwe Bergmann</td>
+      <td class="gt_row gt_left">Chang H</td>
+    </tr>
+  </tbody>
   
   
 </table></div>
@@ -369,14 +424,44 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Noncanonical open reading frames encode functional proteins essential for cancer cell survival." by John R Prensner et al. Nature biotechnology, from Golub T search. Jan 30, 2021. https://doi.org/10.1038/s41587-020-00806-2
+
+    ## your tweet has been posted!
+
+    ## "A regulatory variant at 3q21.1 confers an increased pleiotropic risk for hyperglycemia and altered bone mineral density." by Nasa Sinnott-Armstrong et al. Cell metabolism, from Lander E search. Jan 30, 2021. https://doi.org/10.1016/j.cmet.2021.01.001
+
+    ## your tweet has been posted!
+
+    ## "Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems." by Shahar Alon et al. Science (New York, N.Y.), from Regev A search. Jan 30, 2021. https://doi.org/10.1126/science.aax2656
+
+    ## your tweet has been posted!
+
+    ## "Causal network inference from gene transcriptional time-series response to glucocorticoids." by Jonathan Lu et al. PLoS computational biology, from Reddy T search. Jan 30, 2021. https://doi.org/10.1371/journal.pcbi.1008223
+
+    ## your tweet has been posted!
+
+    ## "Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems." by Shahar Alon et al. Science (New York, N.Y.), from Church G search. Jan 30, 2021. https://doi.org/10.1126/science.aax2656
+
+    ## your tweet has been posted!
+
+    ## "Carrier-specific dynamics in 2H-MoTe2 observed by femtosecond soft x-ray absorption spectroscopy using an x-ray free-electron laser." by Alexander Britz et al. Structural dynamics (Melville, N.Y.), from Chang H search. Jan 30, 2021. https://doi.org/10.1063/4.0000048
+
+    ## your tweet has been posted!
+
+    ## "A regulatory variant at 3q21.1 confers an increased pleiotropic risk for hyperglycemia and altered bone mineral density." by Nasa Sinnott-Armstrong et al. Cell metabolism, from Pritchard J search. Jan 30, 2021. https://doi.org/10.1016/j.cmet.2021.01.001
+
+    ## your tweet has been posted!
+
+    ## "Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems." by Shahar Alon et al. Science (New York, N.Y.), from Waldman J search. Jan 30, 2021. https://doi.org/10.1126/science.aax2656
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 8 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
