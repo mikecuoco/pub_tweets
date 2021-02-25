@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-02-24
+2021-02-25
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#vbadlucoij .gt_table {
+#fguagomgzb .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_heading {
+#fguagomgzb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_title {
+#fguagomgzb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#vbadlucoij .gt_subtitle {
+#fguagomgzb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#vbadlucoij .gt_bottom_border {
+#fguagomgzb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_col_headings {
+#fguagomgzb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_col_heading {
+#fguagomgzb .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vbadlucoij .gt_column_spanner_outer {
+#fguagomgzb .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#vbadlucoij .gt_column_spanner_outer:first-child {
+#fguagomgzb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vbadlucoij .gt_column_spanner_outer:last-child {
+#fguagomgzb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vbadlucoij .gt_column_spanner {
+#fguagomgzb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#vbadlucoij .gt_group_heading {
+#fguagomgzb .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vbadlucoij .gt_empty_group_heading {
+#fguagomgzb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vbadlucoij .gt_striped {
+#fguagomgzb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vbadlucoij .gt_from_md > :first-child {
+#fguagomgzb .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vbadlucoij .gt_from_md > :last-child {
+#fguagomgzb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vbadlucoij .gt_row {
+#fguagomgzb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vbadlucoij .gt_stub {
+#fguagomgzb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#vbadlucoij .gt_summary_row {
+#fguagomgzb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vbadlucoij .gt_first_summary_row {
+#fguagomgzb .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_grand_summary_row {
+#fguagomgzb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vbadlucoij .gt_first_grand_summary_row {
+#fguagomgzb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_table_body {
+#fguagomgzb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_footnotes {
+#fguagomgzb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_footnote {
+#fguagomgzb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vbadlucoij .gt_sourcenotes {
+#fguagomgzb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vbadlucoij .gt_sourcenote {
+#fguagomgzb .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vbadlucoij .gt_left {
+#fguagomgzb .gt_left {
   text-align: left;
 }
 
-#vbadlucoij .gt_center {
+#fguagomgzb .gt_center {
   text-align: center;
 }
 
-#vbadlucoij .gt_right {
+#fguagomgzb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vbadlucoij .gt_font_normal {
+#fguagomgzb .gt_font_normal {
   font-weight: normal;
 }
 
-#vbadlucoij .gt_font_bold {
+#fguagomgzb .gt_font_bold {
   font-weight: bold;
 }
 
-#vbadlucoij .gt_font_italic {
+#fguagomgzb .gt_font_italic {
   font-style: italic;
 }
 
-#vbadlucoij .gt_super {
+#fguagomgzb .gt_super {
   font-size: 65%;
 }
 
-#vbadlucoij .gt_footnote_marks {
+#fguagomgzb .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="vbadlucoij" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="fguagomgzb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -360,7 +360,62 @@ head(all_df) %>% gt()
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
     </tr>
   </thead>
-  <tbody class="gt_table_body"></tbody>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Using viral load and epidemic dynamics to optimize pooled testing in resource-constrained settings.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Science translational medicine</td>
+      <td class="gt_row gt_left">https://doi.org/10.1126/scitranslmed.abf1568</td>
+      <td class="gt_row gt_center">Brian Cleary</td>
+      <td class="gt_row gt_center">Michael J Mina</td>
+      <td class="gt_row gt_left">Cleary B</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">A unique subset of glycolytic tumour-propagating cells drives squamous cell carcinoma.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Nature metabolism</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s42255-021-00350-6</td>
+      <td class="gt_row gt_center">Jee-Eun Choi</td>
+      <td class="gt_row gt_center">Raul Mostoslavsky</td>
+      <td class="gt_row gt_left">Hacohen N</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Using viral load and epidemic dynamics to optimize pooled testing in resource-constrained settings.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Science translational medicine</td>
+      <td class="gt_row gt_left">https://doi.org/10.1126/scitranslmed.abf1568</td>
+      <td class="gt_row gt_center">Brian Cleary</td>
+      <td class="gt_row gt_center">Michael J Mina</td>
+      <td class="gt_row gt_left">Regev A</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Long-term maturation of human cortical organoids matches key early postnatal transitions.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Nature neuroscience</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41593-021-00802-y</td>
+      <td class="gt_row gt_center">Aaron Gordon</td>
+      <td class="gt_row gt_center">Daniel H Geschwind</td>
+      <td class="gt_row gt_left">Horvath S</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Variability within rare cell states enables multiple paths toward drug resistance.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Nature biotechnology</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41587-021-00837-3</td>
+      <td class="gt_row gt_center">Benjamin L Emert</td>
+      <td class="gt_row gt_center">Arjun Raj</td>
+      <td class="gt_row gt_left">Raj A</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">CADD-Splice-improving genome-wide variant effect prediction using deep learning-derived splice scores.</td>
+      <td class="gt_row gt_left">2021-02-24</td>
+      <td class="gt_row gt_left">Genome medicine</td>
+      <td class="gt_row gt_left">https://doi.org/10.1186/s13073-021-00835-9</td>
+      <td class="gt_row gt_center">Philipp Rentzsch</td>
+      <td class="gt_row gt_center">Martin Kircher</td>
+      <td class="gt_row gt_left">Shendure J</td>
+    </tr>
+  </tbody>
   
   
 </table></div>
@@ -369,14 +424,44 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Using viral load and epidemic dynamics to optimize pooled testing in resource-constrained settings." by Brian Cleary et al. Science translational medicine, from Cleary B search. Feb 24, 2021. https://doi.org/10.1126/scitranslmed.abf1568
+
+    ## your tweet has been posted!
+
+    ## "A unique subset of glycolytic tumour-propagating cells drives squamous cell carcinoma." by Jee-Eun Choi et al. Nature metabolism, from Hacohen N search. Feb 24, 2021. https://doi.org/10.1038/s42255-021-00350-6
+
+    ## your tweet has been posted!
+
+    ## "Using viral load and epidemic dynamics to optimize pooled testing in resource-constrained settings." by Brian Cleary et al. Science translational medicine, from Regev A search. Feb 24, 2021. https://doi.org/10.1126/scitranslmed.abf1568
+
+    ## your tweet has been posted!
+
+    ## "Long-term maturation of human cortical organoids matches key early postnatal transitions." by Aaron Gordon et al. Nature neuroscience, from Horvath S search. Feb 24, 2021. https://doi.org/10.1038/s41593-021-00802-y
+
+    ## your tweet has been posted!
+
+    ## "Variability within rare cell states enables multiple paths toward drug resistance." by Benjamin L Emert et al. Nature biotechnology, from Raj A search. Feb 24, 2021. https://doi.org/10.1038/s41587-021-00837-3
+
+    ## your tweet has been posted!
+
+    ## "CADD-Splice-improving genome-wide variant effect prediction using deep learning-derived splice scores." by Philipp Rentzsch et al. Genome medicine, from Shendure J search. Feb 24, 2021. https://doi.org/10.1186/s13073-021-00835-9
+
+    ## your tweet has been posted!
+
+    ## "Identification of resistance pathways and therapeutic targets in relapsed multiple myeloma patients through single-cell sequencing." by Yael C Cohen et al. Nature medicine, from Amit I search. Feb 24, 2021. https://doi.org/10.1038/s41591-021-01232-w
+
+    ## your tweet has been posted!
+
+    ## "A unique subset of glycolytic tumour-propagating cells drives squamous cell carcinoma." by Jee-Eun Choi et al. Nature metabolism, from Tirosh I search. Feb 24, 2021. https://doi.org/10.1038/s42255-021-00350-6
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 8 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
