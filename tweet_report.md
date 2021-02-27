@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-02-26
+2021-02-27
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#txksvvpxdz .gt_table {
+#iwuhimmffl .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_heading {
+#iwuhimmffl .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_title {
+#iwuhimmffl .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#txksvvpxdz .gt_subtitle {
+#iwuhimmffl .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#txksvvpxdz .gt_bottom_border {
+#iwuhimmffl .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_col_headings {
+#iwuhimmffl .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_col_heading {
+#iwuhimmffl .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#txksvvpxdz .gt_column_spanner_outer {
+#iwuhimmffl .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#txksvvpxdz .gt_column_spanner_outer:first-child {
+#iwuhimmffl .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#txksvvpxdz .gt_column_spanner_outer:last-child {
+#iwuhimmffl .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#txksvvpxdz .gt_column_spanner {
+#iwuhimmffl .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#txksvvpxdz .gt_group_heading {
+#iwuhimmffl .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#txksvvpxdz .gt_empty_group_heading {
+#iwuhimmffl .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#txksvvpxdz .gt_striped {
+#iwuhimmffl .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#txksvvpxdz .gt_from_md > :first-child {
+#iwuhimmffl .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#txksvvpxdz .gt_from_md > :last-child {
+#iwuhimmffl .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#txksvvpxdz .gt_row {
+#iwuhimmffl .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#txksvvpxdz .gt_stub {
+#iwuhimmffl .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#txksvvpxdz .gt_summary_row {
+#iwuhimmffl .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#txksvvpxdz .gt_first_summary_row {
+#iwuhimmffl .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_grand_summary_row {
+#iwuhimmffl .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#txksvvpxdz .gt_first_grand_summary_row {
+#iwuhimmffl .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_table_body {
+#iwuhimmffl .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_footnotes {
+#iwuhimmffl .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_footnote {
+#iwuhimmffl .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#txksvvpxdz .gt_sourcenotes {
+#iwuhimmffl .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#txksvvpxdz .gt_sourcenote {
+#iwuhimmffl .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#txksvvpxdz .gt_left {
+#iwuhimmffl .gt_left {
   text-align: left;
 }
 
-#txksvvpxdz .gt_center {
+#iwuhimmffl .gt_center {
   text-align: center;
 }
 
-#txksvvpxdz .gt_right {
+#iwuhimmffl .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#txksvvpxdz .gt_font_normal {
+#iwuhimmffl .gt_font_normal {
   font-weight: normal;
 }
 
-#txksvvpxdz .gt_font_bold {
+#iwuhimmffl .gt_font_bold {
   font-weight: bold;
 }
 
-#txksvvpxdz .gt_font_italic {
+#iwuhimmffl .gt_font_italic {
   font-style: italic;
 }
 
-#txksvvpxdz .gt_super {
+#iwuhimmffl .gt_super {
   font-size: 65%;
 }
 
-#txksvvpxdz .gt_footnote_marks {
+#iwuhimmffl .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="txksvvpxdz" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="iwuhimmffl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -360,7 +360,26 @@ head(all_df) %>% gt()
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
     </tr>
   </thead>
-  <tbody class="gt_table_body"></tbody>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Generating tumor-selective conditionally active biologic anti-CTLA4 antibodies via protein-associated chemical switches.</td>
+      <td class="gt_row gt_left">2021-02-26</td>
+      <td class="gt_row gt_left">Proceedings of the National Academy of Sciences of the United States of America</td>
+      <td class="gt_row gt_left">https://doi.org/10.1073/pnas.2020606118</td>
+      <td class="gt_row gt_center">Hwai Wen Chang</td>
+      <td class="gt_row gt_center">Jay M Short</td>
+      <td class="gt_row gt_left">Chang H</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Benchmarking workflows to assess performance and suitability of germline variant calling pipelines in clinical diagnostic assays.</td>
+      <td class="gt_row gt_left">2021-02-26</td>
+      <td class="gt_row gt_left">BMC bioinformatics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1186/s12859-020-03934-3</td>
+      <td class="gt_row gt_center">Vandhana Krishnan</td>
+      <td class="gt_row gt_center">Euan A Ashley</td>
+      <td class="gt_row gt_left">Snyder M</td>
+    </tr>
+  </tbody>
   
   
 </table></div>
@@ -369,14 +388,17 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Generating tumor-selective conditionally active biologic anti-CTLA4 antibodies via protein-associated chemical switches." by Hwai Wen Chang et al. Proceedings of the National Academy of Sciences of the United States of America, from Chang H search. Feb 26, 2021. https://doi.org/10.1073/pnas.2020606118
+    ## "Benchmarking workflows to assess performance and suitability of germline variant calling pipelines in clinical diagnostic assays." by Vandhana Krishnan et al. BMC bioinformatics, from Snyder M search. Feb 26, 2021. https://doi.org/10.1186/s12859-020-03934-3
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 2 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
