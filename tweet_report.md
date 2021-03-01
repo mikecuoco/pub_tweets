@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-02-27
+2021-03-01
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#iwuhimmffl .gt_table {
+#jdmjuiilyn .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_heading {
+#jdmjuiilyn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_title {
+#jdmjuiilyn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#iwuhimmffl .gt_subtitle {
+#jdmjuiilyn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#iwuhimmffl .gt_bottom_border {
+#jdmjuiilyn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_col_headings {
+#jdmjuiilyn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_col_heading {
+#jdmjuiilyn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#iwuhimmffl .gt_column_spanner_outer {
+#jdmjuiilyn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#iwuhimmffl .gt_column_spanner_outer:first-child {
+#jdmjuiilyn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#iwuhimmffl .gt_column_spanner_outer:last-child {
+#jdmjuiilyn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#iwuhimmffl .gt_column_spanner {
+#jdmjuiilyn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#iwuhimmffl .gt_group_heading {
+#jdmjuiilyn .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#iwuhimmffl .gt_empty_group_heading {
+#jdmjuiilyn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#iwuhimmffl .gt_striped {
+#jdmjuiilyn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#iwuhimmffl .gt_from_md > :first-child {
+#jdmjuiilyn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#iwuhimmffl .gt_from_md > :last-child {
+#jdmjuiilyn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#iwuhimmffl .gt_row {
+#jdmjuiilyn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#iwuhimmffl .gt_stub {
+#jdmjuiilyn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#iwuhimmffl .gt_summary_row {
+#jdmjuiilyn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#iwuhimmffl .gt_first_summary_row {
+#jdmjuiilyn .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_grand_summary_row {
+#jdmjuiilyn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#iwuhimmffl .gt_first_grand_summary_row {
+#jdmjuiilyn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_table_body {
+#jdmjuiilyn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_footnotes {
+#jdmjuiilyn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_footnote {
+#jdmjuiilyn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#iwuhimmffl .gt_sourcenotes {
+#jdmjuiilyn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#iwuhimmffl .gt_sourcenote {
+#jdmjuiilyn .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#iwuhimmffl .gt_left {
+#jdmjuiilyn .gt_left {
   text-align: left;
 }
 
-#iwuhimmffl .gt_center {
+#jdmjuiilyn .gt_center {
   text-align: center;
 }
 
-#iwuhimmffl .gt_right {
+#jdmjuiilyn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#iwuhimmffl .gt_font_normal {
+#jdmjuiilyn .gt_font_normal {
   font-weight: normal;
 }
 
-#iwuhimmffl .gt_font_bold {
+#jdmjuiilyn .gt_font_bold {
   font-weight: bold;
 }
 
-#iwuhimmffl .gt_font_italic {
+#jdmjuiilyn .gt_font_italic {
   font-style: italic;
 }
 
-#iwuhimmffl .gt_super {
+#jdmjuiilyn .gt_super {
   font-size: 65%;
 }
 
-#iwuhimmffl .gt_footnote_marks {
+#jdmjuiilyn .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="iwuhimmffl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="jdmjuiilyn" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -362,22 +362,40 @@ head(all_df) %>% gt()
   </thead>
   <tbody class="gt_table_body">
     <tr>
-      <td class="gt_row gt_left">Generating tumor-selective conditionally active biologic anti-CTLA4 antibodies via protein-associated chemical switches.</td>
-      <td class="gt_row gt_left">2021-02-26</td>
-      <td class="gt_row gt_left">Proceedings of the National Academy of Sciences of the United States of America</td>
-      <td class="gt_row gt_left">https://doi.org/10.1073/pnas.2020606118</td>
-      <td class="gt_row gt_center">Hwai Wen Chang</td>
-      <td class="gt_row gt_center">Jay M Short</td>
-      <td class="gt_row gt_left">Chang H</td>
+      <td class="gt_row gt_left">Rationale and design of the Kidney Precision Medicine Project.</td>
+      <td class="gt_row gt_left">2021-02-28</td>
+      <td class="gt_row gt_left">Kidney international</td>
+      <td class="gt_row gt_left">https://doi.org/10.1016/j.kint.2020.08.039</td>
+      <td class="gt_row gt_center">Ian H de Boer</td>
+      <td class="gt_row gt_center">Jonathan Himmelfarb</td>
+      <td class="gt_row gt_left">Hacohen N</td>
     </tr>
     <tr>
-      <td class="gt_row gt_left">Benchmarking workflows to assess performance and suitability of germline variant calling pipelines in clinical diagnostic assays.</td>
-      <td class="gt_row gt_left">2021-02-26</td>
-      <td class="gt_row gt_left">BMC bioinformatics</td>
-      <td class="gt_row gt_left">https://doi.org/10.1186/s12859-020-03934-3</td>
-      <td class="gt_row gt_center">Vandhana Krishnan</td>
-      <td class="gt_row gt_center">Euan A Ashley</td>
-      <td class="gt_row gt_left">Snyder M</td>
+      <td class="gt_row gt_left">Comprehensive analysis of single cell ATAC-seq data with SnapATAC.</td>
+      <td class="gt_row gt_left">2021-02-28</td>
+      <td class="gt_row gt_left">Nature communications</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41467-021-21583-9</td>
+      <td class="gt_row gt_center">Rongxin Fang</td>
+      <td class="gt_row gt_center">Bing Ren</td>
+      <td class="gt_row gt_left">Ecker J</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Comprehensive analysis of single cell ATAC-seq data with SnapATAC.</td>
+      <td class="gt_row gt_left">2021-02-28</td>
+      <td class="gt_row gt_left">Nature communications</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41467-021-21583-9</td>
+      <td class="gt_row gt_center">Rongxin Fang</td>
+      <td class="gt_row gt_center">Bing Ren</td>
+      <td class="gt_row gt_left">Ren B</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Comprehensive analysis of single cell ATAC-seq data with SnapATAC.</td>
+      <td class="gt_row gt_left">2021-02-28</td>
+      <td class="gt_row gt_left">Nature communications</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41467-021-21583-9</td>
+      <td class="gt_row gt_center">Rongxin Fang</td>
+      <td class="gt_row gt_center">Bing Ren</td>
+      <td class="gt_row gt_left">Zhang K</td>
     </tr>
   </tbody>
   
@@ -388,8 +406,19 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## "Generating tumor-selective conditionally active biologic anti-CTLA4 antibodies via protein-associated chemical switches." by Hwai Wen Chang et al. Proceedings of the National Academy of Sciences of the United States of America, from Chang H search. Feb 26, 2021. https://doi.org/10.1073/pnas.2020606118
-    ## "Benchmarking workflows to assess performance and suitability of germline variant calling pipelines in clinical diagnostic assays." by Vandhana Krishnan et al. BMC bioinformatics, from Snyder M search. Feb 26, 2021. https://doi.org/10.1186/s12859-020-03934-3
+    ## "Rationale and design of the Kidney Precision Medicine Project." by Ian H de Boer et al. Kidney international, from Hacohen N search. Feb 28, 2021. https://doi.org/10.1016/j.kint.2020.08.039
+
+    ## your tweet has been posted!
+
+    ## "Comprehensive analysis of single cell ATAC-seq data with SnapATAC." by Rongxin Fang et al. Nature communications, from Ecker J search. Feb 28, 2021. https://doi.org/10.1038/s41467-021-21583-9
+
+    ## your tweet has been posted!
+
+    ## "Comprehensive analysis of single cell ATAC-seq data with SnapATAC." by Rongxin Fang et al. Nature communications, from Ren B search. Feb 28, 2021. https://doi.org/10.1038/s41467-021-21583-9
+
+    ## your tweet has been posted!
+
+    ## "Comprehensive analysis of single cell ATAC-seq data with SnapATAC." by Rongxin Fang et al. Nature communications, from Zhang K search. Feb 28, 2021. https://doi.org/10.1038/s41467-021-21583-9
 
     ## your tweet has been posted!
 
@@ -398,7 +427,7 @@ ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 2 times
+    ## tweeted 4 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
