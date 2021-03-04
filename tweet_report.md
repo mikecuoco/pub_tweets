@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-03-02
+2021-03-04
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#vffqnlrjzp .gt_table {
+#qmbvpwklak .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_heading {
+#qmbvpwklak .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_title {
+#qmbvpwklak .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#vffqnlrjzp .gt_subtitle {
+#qmbvpwklak .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#vffqnlrjzp .gt_bottom_border {
+#qmbvpwklak .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_col_headings {
+#qmbvpwklak .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_col_heading {
+#qmbvpwklak .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vffqnlrjzp .gt_column_spanner_outer {
+#qmbvpwklak .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#vffqnlrjzp .gt_column_spanner_outer:first-child {
+#qmbvpwklak .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vffqnlrjzp .gt_column_spanner_outer:last-child {
+#qmbvpwklak .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vffqnlrjzp .gt_column_spanner {
+#qmbvpwklak .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#vffqnlrjzp .gt_group_heading {
+#qmbvpwklak .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vffqnlrjzp .gt_empty_group_heading {
+#qmbvpwklak .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#vffqnlrjzp .gt_striped {
+#qmbvpwklak .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vffqnlrjzp .gt_from_md > :first-child {
+#qmbvpwklak .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vffqnlrjzp .gt_from_md > :last-child {
+#qmbvpwklak .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vffqnlrjzp .gt_row {
+#qmbvpwklak .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#vffqnlrjzp .gt_stub {
+#qmbvpwklak .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#vffqnlrjzp .gt_summary_row {
+#qmbvpwklak .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vffqnlrjzp .gt_first_summary_row {
+#qmbvpwklak .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_grand_summary_row {
+#qmbvpwklak .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#vffqnlrjzp .gt_first_grand_summary_row {
+#qmbvpwklak .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_table_body {
+#qmbvpwklak .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_footnotes {
+#qmbvpwklak .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_footnote {
+#qmbvpwklak .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vffqnlrjzp .gt_sourcenotes {
+#qmbvpwklak .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#vffqnlrjzp .gt_sourcenote {
+#qmbvpwklak .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vffqnlrjzp .gt_left {
+#qmbvpwklak .gt_left {
   text-align: left;
 }
 
-#vffqnlrjzp .gt_center {
+#qmbvpwklak .gt_center {
   text-align: center;
 }
 
-#vffqnlrjzp .gt_right {
+#qmbvpwklak .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vffqnlrjzp .gt_font_normal {
+#qmbvpwklak .gt_font_normal {
   font-weight: normal;
 }
 
-#vffqnlrjzp .gt_font_bold {
+#qmbvpwklak .gt_font_bold {
   font-weight: bold;
 }
 
-#vffqnlrjzp .gt_font_italic {
+#qmbvpwklak .gt_font_italic {
   font-style: italic;
 }
 
-#vffqnlrjzp .gt_super {
+#qmbvpwklak .gt_super {
   font-size: 65%;
 }
 
-#vffqnlrjzp .gt_footnote_marks {
+#qmbvpwklak .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="vffqnlrjzp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="qmbvpwklak" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -360,7 +360,62 @@ head(all_df) %>% gt()
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
     </tr>
   </thead>
-  <tbody class="gt_table_body"></tbody>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">FAM57B is a modulator of ceramide synthesis that regulates sphingolipid homeostasis and synaptic composition in the developing brain</td>
+      <td class="gt_row gt_left">2021-03-02</td>
+      <td class="gt_row gt_left">bioRxiv</td>
+      <td class="gt_row gt_left">https://doi.org/10.1101/2021.03.02.433619</td>
+      <td class="gt_row gt_center">Tomasello DL</td>
+      <td class="gt_row gt_center">Hazel Sive</td>
+      <td class="gt_row gt_left">Jaenisch, R</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion.</td>
+      <td class="gt_row gt_left">2021-03-03</td>
+      <td class="gt_row gt_left">Nature genetics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41588-021-00779-1</td>
+      <td class="gt_row gt_center">Chris J Frangieh</td>
+      <td class="gt_row gt_center">Benjamin Izar</td>
+      <td class="gt_row gt_left">Cleary B</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion.</td>
+      <td class="gt_row gt_left">2021-03-03</td>
+      <td class="gt_row gt_left">Nature genetics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41588-021-00779-1</td>
+      <td class="gt_row gt_center">Chris J Frangieh</td>
+      <td class="gt_row gt_center">Benjamin Izar</td>
+      <td class="gt_row gt_left">Regev A</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion.</td>
+      <td class="gt_row gt_left">2021-03-03</td>
+      <td class="gt_row gt_left">Nature genetics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41588-021-00779-1</td>
+      <td class="gt_row gt_center">Chris J Frangieh</td>
+      <td class="gt_row gt_center">Benjamin Izar</td>
+      <td class="gt_row gt_left">Izar B</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Characterizing the molecular regulation of inhibitory immune checkpoints with multimodal single-cell screens.</td>
+      <td class="gt_row gt_left">2021-03-03</td>
+      <td class="gt_row gt_left">Nature genetics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1038/s41588-021-00778-2</td>
+      <td class="gt_row gt_center">Efthymia Papalexi</td>
+      <td class="gt_row gt_center">Rahul Satija</td>
+      <td class="gt_row gt_left">Satija R</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Senolytic elimination of Cox2-expressing senescent cells inhibits the growth of premalignant pancreatic lesions.</td>
+      <td class="gt_row gt_left">2021-03-03</td>
+      <td class="gt_row gt_left">Gut</td>
+      <td class="gt_row gt_left">https://doi.org/10.1136/gutjnl-2020-321112</td>
+      <td class="gt_row gt_center">Dror Kolodkin-Gal</td>
+      <td class="gt_row gt_center">Valery Krizhanovsky</td>
+      <td class="gt_row gt_left">Parnas O</td>
+    </tr>
+  </tbody>
   
   
 </table></div>
@@ -369,14 +424,40 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "FAM57B is a modulator of ceramide synthesis that regulates sphingolipid homeostasis and synaptic composition in the developing brain" by Tomasello DL et al. bioRxiv, from Jaenisch, R search. Mar 2, 2021. https://doi.org/10.1101/2021.03.02.433619
+
+    ## your tweet has been posted!
+
+    ## "Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion." by Chris J Frangieh et al. Nature genetics, from Cleary B search. Mar 3, 2021. https://doi.org/10.1038/s41588-021-00779-1
+
+    ## your tweet has been posted!
+
+    ## "Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion." by Chris J Frangieh et al. Nature genetics, from Regev A search. Mar 3, 2021. https://doi.org/10.1038/s41588-021-00779-1
+
+    ## your tweet has been posted!
+
+    ## "Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion." by Chris J Frangieh et al. Nature genetics, from Izar B search. Mar 3, 2021. https://doi.org/10.1038/s41588-021-00779-1
+
+    ## your tweet has been posted!
+
+    ## "Characterizing the molecular regulation of inhibitory immune checkpoints with multimodal single-cell screens." by Efthymia Papalexi et al. Nature genetics, from Satija R search. Mar 3, 2021. https://doi.org/10.1038/s41588-021-00778-2
+
+    ## your tweet has been posted!
+
+    ## "Senolytic elimination of Cox2-expressing senescent cells inhibits the growth of premalignant pancreatic lesions." by Dror Kolodkin-Gal et al. Gut, from Parnas O search. Mar 3, 2021. https://doi.org/10.1136/gutjnl-2020-321112
+
+    ## your tweet has been posted!
+
+    ## "CRISPR screens in physiologic medium reveal conditionally essential genes in human cells." by Nicholas J Rossiter et al. Cell metabolism, from Sabatini D search. Mar 3, 2021. https://doi.org/10.1016/j.cmet.2021.02.005
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 7 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
