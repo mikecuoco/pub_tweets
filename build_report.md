@@ -1,7 +1,7 @@
 CuocoBot1 build report
 ================
 Mike Cuoco
-2021-03-11
+2021-03-12
 
 ``` r
 knitr::opts_knit$set(echo = TRUE)
@@ -13,7 +13,7 @@ source("R/functions.R")
     ## It seems that the version of `phantomjs` installed is greater than or equal to the requested version.To install the requested version or downgrade to another version, use `force = TRUE`.
 
     ## 
-    ##      checking for file ‘/tmp/RtmpUE0CoH/remotes4d6624318a30/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpUE0CoH/remotes4d6624318a30/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
+    ##      checking for file ‘/tmp/RtmpTDkiLq/remotes4da01cb4834e/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’ ...  ✔  checking for file ‘/tmp/RtmpTDkiLq/remotes4da01cb4834e/nicholasmfraser-rbiorxiv-68be400/DESCRIPTION’
     ##   ─  preparing ‘rbiorxiv’:
     ##      checking DESCRIPTION meta-information ...  ✔  checking DESCRIPTION meta-information
     ##   ─  checking for LF line-endings in source and make files and shell scripts
@@ -487,6 +487,10 @@ make(plan)
     ## Warning in if (is.na(fetch)) {: the condition has length > 1 and only the first
     ## element will be used
 
+    ## found paper published on 2021-03-11
+
+    ## found paper published on 2021-03-11
+
     ## found paper published on 2021-03-07
 
     ## found paper published on 2021-02-25
@@ -742,7 +746,9 @@ make(plan)
 
     ## Searching ((Farley E[Author] AND University of California San Diego[Affiliation])) AND (("2021-03-10"[Date - Publication] : "3000"[Date - Publication]))...
 
-    ## no papers found
+    ## found paper published on 2021-03-11
+
+    ## done!
 
     ## Searching ((Frazer K[Author] AND University of California San Diego[Affiliation])) AND (("2021-03-10"[Date - Publication] : "3000"[Date - Publication]))...
 
@@ -1068,7 +1074,7 @@ build_times() %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#tvswvlmkce .gt_table {
+#prphktedjt .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1091,7 +1097,7 @@ build_times() %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_heading {
+#prphktedjt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1103,7 +1109,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_title {
+#prphktedjt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1113,7 +1119,7 @@ build_times() %>% gt()
   border-bottom-width: 0;
 }
 
-#tvswvlmkce .gt_subtitle {
+#prphktedjt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1123,13 +1129,13 @@ build_times() %>% gt()
   border-top-width: 0;
 }
 
-#tvswvlmkce .gt_bottom_border {
+#prphktedjt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_col_headings {
+#prphktedjt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1144,7 +1150,7 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_col_heading {
+#prphktedjt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1164,7 +1170,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#tvswvlmkce .gt_column_spanner_outer {
+#prphktedjt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1176,15 +1182,15 @@ build_times() %>% gt()
   padding-right: 4px;
 }
 
-#tvswvlmkce .gt_column_spanner_outer:first-child {
+#prphktedjt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tvswvlmkce .gt_column_spanner_outer:last-child {
+#prphktedjt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tvswvlmkce .gt_column_spanner {
+#prphktedjt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1196,7 +1202,7 @@ build_times() %>% gt()
   width: 100%;
 }
 
-#tvswvlmkce .gt_group_heading {
+#prphktedjt .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1218,7 +1224,7 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#tvswvlmkce .gt_empty_group_heading {
+#prphktedjt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1233,19 +1239,19 @@ build_times() %>% gt()
   vertical-align: middle;
 }
 
-#tvswvlmkce .gt_striped {
+#prphktedjt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tvswvlmkce .gt_from_md > :first-child {
+#prphktedjt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tvswvlmkce .gt_from_md > :last-child {
+#prphktedjt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tvswvlmkce .gt_row {
+#prphktedjt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1264,7 +1270,7 @@ build_times() %>% gt()
   overflow-x: hidden;
 }
 
-#tvswvlmkce .gt_stub {
+#prphktedjt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1276,7 +1282,7 @@ build_times() %>% gt()
   padding-left: 12px;
 }
 
-#tvswvlmkce .gt_summary_row {
+#prphktedjt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1286,7 +1292,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#tvswvlmkce .gt_first_summary_row {
+#prphktedjt .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1296,7 +1302,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_grand_summary_row {
+#prphktedjt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1306,7 +1312,7 @@ build_times() %>% gt()
   padding-right: 5px;
 }
 
-#tvswvlmkce .gt_first_grand_summary_row {
+#prphktedjt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1316,7 +1322,7 @@ build_times() %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_table_body {
+#prphktedjt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1325,7 +1331,7 @@ build_times() %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_footnotes {
+#prphktedjt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1339,13 +1345,13 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_footnote {
+#prphktedjt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#tvswvlmkce .gt_sourcenotes {
+#prphktedjt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1359,46 +1365,46 @@ build_times() %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#tvswvlmkce .gt_sourcenote {
+#prphktedjt .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#tvswvlmkce .gt_left {
+#prphktedjt .gt_left {
   text-align: left;
 }
 
-#tvswvlmkce .gt_center {
+#prphktedjt .gt_center {
   text-align: center;
 }
 
-#tvswvlmkce .gt_right {
+#prphktedjt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tvswvlmkce .gt_font_normal {
+#prphktedjt .gt_font_normal {
   font-weight: normal;
 }
 
-#tvswvlmkce .gt_font_bold {
+#prphktedjt .gt_font_bold {
   font-weight: bold;
 }
 
-#tvswvlmkce .gt_font_italic {
+#prphktedjt .gt_font_italic {
   font-style: italic;
 }
 
-#tvswvlmkce .gt_super {
+#prphktedjt .gt_super {
   font-size: 65%;
 }
 
-#tvswvlmkce .gt_footnote_marks {
+#prphktedjt .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="tvswvlmkce" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="prphktedjt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -1417,50 +1423,50 @@ build_times() %>% gt()
     </tr>
     <tr>
       <td class="gt_row gt_left">all_df</td>
-      <td class="gt_row gt_center">0.215s</td>
-      <td class="gt_row gt_center">0.098s</td>
+      <td class="gt_row gt_center">0.178s</td>
+      <td class="gt_row gt_center">0.074s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">auths</td>
       <td class="gt_row gt_center">0.004s</td>
-      <td class="gt_row gt_center">0.004s</td>
+      <td class="gt_row gt_center">0.003s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">bio_df</td>
-      <td class="gt_row gt_center">10.897s</td>
-      <td class="gt_row gt_center">0.562s</td>
-      <td class="gt_row gt_center">0.032s</td>
+      <td class="gt_row gt_center">13.378s</td>
+      <td class="gt_row gt_center">0.767s</td>
+      <td class="gt_row gt_center">0.056s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">last_tweet</td>
-      <td class="gt_row gt_center">0.329s</td>
-      <td class="gt_row gt_center">0.121s</td>
-      <td class="gt_row gt_center">0.004s</td>
+      <td class="gt_row gt_center">0.28s</td>
+      <td class="gt_row gt_center">0.111s</td>
+      <td class="gt_row gt_center">0.008s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">loc</td>
-      <td class="gt_row gt_center">0.004s</td>
-      <td class="gt_row gt_center">0.004s</td>
+      <td class="gt_row gt_center">0.003s</td>
+      <td class="gt_row gt_center">0.003s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">pub_df</td>
-      <td class="gt_row gt_center">74s (~1.23 minutes)</td>
-      <td class="gt_row gt_center">32.836s</td>
-      <td class="gt_row gt_center">0.149s</td>
+      <td class="gt_row gt_center">62s (~1.03 minutes)</td>
+      <td class="gt_row gt_center">24.142s</td>
+      <td class="gt_row gt_center">0.113s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">term_table</td>
-      <td class="gt_row gt_center">1.112s</td>
-      <td class="gt_row gt_center">0.321s</td>
-      <td class="gt_row gt_center">0.008s</td>
+      <td class="gt_row gt_center">1s</td>
+      <td class="gt_row gt_center">0.266s</td>
+      <td class="gt_row gt_center">0.036s</td>
     </tr>
     <tr>
       <td class="gt_row gt_left">token</td>
       <td class="gt_row gt_center">0.014s</td>
-      <td class="gt_row gt_center">0.015s</td>
+      <td class="gt_row gt_center">0.014s</td>
       <td class="gt_row gt_center">0s</td>
     </tr>
   </tbody>
