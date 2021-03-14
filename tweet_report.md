@@ -1,7 +1,7 @@
 CuocoBot1 tweet report
 ================
 Michael Cuoco
-2021-03-13
+2021-03-14
 
 ``` r
 token = readd(token)
@@ -17,7 +17,7 @@ head(all_df) %>% gt()
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ssbjhbqgbe .gt_table {
+#vdudqaijsf .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -40,7 +40,7 @@ head(all_df) %>% gt()
   border-left-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_heading {
+#vdudqaijsf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -52,7 +52,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_title {
+#vdudqaijsf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -62,7 +62,7 @@ head(all_df) %>% gt()
   border-bottom-width: 0;
 }
 
-#ssbjhbqgbe .gt_subtitle {
+#vdudqaijsf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -72,13 +72,13 @@ head(all_df) %>% gt()
   border-top-width: 0;
 }
 
-#ssbjhbqgbe .gt_bottom_border {
+#vdudqaijsf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_col_headings {
+#vdudqaijsf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -93,7 +93,7 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_col_heading {
+#vdudqaijsf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -113,7 +113,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ssbjhbqgbe .gt_column_spanner_outer {
+#vdudqaijsf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -125,15 +125,15 @@ head(all_df) %>% gt()
   padding-right: 4px;
 }
 
-#ssbjhbqgbe .gt_column_spanner_outer:first-child {
+#vdudqaijsf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ssbjhbqgbe .gt_column_spanner_outer:last-child {
+#vdudqaijsf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ssbjhbqgbe .gt_column_spanner {
+#vdudqaijsf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -145,7 +145,7 @@ head(all_df) %>% gt()
   width: 100%;
 }
 
-#ssbjhbqgbe .gt_group_heading {
+#vdudqaijsf .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -167,7 +167,7 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ssbjhbqgbe .gt_empty_group_heading {
+#vdudqaijsf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -182,19 +182,19 @@ head(all_df) %>% gt()
   vertical-align: middle;
 }
 
-#ssbjhbqgbe .gt_striped {
+#vdudqaijsf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ssbjhbqgbe .gt_from_md > :first-child {
+#vdudqaijsf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ssbjhbqgbe .gt_from_md > :last-child {
+#vdudqaijsf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ssbjhbqgbe .gt_row {
+#vdudqaijsf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -213,7 +213,7 @@ head(all_df) %>% gt()
   overflow-x: hidden;
 }
 
-#ssbjhbqgbe .gt_stub {
+#vdudqaijsf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -225,7 +225,7 @@ head(all_df) %>% gt()
   padding-left: 12px;
 }
 
-#ssbjhbqgbe .gt_summary_row {
+#vdudqaijsf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -235,7 +235,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ssbjhbqgbe .gt_first_summary_row {
+#vdudqaijsf .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -245,7 +245,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_grand_summary_row {
+#vdudqaijsf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -255,7 +255,7 @@ head(all_df) %>% gt()
   padding-right: 5px;
 }
 
-#ssbjhbqgbe .gt_first_grand_summary_row {
+#vdudqaijsf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -265,7 +265,7 @@ head(all_df) %>% gt()
   border-top-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_table_body {
+#vdudqaijsf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -274,7 +274,7 @@ head(all_df) %>% gt()
   border-bottom-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_footnotes {
+#vdudqaijsf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -288,13 +288,13 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_footnote {
+#vdudqaijsf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ssbjhbqgbe .gt_sourcenotes {
+#vdudqaijsf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -308,46 +308,46 @@ head(all_df) %>% gt()
   border-right-color: #D3D3D3;
 }
 
-#ssbjhbqgbe .gt_sourcenote {
+#vdudqaijsf .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ssbjhbqgbe .gt_left {
+#vdudqaijsf .gt_left {
   text-align: left;
 }
 
-#ssbjhbqgbe .gt_center {
+#vdudqaijsf .gt_center {
   text-align: center;
 }
 
-#ssbjhbqgbe .gt_right {
+#vdudqaijsf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ssbjhbqgbe .gt_font_normal {
+#vdudqaijsf .gt_font_normal {
   font-weight: normal;
 }
 
-#ssbjhbqgbe .gt_font_bold {
+#vdudqaijsf .gt_font_bold {
   font-weight: bold;
 }
 
-#ssbjhbqgbe .gt_font_italic {
+#vdudqaijsf .gt_font_italic {
   font-style: italic;
 }
 
-#ssbjhbqgbe .gt_super {
+#vdudqaijsf .gt_super {
   font-size: 65%;
 }
 
-#ssbjhbqgbe .gt_footnote_marks {
+#vdudqaijsf .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="ssbjhbqgbe" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="vdudqaijsf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
@@ -360,7 +360,53 @@ head(all_df) %>% gt()
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">search</th>
     </tr>
   </thead>
-  <tbody class="gt_table_body"></tbody>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_left">Dual targeting of brain region-specific kinases potentiates neurological rescue in Spinocerebellar ataxia type 1.</td>
+      <td class="gt_row gt_left">2021-03-13</td>
+      <td class="gt_row gt_left">The EMBO journal</td>
+      <td class="gt_row gt_left">https://doi.org/10.15252/embj.2020106106</td>
+      <td class="gt_row gt_center">Won-Seok Lee</td>
+      <td class="gt_row gt_center">Huda Y Zoghbi</td>
+      <td class="gt_row gt_left">Zoghbi HY</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">FeARH: Federated machine learning with Anonymous Random Hybridization on electronic medical records.</td>
+      <td class="gt_row gt_left">2021-03-13</td>
+      <td class="gt_row gt_left">Journal of biomedical informatics</td>
+      <td class="gt_row gt_left">https://doi.org/10.1016/j.jbi.2021.103735</td>
+      <td class="gt_row gt_center">Jianfei Cui</td>
+      <td class="gt_row gt_center">Dianbo Liu</td>
+      <td class="gt_row gt_left">Liu D</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma.</td>
+      <td class="gt_row gt_left">2021-03-13</td>
+      <td class="gt_row gt_left">Cancer cell</td>
+      <td class="gt_row gt_left">https://doi.org/10.1016/j.ccell.2021.02.015</td>
+      <td class="gt_row gt_center">Kevin Bi</td>
+      <td class="gt_row gt_center">Eliezer M Van Allen</td>
+      <td class="gt_row gt_left">Regev A</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma.</td>
+      <td class="gt_row gt_left">2021-03-13</td>
+      <td class="gt_row gt_left">Cancer cell</td>
+      <td class="gt_row gt_left">https://doi.org/10.1016/j.ccell.2021.02.015</td>
+      <td class="gt_row gt_center">Kevin Bi</td>
+      <td class="gt_row gt_center">Eliezer M Van Allen</td>
+      <td class="gt_row gt_left">Van Allen E</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Intrinsic immunogenicity of small cell lung carcinoma revealed by its cellular plasticity.</td>
+      <td class="gt_row gt_left">2021-03-13</td>
+      <td class="gt_row gt_left">Cancer discovery</td>
+      <td class="gt_row gt_left">https://doi.org/10.1158/2159-8290.CD-20-0913</td>
+      <td class="gt_row gt_center">Navin R Mahadevan</td>
+      <td class="gt_row gt_center">David A Barbie</td>
+      <td class="gt_row gt_left">Van Allen E</td>
+    </tr>
+  </tbody>
   
   
 </table></div>
@@ -369,14 +415,32 @@ head(all_df) %>% gt()
 tweet_pubs(all_df, token)
 ```
 
-    ## [1] "No new preprints or publications"
+    ## "Dual targeting of brain region-specific kinases potentiates neurological rescue in Spinocerebellar ataxia type 1." by Won-Seok Lee et al. The EMBO journal, from Zoghbi HY search. Mar 13, 2021. https://doi.org/10.15252/embj.2020106106
+
+    ## your tweet has been posted!
+
+    ## "FeARH: Federated machine learning with Anonymous Random Hybridization on electronic medical records." by Jianfei Cui et al. Journal of biomedical informatics, from Liu D search. Mar 13, 2021. https://doi.org/10.1016/j.jbi.2021.103735
+
+    ## your tweet has been posted!
+
+    ## "Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma." by Kevin Bi et al. Cancer cell, from Regev A search. Mar 13, 2021. https://doi.org/10.1016/j.ccell.2021.02.015
+
+    ## your tweet has been posted!
+
+    ## "Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma." by Kevin Bi et al. Cancer cell, from Van Allen E search. Mar 13, 2021. https://doi.org/10.1016/j.ccell.2021.02.015
+
+    ## your tweet has been posted!
+
+    ## "Intrinsic immunogenicity of small cell lung carcinoma revealed by its cellular plasticity." by Navin R Mahadevan et al. Cancer discovery, from Van Allen E search. Mar 13, 2021. https://doi.org/10.1158/2159-8290.CD-20-0913
+
+    ## your tweet has been posted!
 
 ``` r
 ntweets = nrow(all_df)
 print(glue("tweeted {nrow(all_df)} times"))
 ```
 
-    ## tweeted 0 times
+    ## tweeted 5 times
 
 ``` r
 top10 = get_timeline("CuocoBot1",token = token) %>% top_n(1, wt = created_at)
